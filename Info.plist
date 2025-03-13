@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+     <key>CFBundleName</key>
+     <string>Domium_3: Docs</string>
+     <key>CFBundleIdentifier</key>
+     <string>org.domium.domium</string>
+     <key>CFBundleVersion</key>
+     <string>ProjectNumber</string>
+     <key>DocSetFeedName</key>
+     <string>Domium</string>
+     <key>DocSetFeedUrl</key>
+     <string>FeedUrl</string>
+     <key>DocSetPublisherIdentifier</key>
+     <string>org.doxygen.r8nes</string>
+     <key>DocSetPublisherName</key>
+     <string>R8nes</string>
+     <key>DashDocSetFamily</key>
+     <string>doxy</string>
+     <key>DocSetPlatformFamily</key>
+     <string>doxygen</string>
+</dict>
+</plist>
