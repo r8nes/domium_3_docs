@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Domium_3: Docs: Класс SequencePool</title>
+<title>Domium_3_Docs: Класс SequencePool</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Domium_3: Docs
+   <div id="projectname">Domium_3_Docs
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -109,6 +109,9 @@ $(function(){initNavTree('class_sequence_pool.html',''); initResizable(true); })
   <div class="headertitle"><div class="title">Класс SequencePool</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Управляет коллекцией игровых последовательностей.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:SequencePool:</div>
 <div class="dyncontent">
@@ -118,18 +121,64 @@ $(function(){initNavTree('class_sequence_pool.html',''); initResizable(true); })
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
-<tr class="memitem:a16f6cb70f59cf9b3ae2ee7b0f5d8f7d7" id="r_a16f6cb70f59cf9b3ae2ee7b0f5d8f7d7"><td class="memItemLeft" align="right" valign="top"><a id="a16f6cb70f59cf9b3ae2ee7b0f5d8f7d7" name="a16f6cb70f59cf9b3ae2ee7b0f5d8f7d7"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>GetSequence</b> (int index)</td></tr>
+<tr class="memitem:a16f6cb70f59cf9b3ae2ee7b0f5d8f7d7" id="r_a16f6cb70f59cf9b3ae2ee7b0f5d8f7d7"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16f6cb70f59cf9b3ae2ee7b0f5d8f7d7">GetSequence</a> (int index)</td></tr>
+<tr class="memdesc:a16f6cb70f59cf9b3ae2ee7b0f5d8f7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает объект последовательности по указанному индексу.  <br /></td></tr>
 <tr class="separator:a16f6cb70f59cf9b3ae2ee7b0f5d8f7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Открытые атрибуты</h2></td></tr>
-<tr class="memitem:adc061b56ced22e6f1a2e72ca7320dc2f" id="r_adc061b56ced22e6f1a2e72ca7320dc2f"><td class="memItemLeft" align="right" valign="top"><a id="adc061b56ced22e6f1a2e72ca7320dc2f" name="adc061b56ced22e6f1a2e72ca7320dc2f"></a>
-List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_sequencePool</b></td></tr>
+<tr class="memitem:adc061b56ced22e6f1a2e72ca7320dc2f" id="r_adc061b56ced22e6f1a2e72ca7320dc2f"><td class="memItemLeft" align="right" valign="top">List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc061b56ced22e6f1a2e72ca7320dc2f">_sequencePool</a></td></tr>
+<tr class="memdesc:adc061b56ced22e6f1a2e72ca7320dc2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Список игровых последовательностей.  <br /></td></tr>
 <tr class="separator:adc061b56ced22e6f1a2e72ca7320dc2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Управляет коллекцией игровых последовательностей. </p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="a16f6cb70f59cf9b3ae2ee7b0f5d8f7d7" name="a16f6cb70f59cf9b3ae2ee7b0f5d8f7d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16f6cb70f59cf9b3ae2ee7b0f5d8f7d7">&#9670;&#160;</a></span>GetSequence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject SequencePool.GetSequence </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Возвращает объект последовательности по указанному индексу. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Индекс последовательности в списке.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Объект игровой последовательности или null, если индекс некорректный.</dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="adc061b56ced22e6f1a2e72ca7320dc2f" name="adc061b56ced22e6f1a2e72ca7320dc2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc061b56ced22e6f1a2e72ca7320dc2f">&#9670;&#160;</a></span>_sequencePool</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;GameObject&gt; SequencePool._sequencePool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Список игровых последовательностей. </p>
+
+</div>
+</div>
 <hr/>Объявления и описания членов класса находятся в файле:<ul>
-<li><b>SequencePool.cs</b></li>
+<li>D:/Develope/Domium_3/Assets/@Scripts/<a class="el" href="_sequence_pool_8cs.html">SequencePool.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

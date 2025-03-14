@@ -8,6 +8,6 @@ var namespace_domium_third_1_1_core =
     [ "StateMachine", "namespace_domium_third_1_1_core_1_1_state_machine.html", "namespace_domium_third_1_1_core_1_1_state_machine" ],
     [ "System", "namespace_domium_third_1_1_core_1_1_system.html", "namespace_domium_third_1_1_core_1_1_system" ],
     [ "UI", "namespace_domium_third_1_1_core_1_1_u_i.html", "namespace_domium_third_1_1_core_1_1_u_i" ],
-    [ "PrefabLoader", "class_domium_third_1_1_core_1_1_prefab_loader.html", null ],
-    [ "Singleton< T >", "class_domium_third_1_1_core_1_1_singleton-1-g.html", null ]
+    [ "PrefabLoader", "class_domium_third_1_1_core_1_1_prefab_loader.html", "class_domium_third_1_1_core_1_1_prefab_loader" ],
+    [ "Singleton< T >", "class_domium_third_1_1_core_1_1_singleton-1-g.html", "class_domium_third_1_1_core_1_1_singleton-1-g" ]
 ];

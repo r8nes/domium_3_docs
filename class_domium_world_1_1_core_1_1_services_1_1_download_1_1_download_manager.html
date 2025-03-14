@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Domium_3: Docs: Класс DomiumWorld.Core.Services.Download.DownloadManager</title>
+<title>Domium_3_Docs: Класс DomiumWorld.Core.Services.Download.DownloadManager</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Domium_3: Docs
+   <div id="projectname">Domium_3_Docs
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -105,6 +105,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
   <div class="summary">
 <a href="#pub-methods">Открытые члены</a> &#124;
 <a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="#pri-methods">Закрытые члены</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
+<a href="#pri-static-attribs">Закрытые статические данные</a> &#124;
 <a href="class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle"><div class="title">Класс DomiumWorld.Core.Services.Download.DownloadManager</div></div>
 </div><!--header-->
@@ -118,57 +121,636 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
-<tr class="memitem:a392f6db19e16b14224b6895e382a2fc5" id="r_a392f6db19e16b14224b6895e382a2fc5"><td class="memItemLeft" align="right" valign="top"><a id="a392f6db19e16b14224b6895e382a2fc5" name="a392f6db19e16b14224b6895e382a2fc5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddBundleKeys</b> (string bundleName, AssetBundle bundle)</td></tr>
+<tr class="memitem:a392f6db19e16b14224b6895e382a2fc5" id="r_a392f6db19e16b14224b6895e382a2fc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a392f6db19e16b14224b6895e382a2fc5">AddBundleKeys</a> (string bundleName, AssetBundle bundle)</td></tr>
 <tr class="separator:a392f6db19e16b14224b6895e382a2fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abec7cbdfb20604847d68ad9019278825" id="r_abec7cbdfb20604847d68ad9019278825"><td class="memItemLeft" align="right" valign="top"><a id="abec7cbdfb20604847d68ad9019278825" name="abec7cbdfb20604847d68ad9019278825"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UnloadAllBundlesExcept</b> (List&lt; string &gt; exceptionBundleNames)</td></tr>
+<tr class="memitem:abec7cbdfb20604847d68ad9019278825" id="r_abec7cbdfb20604847d68ad9019278825"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abec7cbdfb20604847d68ad9019278825">UnloadAllBundlesExcept</a> (List&lt; string &gt; exceptionBundleNames)</td></tr>
 <tr class="separator:abec7cbdfb20604847d68ad9019278825"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae127524f0cc5f8d52dde941b8cc9a256" id="r_ae127524f0cc5f8d52dde941b8cc9a256"><td class="memItemLeft" align="right" valign="top"><a id="ae127524f0cc5f8d52dde941b8cc9a256" name="ae127524f0cc5f8d52dde941b8cc9a256"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DownloadAssetBundle</b> (string assetBundleName, Action onSuccess, Action&lt; float, float, float &gt; onProgress, Action&lt; string &gt; onError)</td></tr>
+<tr class="memitem:ae127524f0cc5f8d52dde941b8cc9a256" id="r_ae127524f0cc5f8d52dde941b8cc9a256"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae127524f0cc5f8d52dde941b8cc9a256">DownloadAssetBundle</a> (string assetBundleName, Action onSuccess, Action&lt; float, float, float &gt; onProgress, Action&lt; string &gt; onError)</td></tr>
 <tr class="separator:ae127524f0cc5f8d52dde941b8cc9a256"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa050f43292bce82abdcc9ab00ef3adec" id="r_aa050f43292bce82abdcc9ab00ef3adec"><td class="memItemLeft" align="right" valign="top"><a id="aa050f43292bce82abdcc9ab00ef3adec" name="aa050f43292bce82abdcc9ab00ef3adec"></a>
-async void&#160;</td><td class="memItemRight" valign="bottom"><b>DownloadAssetBundleAsync</b> (string assetBundleName, Action onSuccess, Action&lt; float, float, float &gt; onProgress, Action&lt; string &gt; onError)</td></tr>
+<tr class="memitem:aa050f43292bce82abdcc9ab00ef3adec" id="r_aa050f43292bce82abdcc9ab00ef3adec"><td class="memItemLeft" align="right" valign="top">async void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa050f43292bce82abdcc9ab00ef3adec">DownloadAssetBundleAsync</a> (string assetBundleName, Action onSuccess, Action&lt; float, float, float &gt; onProgress, Action&lt; string &gt; onError)</td></tr>
 <tr class="separator:aa050f43292bce82abdcc9ab00ef3adec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca3b812632dcaa8b3bc974f48d26ce06" id="r_aca3b812632dcaa8b3bc974f48d26ce06"><td class="memItemLeft" align="right" valign="top"><a id="aca3b812632dcaa8b3bc974f48d26ce06" name="aca3b812632dcaa8b3bc974f48d26ce06"></a>
-async Task&#160;</td><td class="memItemRight" valign="bottom"><b>CheckBundleVersionAsync</b> (Action&lt; string &gt; onError)</td></tr>
+<tr class="memitem:aca3b812632dcaa8b3bc974f48d26ce06" id="r_aca3b812632dcaa8b3bc974f48d26ce06"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca3b812632dcaa8b3bc974f48d26ce06">CheckBundleVersionAsync</a> (Action&lt; string &gt; onError)</td></tr>
 <tr class="separator:aca3b812632dcaa8b3bc974f48d26ce06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ee73ae5acbd0dc163b09da352f68d63" id="r_a6ee73ae5acbd0dc163b09da352f68d63"><td class="memItemLeft" align="right" valign="top"><a id="a6ee73ae5acbd0dc163b09da352f68d63" name="a6ee73ae5acbd0dc163b09da352f68d63"></a>
-async Task&#160;</td><td class="memItemRight" valign="bottom"><b>DownloadAssetBundleFromServerAsync</b> (string assetBundleName, Action onSuccess, Action&lt; float, float, float &gt; onProgress, Action&lt; string &gt; onError, bool isCorrect=false)</td></tr>
+<tr class="memitem:a6ee73ae5acbd0dc163b09da352f68d63" id="r_a6ee73ae5acbd0dc163b09da352f68d63"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ee73ae5acbd0dc163b09da352f68d63">DownloadAssetBundleFromServerAsync</a> (string assetBundleName, Action onSuccess, Action&lt; float, float, float &gt; onProgress, Action&lt; string &gt; onError, bool isCorrect=false)</td></tr>
 <tr class="separator:a6ee73ae5acbd0dc163b09da352f68d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a807c87b0d074dcd89153697c7b30ea20" id="r_a807c87b0d074dcd89153697c7b30ea20"><td class="memItemLeft" align="right" valign="top"><a id="a807c87b0d074dcd89153697c7b30ea20" name="a807c87b0d074dcd89153697c7b30ea20"></a>
-VideoClip&#160;</td><td class="memItemRight" valign="bottom"><b>LoadVideo</b> (string videoName)</td></tr>
+<tr class="memitem:a807c87b0d074dcd89153697c7b30ea20" id="r_a807c87b0d074dcd89153697c7b30ea20"><td class="memItemLeft" align="right" valign="top">VideoClip&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a807c87b0d074dcd89153697c7b30ea20">LoadVideo</a> (string videoName)</td></tr>
 <tr class="separator:a807c87b0d074dcd89153697c7b30ea20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefb667736be356da43f0021cf6367f2d" id="r_aefb667736be356da43f0021cf6367f2d"><td class="memItemLeft" align="right" valign="top"><a id="aefb667736be356da43f0021cf6367f2d" name="aefb667736be356da43f0021cf6367f2d"></a>
-async Task&#160;</td><td class="memItemRight" valign="bottom"><b>LoadAssetFromFilesAsync</b> (string assetName, Action onSuccess, Action&lt; float, float, float &gt; onProgress, Action&lt; string &gt; onError, bool isNeedToCorrect=false)</td></tr>
+<tr class="memitem:aefb667736be356da43f0021cf6367f2d" id="r_aefb667736be356da43f0021cf6367f2d"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefb667736be356da43f0021cf6367f2d">LoadAssetFromFilesAsync</a> (string assetName, Action onSuccess, Action&lt; float, float, float &gt; onProgress, Action&lt; string &gt; onError, bool isNeedToCorrect=false)</td></tr>
 <tr class="separator:aefb667736be356da43f0021cf6367f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0e154d6cf5255973f52fdf37b85dd32" id="r_ab0e154d6cf5255973f52fdf37b85dd32"><td class="memItemLeft" align="right" valign="top"><a id="ab0e154d6cf5255973f52fdf37b85dd32" name="ab0e154d6cf5255973f52fdf37b85dd32"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>LoadPrimary</b> ()</td></tr>
+<tr class="memitem:ab0e154d6cf5255973f52fdf37b85dd32" id="r_ab0e154d6cf5255973f52fdf37b85dd32"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0e154d6cf5255973f52fdf37b85dd32">LoadPrimary</a> ()</td></tr>
 <tr class="separator:ab0e154d6cf5255973f52fdf37b85dd32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c954fc9403340e1ce8381cbf7d7425f" id="r_a5c954fc9403340e1ce8381cbf7d7425f"><td class="memItemLeft" align="right" valign="top"><a id="a5c954fc9403340e1ce8381cbf7d7425f" name="a5c954fc9403340e1ce8381cbf7d7425f"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>LoadAsset</b> (string assetName)</td></tr>
+<tr class="memitem:a5c954fc9403340e1ce8381cbf7d7425f" id="r_a5c954fc9403340e1ce8381cbf7d7425f"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c954fc9403340e1ce8381cbf7d7425f">LoadAsset</a> (string assetName)</td></tr>
 <tr class="separator:a5c954fc9403340e1ce8381cbf7d7425f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaadf5994f99aebbe92f74a514614fd26" id="r_aaadf5994f99aebbe92f74a514614fd26"><td class="memItemLeft" align="right" valign="top"><a id="aaadf5994f99aebbe92f74a514614fd26" name="aaadf5994f99aebbe92f74a514614fd26"></a>
-<a class="el" href="class_domium_world_1_1_core_1_1_data_1_1_background_s_o.html">BackgroundSO</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LoadAssetSprite</b> (string assetName)</td></tr>
+<tr class="memitem:aaadf5994f99aebbe92f74a514614fd26" id="r_aaadf5994f99aebbe92f74a514614fd26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_domium_world_1_1_core_1_1_data_1_1_background_s_o.html">BackgroundSO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaadf5994f99aebbe92f74a514614fd26">LoadAssetSprite</a> (string assetName)</td></tr>
 <tr class="separator:aaadf5994f99aebbe92f74a514614fd26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2db79893533b36d09510862b73f84d46" id="r_a2db79893533b36d09510862b73f84d46"><td class="memItemLeft" align="right" valign="top"><a id="a2db79893533b36d09510862b73f84d46" name="a2db79893533b36d09510862b73f84d46"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsFileExists</b> (string assetName)</td></tr>
+<tr class="memitem:a2db79893533b36d09510862b73f84d46" id="r_a2db79893533b36d09510862b73f84d46"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2db79893533b36d09510862b73f84d46">IsFileExists</a> (string assetName)</td></tr>
 <tr class="separator:a2db79893533b36d09510862b73f84d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69343cc2c1f4bbccb53e49a81fcfd8d0" id="r_a69343cc2c1f4bbccb53e49a81fcfd8d0"><td class="memItemLeft" align="right" valign="top"><a id="a69343cc2c1f4bbccb53e49a81fcfd8d0" name="a69343cc2c1f4bbccb53e49a81fcfd8d0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DeleteExistingFiles</b> (string assetName)</td></tr>
+<tr class="memitem:a69343cc2c1f4bbccb53e49a81fcfd8d0" id="r_a69343cc2c1f4bbccb53e49a81fcfd8d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69343cc2c1f4bbccb53e49a81fcfd8d0">DeleteExistingFiles</a> (string assetName)</td></tr>
 <tr class="separator:a69343cc2c1f4bbccb53e49a81fcfd8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dd1ab8fdad24afa2dbb79d22a0228d1" id="r_a0dd1ab8fdad24afa2dbb79d22a0228d1"><td class="memItemLeft" align="right" valign="top"><a id="a0dd1ab8fdad24afa2dbb79d22a0228d1" name="a0dd1ab8fdad24afa2dbb79d22a0228d1"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentBundleIsLoaded</b> (string assetName)</td></tr>
+<tr class="memitem:a0dd1ab8fdad24afa2dbb79d22a0228d1" id="r_a0dd1ab8fdad24afa2dbb79d22a0228d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dd1ab8fdad24afa2dbb79d22a0228d1">CurrentBundleIsLoaded</a> (string assetName)</td></tr>
 <tr class="separator:a0dd1ab8fdad24afa2dbb79d22a0228d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Открытые статические члены</h2></td></tr>
-<tr class="memitem:a6eddab38e4c834a757bd2dc916b45e1f" id="r_a6eddab38e4c834a757bd2dc916b45e1f"><td class="memItemLeft" align="right" valign="top"><a id="a6eddab38e4c834a757bd2dc916b45e1f" name="a6eddab38e4c834a757bd2dc916b45e1f"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearCache</b> ()</td></tr>
+<tr class="memitem:a6eddab38e4c834a757bd2dc916b45e1f" id="r_a6eddab38e4c834a757bd2dc916b45e1f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eddab38e4c834a757bd2dc916b45e1f">ClearCache</a> ()</td></tr>
 <tr class="separator:a6eddab38e4c834a757bd2dc916b45e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Закрытые члены</h2></td></tr>
+<tr class="memitem:a615b57fb08742b2c870324a534793ace" id="r_a615b57fb08742b2c870324a534793ace"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a615b57fb08742b2c870324a534793ace">SaveBundleVersion</a> ()</td></tr>
+<tr class="separator:a615b57fb08742b2c870324a534793ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab8bfb5f8ded8e0e8fd9d6c8451da0b" id="r_a3ab8bfb5f8ded8e0e8fd9d6c8451da0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ab8bfb5f8ded8e0e8fd9d6c8451da0b">SaveBundleToFiles</a> (string assetName, byte[] downloadHandlerData)</td></tr>
+<tr class="separator:a3ab8bfb5f8ded8e0e8fd9d6c8451da0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:add4ce05c8d1469b227a804cbce53eccd" id="r_add4ce05c8d1469b227a804cbce53eccd"><td class="memItemLeft" align="right" valign="top">AssetBundle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add4ce05c8d1469b227a804cbce53eccd">_loadedBundle</a></td></tr>
+<tr class="separator:add4ce05c8d1469b227a804cbce53eccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8474b82ebc8dfa4e96616ffdf9f73bfe" id="r_a8474b82ebc8dfa4e96616ffdf9f73bfe"><td class="memItemLeft" align="right" valign="top">AssetBundle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8474b82ebc8dfa4e96616ffdf9f73bfe">_loadedPrimalBundle</a></td></tr>
+<tr class="separator:a8474b82ebc8dfa4e96616ffdf9f73bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a719fdc89064d3e9e6da5d92b3314ace8" id="r_a719fdc89064d3e9e6da5d92b3314ace8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a719fdc89064d3e9e6da5d92b3314ace8">_versionToSave</a> = -1</td></tr>
+<tr class="separator:a719fdc89064d3e9e6da5d92b3314ace8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a6d473ce0f51d1e605676ef2b477c0" id="r_a77a6d473ce0f51d1e605676ef2b477c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77a6d473ce0f51d1e605676ef2b477c0">isDownloading</a> = false</td></tr>
+<tr class="separator:a77a6d473ce0f51d1e605676ef2b477c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad41e13027169cbc07b075d636c3c9fa" id="r_aad41e13027169cbc07b075d636c3c9fa"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, AssetBundle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad41e13027169cbc07b075d636c3c9fa">loadedBundles</a> = new Dictionary&lt;string, AssetBundle&gt;()</td></tr>
+<tr class="separator:aad41e13027169cbc07b075d636c3c9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8858681da7d91a7d2a71cfb5218e1b8a" id="r_a8858681da7d91a7d2a71cfb5218e1b8a"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8858681da7d91a7d2a71cfb5218e1b8a">bundlesToKeep</a> = new List&lt;string&gt; { &quot;primary&quot; }</td></tr>
+<tr class="separator:a8858681da7d91a7d2a71cfb5218e1b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Закрытые статические данные</h2></td></tr>
+<tr class="memitem:a12a46e7260fa7a0678607b08cef9e346" id="r_a12a46e7260fa7a0678607b08cef9e346"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12a46e7260fa7a0678607b08cef9e346">BundleVersionKey</a> = &quot;Version&quot;</td></tr>
+<tr class="separator:a12a46e7260fa7a0678607b08cef9e346"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14cf0623d94c30715e313be2264a5d51" id="r_a14cf0623d94c30715e313be2264a5d51"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14cf0623d94c30715e313be2264a5d51">PrimalBundle</a> = &quot;primary&quot;</td></tr>
+<tr class="separator:a14cf0623d94c30715e313be2264a5d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Методы</h2>
+<a id="a392f6db19e16b14224b6895e382a2fc5" name="a392f6db19e16b14224b6895e382a2fc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a392f6db19e16b14224b6895e382a2fc5">&#9670;&#160;</a></span>AddBundleKeys()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DomiumWorld.Core.Services.Download.DownloadManager.AddBundleKeys </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>bundleName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AssetBundle</td>          <td class="paramname"><span class="paramname"><em>bundle</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca3b812632dcaa8b3bc974f48d26ce06" name="aca3b812632dcaa8b3bc974f48d26ce06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca3b812632dcaa8b3bc974f48d26ce06">&#9670;&#160;</a></span>CheckBundleVersionAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task DomiumWorld.Core.Services.Download.DownloadManager.CheckBundleVersionAsync </td>
+          <td>(</td>
+          <td class="paramtype">Action&lt; string &gt;</td>          <td class="paramname"><span class="paramname"><em>onError</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6eddab38e4c834a757bd2dc916b45e1f" name="a6eddab38e4c834a757bd2dc916b45e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eddab38e4c834a757bd2dc916b45e1f">&#9670;&#160;</a></span>ClearCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void DomiumWorld.Core.Services.Download.DownloadManager.ClearCache </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0dd1ab8fdad24afa2dbb79d22a0228d1" name="a0dd1ab8fdad24afa2dbb79d22a0228d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dd1ab8fdad24afa2dbb79d22a0228d1">&#9670;&#160;</a></span>CurrentBundleIsLoaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DomiumWorld.Core.Services.Download.DownloadManager.CurrentBundleIsLoaded </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assetName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69343cc2c1f4bbccb53e49a81fcfd8d0" name="a69343cc2c1f4bbccb53e49a81fcfd8d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69343cc2c1f4bbccb53e49a81fcfd8d0">&#9670;&#160;</a></span>DeleteExistingFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DomiumWorld.Core.Services.Download.DownloadManager.DeleteExistingFiles </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assetName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae127524f0cc5f8d52dde941b8cc9a256" name="ae127524f0cc5f8d52dde941b8cc9a256"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae127524f0cc5f8d52dde941b8cc9a256">&#9670;&#160;</a></span>DownloadAssetBundle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DomiumWorld.Core.Services.Download.DownloadManager.DownloadAssetBundle </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assetBundleName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>onSuccess</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; float, float, float &gt;</td>          <td class="paramname"><span class="paramname"><em>onProgress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; string &gt;</td>          <td class="paramname"><span class="paramname"><em>onError</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa050f43292bce82abdcc9ab00ef3adec" name="aa050f43292bce82abdcc9ab00ef3adec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa050f43292bce82abdcc9ab00ef3adec">&#9670;&#160;</a></span>DownloadAssetBundleAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async void DomiumWorld.Core.Services.Download.DownloadManager.DownloadAssetBundleAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assetBundleName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>onSuccess</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; float, float, float &gt;</td>          <td class="paramname"><span class="paramname"><em>onProgress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; string &gt;</td>          <td class="paramname"><span class="paramname"><em>onError</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ee73ae5acbd0dc163b09da352f68d63" name="a6ee73ae5acbd0dc163b09da352f68d63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ee73ae5acbd0dc163b09da352f68d63">&#9670;&#160;</a></span>DownloadAssetBundleFromServerAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task DomiumWorld.Core.Services.Download.DownloadManager.DownloadAssetBundleFromServerAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assetBundleName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>onSuccess</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; float, float, float &gt;</td>          <td class="paramname"><span class="paramname"><em>onProgress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; string &gt;</td>          <td class="paramname"><span class="paramname"><em>onError</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isCorrect</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2db79893533b36d09510862b73f84d46" name="a2db79893533b36d09510862b73f84d46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2db79893533b36d09510862b73f84d46">&#9670;&#160;</a></span>IsFileExists()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DomiumWorld.Core.Services.Download.DownloadManager.IsFileExists </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assetName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c954fc9403340e1ce8381cbf7d7425f" name="a5c954fc9403340e1ce8381cbf7d7425f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c954fc9403340e1ce8381cbf7d7425f">&#9670;&#160;</a></span>LoadAsset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject DomiumWorld.Core.Services.Download.DownloadManager.LoadAsset </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assetName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefb667736be356da43f0021cf6367f2d" name="aefb667736be356da43f0021cf6367f2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefb667736be356da43f0021cf6367f2d">&#9670;&#160;</a></span>LoadAssetFromFilesAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task DomiumWorld.Core.Services.Download.DownloadManager.LoadAssetFromFilesAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assetName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>onSuccess</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; float, float, float &gt;</td>          <td class="paramname"><span class="paramname"><em>onProgress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; string &gt;</td>          <td class="paramname"><span class="paramname"><em>onError</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isNeedToCorrect</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaadf5994f99aebbe92f74a514614fd26" name="aaadf5994f99aebbe92f74a514614fd26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaadf5994f99aebbe92f74a514614fd26">&#9670;&#160;</a></span>LoadAssetSprite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_domium_world_1_1_core_1_1_data_1_1_background_s_o.html">BackgroundSO</a> DomiumWorld.Core.Services.Download.DownloadManager.LoadAssetSprite </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assetName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0e154d6cf5255973f52fdf37b85dd32" name="ab0e154d6cf5255973f52fdf37b85dd32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0e154d6cf5255973f52fdf37b85dd32">&#9670;&#160;</a></span>LoadPrimary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject DomiumWorld.Core.Services.Download.DownloadManager.LoadPrimary </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a807c87b0d074dcd89153697c7b30ea20" name="a807c87b0d074dcd89153697c7b30ea20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a807c87b0d074dcd89153697c7b30ea20">&#9670;&#160;</a></span>LoadVideo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VideoClip DomiumWorld.Core.Services.Download.DownloadManager.LoadVideo </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>videoName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ab8bfb5f8ded8e0e8fd9d6c8451da0b" name="a3ab8bfb5f8ded8e0e8fd9d6c8451da0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ab8bfb5f8ded8e0e8fd9d6c8451da0b">&#9670;&#160;</a></span>SaveBundleToFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DomiumWorld.Core.Services.Download.DownloadManager.SaveBundleToFiles </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assetName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]</td>          <td class="paramname"><span class="paramname"><em>downloadHandlerData</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a615b57fb08742b2c870324a534793ace" name="a615b57fb08742b2c870324a534793ace"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a615b57fb08742b2c870324a534793ace">&#9670;&#160;</a></span>SaveBundleVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DomiumWorld.Core.Services.Download.DownloadManager.SaveBundleVersion </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abec7cbdfb20604847d68ad9019278825" name="abec7cbdfb20604847d68ad9019278825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abec7cbdfb20604847d68ad9019278825">&#9670;&#160;</a></span>UnloadAllBundlesExcept()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DomiumWorld.Core.Services.Download.DownloadManager.UnloadAllBundlesExcept </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; string &gt;</td>          <td class="paramname"><span class="paramname"><em>exceptionBundleNames</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="add4ce05c8d1469b227a804cbce53eccd" name="add4ce05c8d1469b227a804cbce53eccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add4ce05c8d1469b227a804cbce53eccd">&#9670;&#160;</a></span>_loadedBundle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AssetBundle DomiumWorld.Core.Services.Download.DownloadManager._loadedBundle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8474b82ebc8dfa4e96616ffdf9f73bfe" name="a8474b82ebc8dfa4e96616ffdf9f73bfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8474b82ebc8dfa4e96616ffdf9f73bfe">&#9670;&#160;</a></span>_loadedPrimalBundle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AssetBundle DomiumWorld.Core.Services.Download.DownloadManager._loadedPrimalBundle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a719fdc89064d3e9e6da5d92b3314ace8" name="a719fdc89064d3e9e6da5d92b3314ace8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a719fdc89064d3e9e6da5d92b3314ace8">&#9670;&#160;</a></span>_versionToSave</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DomiumWorld.Core.Services.Download.DownloadManager._versionToSave = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8858681da7d91a7d2a71cfb5218e1b8a" name="a8858681da7d91a7d2a71cfb5218e1b8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8858681da7d91a7d2a71cfb5218e1b8a">&#9670;&#160;</a></span>bundlesToKeep</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;string&gt; DomiumWorld.Core.Services.Download.DownloadManager.bundlesToKeep = new List&lt;string&gt; { &quot;primary&quot; }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12a46e7260fa7a0678607b08cef9e346" name="a12a46e7260fa7a0678607b08cef9e346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12a46e7260fa7a0678607b08cef9e346">&#9670;&#160;</a></span>BundleVersionKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string DomiumWorld.Core.Services.Download.DownloadManager.BundleVersionKey = &quot;Version&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77a6d473ce0f51d1e605676ef2b477c0" name="a77a6d473ce0f51d1e605676ef2b477c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77a6d473ce0f51d1e605676ef2b477c0">&#9670;&#160;</a></span>isDownloading</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DomiumWorld.Core.Services.Download.DownloadManager.isDownloading = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad41e13027169cbc07b075d636c3c9fa" name="aad41e13027169cbc07b075d636c3c9fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad41e13027169cbc07b075d636c3c9fa">&#9670;&#160;</a></span>loadedBundles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, AssetBundle&gt; DomiumWorld.Core.Services.Download.DownloadManager.loadedBundles = new Dictionary&lt;string, AssetBundle&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14cf0623d94c30715e313be2264a5d51" name="a14cf0623d94c30715e313be2264a5d51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14cf0623d94c30715e313be2264a5d51">&#9670;&#160;</a></span>PrimalBundle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string DomiumWorld.Core.Services.Download.DownloadManager.PrimalBundle = &quot;primary&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>Объявления и описания членов класса находятся в файле:<ul>
-<li>Core/Services/DownloadService/<b>DownloadManager.cs</b></li>
+<li>D:/Develope/Domium_3/Assets/@Scripts/Core/Services/DownloadService/<a class="el" href="_download_manager_8cs.html">DownloadManager.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
