@@ -13,9 +13,9 @@ var namespace_domium_world_1_1_core_1_1_u_i =
     [ "MapPoint", "class_domium_world_1_1_core_1_1_u_i_1_1_map_point.html", "class_domium_world_1_1_core_1_1_u_i_1_1_map_point" ],
     [ "PopupManager", "class_domium_world_1_1_core_1_1_u_i_1_1_popup_manager.html", "class_domium_world_1_1_core_1_1_u_i_1_1_popup_manager" ],
     [ "PopupScreen", "class_domium_world_1_1_core_1_1_u_i_1_1_popup_screen.html", "class_domium_world_1_1_core_1_1_u_i_1_1_popup_screen" ],
-    [ "RegistrationScreen", "class_domium_world_1_1_core_1_1_u_i_1_1_registration_screen.html", "class_domium_world_1_1_core_1_1_u_i_1_1_registration_screen" ],
+    [ "RegistrationScreen", "class_domium_world_1_1_core_1_1_u_i_1_1_registration_screen.html", null ],
     [ "Screen", "class_domium_world_1_1_core_1_1_u_i_1_1_screen.html", "class_domium_world_1_1_core_1_1_u_i_1_1_screen" ],
-    [ "Settings", "class_domium_world_1_1_core_1_1_u_i_1_1_settings.html", "class_domium_world_1_1_core_1_1_u_i_1_1_settings" ],
+    [ "Settings", "class_domium_world_1_1_core_1_1_u_i_1_1_settings.html", null ],
     [ "UIAnimationController", "class_domium_world_1_1_core_1_1_u_i_1_1_u_i_animation_controller.html", "class_domium_world_1_1_core_1_1_u_i_1_1_u_i_animation_controller" ],
     [ "MapPointState", "namespace_domium_world_1_1_core_1_1_u_i.html#aafd81c5966589964393f7d688abb3f7e", [
       [ "Lock", "namespace_domium_world_1_1_core_1_1_u_i.html#aafd81c5966589964393f7d688abb3f7eab485167c5b0e59d47009a16f90fe2659", null ],

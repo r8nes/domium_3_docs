@@ -104,13 +104,13 @@ $(function(){initNavTree('class_game_timer.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Открытые члены</a> &#124;
-<a href="#pri-methods">Закрытые члены</a> &#124;
-<a href="#pri-attribs">Закрытые данные</a> &#124;
-<a href="#pri-static-attribs">Закрытые статические данные</a> &#124;
 <a href="class_game_timer-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle"><div class="title">Класс GameTimer</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Таймер игры, управляющий временем закрытия и отображением оставшегося времени.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:GameTimer:</div>
 <div class="dyncontent">
@@ -125,8 +125,10 @@ $(function(){initNavTree('class_game_timer.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:aa7fd3acb9a36083c99f2ffc9ac433651" id="r_aa7fd3acb9a36083c99f2ffc9ac433651"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7fd3acb9a36083c99f2ffc9ac433651">Show</a> ()</td></tr>
+<tr class="memdesc:aa7fd3acb9a36083c99f2ffc9ac433651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Показывает таймер и обновляет его настройки.  <br /></td></tr>
 <tr class="separator:aa7fd3acb9a36083c99f2ffc9ac433651"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4d8a44f16111eb6b3860967b08765d4" id="r_ab4d8a44f16111eb6b3860967b08765d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4d8a44f16111eb6b3860967b08765d4">HasTimeElapsed</a> ()</td></tr>
+<tr class="memdesc:ab4d8a44f16111eb6b3860967b08765d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверяет, истекло ли время таймера.  <br /></td></tr>
 <tr class="separator:ab4d8a44f16111eb6b3860967b08765d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_domium_world_1_1_core_1_1_u_i_1_1_screen"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_domium_world_1_1_core_1_1_u_i_1_1_screen')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="class_domium_world_1_1_core_1_1_u_i_1_1_screen.html">DomiumWorld.Core.UI.Screen</a></td></tr>
 <tr class="memitem:a725f87eea14d429b3b59295c2c5676a7 inherit pub_methods_class_domium_world_1_1_core_1_1_u_i_1_1_screen" id="r_a725f87eea14d429b3b59295c2c5676a7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_domium_world_1_1_core_1_1_u_i_1_1_screen.html#a725f87eea14d429b3b59295c2c5676a7">Hide</a> ()</td></tr>
@@ -135,39 +137,6 @@ $(function(){initNavTree('class_game_timer.html',''); initResizable(true); });
 <tr class="separator:a4fc7247f5f10da79f18c5dece0074c97 inherit pub_methods_class_domium_world_1_1_core_1_1_u_i_1_1_screen"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ebed4b1873dbee23bd816da170bc8d3 inherit pub_methods_class_domium_world_1_1_core_1_1_u_i_1_1_screen" id="r_a8ebed4b1873dbee23bd816da170bc8d3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_domium_world_1_1_core_1_1_u_i_1_1_screen.html#a8ebed4b1873dbee23bd816da170bc8d3">OnBoolSet</a> (bool flag)</td></tr>
 <tr class="separator:a8ebed4b1873dbee23bd816da170bc8d3 inherit pub_methods_class_domium_world_1_1_core_1_1_u_i_1_1_screen"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Закрытые члены</h2></td></tr>
-<tr class="memitem:afc405693539c67498cc3676566d80f6f" id="r_afc405693539c67498cc3676566d80f6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc405693539c67498cc3676566d80f6f">Start</a> ()</td></tr>
-<tr class="separator:afc405693539c67498cc3676566d80f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab7b2d16040fbe1cc4f6b0fdf672ef60" id="r_aab7b2d16040fbe1cc4f6b0fdf672ef60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab7b2d16040fbe1cc4f6b0fdf672ef60">SetTimerSettings</a> ()</td></tr>
-<tr class="separator:aab7b2d16040fbe1cc4f6b0fdf672ef60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45f8dd1d09d014de4c4b645777d13360" id="r_a45f8dd1d09d014de4c4b645777d13360"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45f8dd1d09d014de4c4b645777d13360">Update</a> ()</td></tr>
-<tr class="separator:a45f8dd1d09d014de4c4b645777d13360"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfd3be1b640f7651cb51b8e5112849a0" id="r_adfd3be1b640f7651cb51b8e5112849a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfd3be1b640f7651cb51b8e5112849a0">UpdateTimerDisplay</a> ()</td></tr>
-<tr class="separator:adfd3be1b640f7651cb51b8e5112849a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25ec1e964cff23af30b47e4f2f89c9b1" id="r_a25ec1e964cff23af30b47e4f2f89c9b1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25ec1e964cff23af30b47e4f2f89c9b1">ParseTime</a> (double timePassedDouble)</td></tr>
-<tr class="separator:a25ec1e964cff23af30b47e4f2f89c9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d6bc75cc9bdda3e75f3c15f5dc3d3a4" id="r_a3d6bc75cc9bdda3e75f3c15f5dc3d3a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d6bc75cc9bdda3e75f3c15f5dc3d3a4">SetStatusImage</a> (float percent)</td></tr>
-<tr class="separator:a3d6bc75cc9bdda3e75f3c15f5dc3d3a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Закрытые данные</h2></td></tr>
-<tr class="memitem:ad69c209dd35dc42ce57b1b2cd1b68d00" id="r_ad69c209dd35dc42ce57b1b2cd1b68d00"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad69c209dd35dc42ce57b1b2cd1b68d00">_closingTime</a></td></tr>
-<tr class="separator:ad69c209dd35dc42ce57b1b2cd1b68d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8eda7c4cdcc340d7cb157349f31b8ac6" id="r_a8eda7c4cdcc340d7cb157349f31b8ac6"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eda7c4cdcc340d7cb157349f31b8ac6">_startTime</a></td></tr>
-<tr class="separator:a8eda7c4cdcc340d7cb157349f31b8ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a0bb5a00b0ae667c6ac574110036a23" id="r_a0a0bb5a00b0ae667c6ac574110036a23"><td class="memItemLeft" align="right" valign="top">List&lt; Sprite &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a0bb5a00b0ae667c6ac574110036a23">_timerImages</a></td></tr>
-<tr class="separator:a0a0bb5a00b0ae667c6ac574110036a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af76dc61ed1602773724dc99ec68784f7" id="r_af76dc61ed1602773724dc99ec68784f7"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af76dc61ed1602773724dc99ec68784f7">_currentTimerImage</a></td></tr>
-<tr class="separator:af76dc61ed1602773724dc99ec68784f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad60010a0fd3afab31d604e7b416abbc3" id="r_ad60010a0fd3afab31d604e7b416abbc3"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad60010a0fd3afab31d604e7b416abbc3">_textInfo</a></td></tr>
-<tr class="separator:ad60010a0fd3afab31d604e7b416abbc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
-Закрытые статические данные</h2></td></tr>
-<tr class="memitem:aacd429b965925ed6d4ef9420f960dbff" id="r_aacd429b965925ed6d4ef9420f960dbff"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacd429b965925ed6d4ef9420f960dbff">IsTimerActive</a> = &quot;IsTimerActive&quot;</td></tr>
-<tr class="separator:aacd429b965925ed6d4ef9420f960dbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Дополнительные унаследованные члены</h2></td></tr>
@@ -183,7 +152,9 @@ $(function(){initNavTree('class_game_timer.html',''); initResizable(true); });
 <tr class="memitem:a6a4879258c20dd4a346f733d5b4616c1 inherit properties_class_domium_world_1_1_core_1_1_u_i_1_1_popup_screen" id="r_a6a4879258c20dd4a346f733d5b4616c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_popup_type_8cs.html#a3bc4d7e8b12217e5f97719724175b21c">PopupType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_domium_world_1_1_core_1_1_u_i_1_1_popup_screen.html#a6a4879258c20dd4a346f733d5b4616c1">Type</a><code> [get]</code></td></tr>
 <tr class="separator:a6a4879258c20dd4a346f733d5b4616c1 inherit properties_class_domium_world_1_1_core_1_1_u_i_1_1_popup_screen"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Таймер игры, управляющий временем закрытия и отображением оставшегося времени. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="ab4d8a44f16111eb6b3860967b08765d4" name="ab4d8a44f16111eb6b3860967b08765d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab4d8a44f16111eb6b3860967b08765d4">&#9670;&#160;</a></span>HasTimeElapsed()</h2>
 
@@ -199,80 +170,7 @@ $(function(){initNavTree('class_game_timer.html',''); initResizable(true); });
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a25ec1e964cff23af30b47e4f2f89c9b1" name="a25ec1e964cff23af30b47e4f2f89c9b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25ec1e964cff23af30b47e4f2f89c9b1">&#9670;&#160;</a></span>ParseTime()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">string GameTimer.ParseTime </td>
-          <td>(</td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>timePassedDouble</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3d6bc75cc9bdda3e75f3c15f5dc3d3a4" name="a3d6bc75cc9bdda3e75f3c15f5dc3d3a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d6bc75cc9bdda3e75f3c15f5dc3d3a4">&#9670;&#160;</a></span>SetStatusImage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GameTimer.SetStatusImage </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>percent</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aab7b2d16040fbe1cc4f6b0fdf672ef60" name="aab7b2d16040fbe1cc4f6b0fdf672ef60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab7b2d16040fbe1cc4f6b0fdf672ef60">&#9670;&#160;</a></span>SetTimerSettings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GameTimer.SetTimerSettings </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Проверяет, истекло ли время таймера. </p>
 
 </div>
 </div>
@@ -299,215 +197,9 @@ $(function(){initNavTree('class_game_timer.html',''); initResizable(true); });
 </table>
 </div><div class="memdoc">
 
+<p>Показывает таймер и обновляет его настройки. </p>
+
 <p>Переопределяет метод предка <a class="el" href="class_domium_world_1_1_core_1_1_u_i_1_1_screen.html#ac7ec0f201f652620bd00704dd2225cb5">DomiumWorld.Core.UI.Screen</a>.</p>
-
-</div>
-</div>
-<a id="afc405693539c67498cc3676566d80f6f" name="afc405693539c67498cc3676566d80f6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc405693539c67498cc3676566d80f6f">&#9670;&#160;</a></span>Start()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GameTimer.Start </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a45f8dd1d09d014de4c4b645777d13360" name="a45f8dd1d09d014de4c4b645777d13360"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45f8dd1d09d014de4c4b645777d13360">&#9670;&#160;</a></span>Update()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GameTimer.Update </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adfd3be1b640f7651cb51b8e5112849a0" name="adfd3be1b640f7651cb51b8e5112849a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfd3be1b640f7651cb51b8e5112849a0">&#9670;&#160;</a></span>UpdateTimerDisplay()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GameTimer.UpdateTimerDisplay </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Данные класса</h2>
-<a id="ad69c209dd35dc42ce57b1b2cd1b68d00" name="ad69c209dd35dc42ce57b1b2cd1b68d00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad69c209dd35dc42ce57b1b2cd1b68d00">&#9670;&#160;</a></span>_closingTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">DateTime GameTimer._closingTime</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af76dc61ed1602773724dc99ec68784f7" name="af76dc61ed1602773724dc99ec68784f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af76dc61ed1602773724dc99ec68784f7">&#9670;&#160;</a></span>_currentTimerImage</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Image GameTimer._currentTimerImage</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8eda7c4cdcc340d7cb157349f31b8ac6" name="a8eda7c4cdcc340d7cb157349f31b8ac6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8eda7c4cdcc340d7cb157349f31b8ac6">&#9670;&#160;</a></span>_startTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">DateTime GameTimer._startTime</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad60010a0fd3afab31d604e7b416abbc3" name="ad60010a0fd3afab31d604e7b416abbc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad60010a0fd3afab31d604e7b416abbc3">&#9670;&#160;</a></span>_textInfo</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">TextMeshProUGUI GameTimer._textInfo</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0a0bb5a00b0ae667c6ac574110036a23" name="a0a0bb5a00b0ae667c6ac574110036a23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a0bb5a00b0ae667c6ac574110036a23">&#9670;&#160;</a></span>_timerImages</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Sprite&gt; GameTimer._timerImages</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aacd429b965925ed6d4ef9420f960dbff" name="aacd429b965925ed6d4ef9420f960dbff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacd429b965925ed6d4ef9420f960dbff">&#9670;&#160;</a></span>IsTimerActive</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const string GameTimer.IsTimerActive = &quot;IsTimerActive&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

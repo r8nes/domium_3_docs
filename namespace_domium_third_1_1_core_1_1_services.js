@@ -8,11 +8,11 @@ var namespace_domium_third_1_1_core_1_1_services =
     [ "CollectionService", "class_domium_third_1_1_core_1_1_services_1_1_collection_service.html", "class_domium_third_1_1_core_1_1_services_1_1_collection_service" ],
     [ "RegistrationService", "class_domium_third_1_1_core_1_1_services_1_1_registration_service.html", "class_domium_third_1_1_core_1_1_services_1_1_registration_service" ],
     [ "SeqSFXCollection", "class_domium_third_1_1_core_1_1_services_1_1_seq_s_f_x_collection.html", "class_domium_third_1_1_core_1_1_services_1_1_seq_s_f_x_collection" ],
-    [ "SequenceManager", "class_domium_third_1_1_core_1_1_services_1_1_sequence_manager.html", "class_domium_third_1_1_core_1_1_services_1_1_sequence_manager" ],
+    [ "SequenceManager", "class_domium_third_1_1_core_1_1_services_1_1_sequence_manager.html", null ],
     [ "ServiceHolder", "class_domium_third_1_1_core_1_1_services_1_1_service_holder.html", "class_domium_third_1_1_core_1_1_services_1_1_service_holder" ],
     [ "SFXCollection", "class_domium_third_1_1_core_1_1_services_1_1_s_f_x_collection.html", "class_domium_third_1_1_core_1_1_services_1_1_s_f_x_collection" ],
     [ "SoundService", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html", "class_domium_third_1_1_core_1_1_services_1_1_sound_service" ],
-    [ "TouchHandler", "class_domium_third_1_1_core_1_1_services_1_1_touch_handler.html", "class_domium_third_1_1_core_1_1_services_1_1_touch_handler" ],
+    [ "TouchHandler", "class_domium_third_1_1_core_1_1_services_1_1_touch_handler.html", null ],
     [ "SeqSFXCollectionEnum", "namespace_domium_third_1_1_core_1_1_services.html#a3a7a54eb0c10a9c268a3fdcd68312d30", [
       [ "LEVEL_1", "namespace_domium_third_1_1_core_1_1_services.html#a3a7a54eb0c10a9c268a3fdcd68312d30aebc4b2bc27e7856222f3d8b5f7765e23", null ],
       [ "LEVEL_2", "namespace_domium_third_1_1_core_1_1_services.html#a3a7a54eb0c10a9c268a3fdcd68312d30aafca70ab9f70921e16b759fc672f97d0", null ],

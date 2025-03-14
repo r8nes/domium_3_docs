@@ -1,12 +1,6 @@
 var class_domium_third_1_1_core_1_1_services_1_1_service_holder =
 [
-    [ "CreateServices", "class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#aa126244226c29d06a72b7fb9c12e2698", null ],
     [ "Initialization", "class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#aa6333a3761d676e78a774bc2c1c2ada0", null ],
-    [ "InitServices", "class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#a94d2c33c309b547fcdee9600e6e21d25", null ],
-    [ "LoadPrefabs", "class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#a9900cf0b88c85610b44b30d9e2ef7d55", null ],
-    [ "SetQuallity", "class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#a01a53ac8bef87582891208db229c74b9", null ],
-    [ "_container", "class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#a977aec94a01ad3e5c38764327c6474ab", null ],
-    [ "_prefabLoader", "class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#a2d8c41b0b2618d93b30f449236f29b5b", null ],
     [ "BTConnectionService", "class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#a4f1cc302d7c2879df33c8639a89ed260", null ],
     [ "CollectionService", "class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#af98aa00ca4e4c42963c81c39fc3cb162", null ],
     [ "DownloadService", "class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#a3533dd78a43c75bc3c9d20d62a4c45c4", null ],

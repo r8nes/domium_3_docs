@@ -1,30 +1,7 @@
 var class_domium_world_1_1_core_1_1_services_1_1_b_t_connection =
 [
-    [ "Connected", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a27a046f270cec554c7b3414a9c7f666d", null ],
-    [ "ConnectionError", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a77d17856beb57abd0e71c6bb2422aac5", null ],
     [ "Hide", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#ab1701c853cd07b5e0b04ba45bf164be6", null ],
-    [ "OnClickPlay", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a73d98cc8c56d681655bc085d726d2975", null ],
     [ "OnClickWithoutHome", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a825bf0bdd8843a623828e4de9382e42b", null ],
-    [ "OnCloseInfo", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#af110d6911b87de5fae7c1dce896b7e7a", null ],
-    [ "OnConnectionChanged", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a2f747f86915242cf387ce76cefda9182", null ],
-    [ "OnInitError", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#aa224d236b24a97c9fdfab53b59c44b7e", null ],
     [ "OnOpenInfo", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a241465cce42bdd94fc9d1fe3bf9019b3", null ],
-    [ "OnTryConnect", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#ab990ddf065b8966e698fc6173bd6c5b7", null ],
-    [ "Show", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a963db31608d1cee7446dac6fa6a35743", null ],
-    [ "Start", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a88cfdeaeaee0bc962df32e275f0700f0", null ],
-    [ "TryAgain", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#aeaf97f49f53bb454060823a535db7791", null ],
-    [ "_bluetoothVideo", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a7b028ba21db7ec638cd2b78cc756fdac", null ],
-    [ "_closeInfoButton", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a549247e27cbadba90dc391a7ec2700aa", null ],
-    [ "_connectionService", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a596f078e69701a64b0d538a81f729dc9", null ],
-    [ "_done", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a8e59a4e203f78317e3d6759d71fcf053", null ],
-    [ "_error", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#ae4626b48d181d4cd82188e1f24fac4be", null ],
-    [ "_infoPanel", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a1b1083a25e45b82041a85a166b58fc54", null ],
-    [ "_infoRect", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a94297b351cd5911bec56a6ffa7ab5e4a", null ],
-    [ "_isFirstTime", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#ad74b999a3aba497475c8a79efe6af248", null ],
-    [ "_playButton", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#adf573a7126e8414c455bc4514e9baa1a", null ],
-    [ "_process", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#ac231367e7134b8209b3bb5d0eeabe12f", null ],
-    [ "_scanning", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a9d808678514bfee03ae7f6989659de4b", null ],
-    [ "_tryAgainButton", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#ae8e52ddc3137f61562ea231ee28a6698", null ],
-    [ "_withoutHomeButton", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a59d41014b04ae5d44eba16656ee03fd1", null ],
-    [ "_withoutHomeButton2", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a449312eed96e1343df198fadcb3a2423", null ]
+    [ "Show", "class_domium_world_1_1_core_1_1_services_1_1_b_t_connection.html#a963db31608d1cee7446dac6fa6a35743", null ]
 ];

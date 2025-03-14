@@ -1,25 +1,6 @@
 var class_map =
 [
     [ "Hide", "class_map.html#a3ecfc8efd8fc753f317a26f57b1caa86", null ],
-    [ "HideLevelMap", "class_map.html#a4fbffbad272abfcb7d07c756cc14cd89", null ],
     [ "Init", "class_map.html#ab5190e1750e00b7329c1f9114ee2d2a9", null ],
-    [ "OnPlay", "class_map.html#a5429b4d4b2ef00c605d3062b64a138fa", null ],
-    [ "OpenCollection", "class_map.html#af0ab713f95ff235d5149a81eb35b53de", null ],
-    [ "OpenLevelMap", "class_map.html#aacb12b54af1fe94a886496b2a3e86773", null ],
-    [ "OpenOtherGame", "class_map.html#afe3efb634db8e7546bd8034bb6c5c290", null ],
-    [ "OpenSetting", "class_map.html#a01e9f77ea3e368098a72b5447e1b191e", null ],
-    [ "SetupLevelPoints", "class_map.html#a4101587b032ff5196ceba5b496c5f59d", null ],
-    [ "Show", "class_map.html#ab742af6d7058dcbead61d20c62b38d65", null ],
-    [ "Start", "class_map.html#aa05a1b54e72d4d93633e139bd8b44819", null ],
-    [ "StartLevel", "class_map.html#ab7c2dbc547cf405a433c67729e1e22cf", null ],
-    [ "_backButton", "class_map.html#a06579fbeed0284d0321a46c6a81000fb", null ],
-    [ "_collection", "class_map.html#a3e0f67f0799efc1d5dcd95059425fdbf", null ],
-    [ "_collectionButton", "class_map.html#ab6cc5778bcab32b25d52cff5f796910e", null ],
-    [ "_currentLevelMap", "class_map.html#a25b0c57166281fd12734936216441c71", null ],
-    [ "_fullMap", "class_map.html#aac7b705fb4d1726165f73d41273d0e11", null ],
-    [ "_fullMapPoints", "class_map.html#af17902ccd73b8869fd3fe8f66ba2cdb2", null ],
-    [ "_levelMaps", "class_map.html#ab82de97cfabc91818d546cc0d753956d", null ],
-    [ "_otherGameButton", "class_map.html#a52c9a3670d8612d9e074e71347679f68", null ],
-    [ "_playButton", "class_map.html#aa998dbe1841d262e916087e38ed1c7b4", null ],
-    [ "_settingButton", "class_map.html#a9887175caaebb1241c47de71dd46d13a", null ]
+    [ "Show", "class_map.html#ab742af6d7058dcbead61d20c62b38d65", null ]
 ];

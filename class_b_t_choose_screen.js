@@ -5,22 +5,5 @@ var class_b_t_choose_screen =
     [ "OnClickHouseWithBT", "class_b_t_choose_screen.html#a2f81515ae96ab8bbfdc42dcc0f1eff22", null ],
     [ "OnClickHouseWithoutBT", "class_b_t_choose_screen.html#aa168b31dd4d88b4379a66271513733a2", null ],
     [ "OnClickWithoutHome", "class_b_t_choose_screen.html#a27e82251cce5d94afe1cfb6a35d2764b", null ],
-    [ "OnEnd", "class_b_t_choose_screen.html#af675c368f3b32ebad0cf013ebf15619c", null ],
-    [ "OnInputChanged", "class_b_t_choose_screen.html#adb351b1423061b274e00f4c364e28e57", null ],
-    [ "OnSubmit", "class_b_t_choose_screen.html#acd036b5e3ca8a71add0b9e8abcaaf66c", null ],
-    [ "Play", "class_b_t_choose_screen.html#ad73a696f2521b9713af513a3442d4c53", null ],
-    [ "SetStartScreen", "class_b_t_choose_screen.html#a4b2bdca9756acbbae61f019f77adfc9b", null ],
-    [ "Start", "class_b_t_choose_screen.html#a86679e15b8bf7406133135feef0c68be", null ],
-    [ "_choose", "class_b_t_choose_screen.html#a66b2b549a6253d0cbb5bd747b7278856", null ],
-    [ "_closeInfoButton", "class_b_t_choose_screen.html#ac645ad6195676e764f483bf74e3a0447", null ],
-    [ "_code", "class_b_t_choose_screen.html#a5f8bfdc649059773166a9c6ff42af262", null ],
-    [ "_codeFrame", "class_b_t_choose_screen.html#ac1a153e2be811fcafcd2c388a588887b", null ],
-    [ "_endButton", "class_b_t_choose_screen.html#a6403e143edb6271edf798aad55c64cc7", null ],
-    [ "_firstPage", "class_b_t_choose_screen.html#acab3922eda1b3abea7ebd6d24e1322a9", null ],
-    [ "_infoPanel", "class_b_t_choose_screen.html#a36a4c382808ff5cf9744a9417408922a", null ],
-    [ "_infoRect", "class_b_t_choose_screen.html#a8fd33cea9190eab036408d00eb1e9c81", null ],
-    [ "_inputField", "class_b_t_choose_screen.html#ad2892dfd5d2277c57e74d81ed023e1da", null ],
-    [ "_resultText", "class_b_t_choose_screen.html#a36406df046269d707eac64b9d778a927", null ],
-    [ "_secondPage", "class_b_t_choose_screen.html#a0ade91c2dd55b77477c036ee39ee6693", null ],
-    [ "_submitButton", "class_b_t_choose_screen.html#a5745b7fbe6471db7ded0d43060824b04", null ]
+    [ "Play", "class_b_t_choose_screen.html#ad73a696f2521b9713af513a3442d4c53", null ]
 ];

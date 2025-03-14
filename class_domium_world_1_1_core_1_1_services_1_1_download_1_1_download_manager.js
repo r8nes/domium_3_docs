@@ -13,13 +13,5 @@ var class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager =
     [ "LoadAssetSprite", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#aaadf5994f99aebbe92f74a514614fd26", null ],
     [ "LoadPrimary", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#ab0e154d6cf5255973f52fdf37b85dd32", null ],
     [ "LoadVideo", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a807c87b0d074dcd89153697c7b30ea20", null ],
-    [ "SaveBundleToFiles", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a3ab8bfb5f8ded8e0e8fd9d6c8451da0b", null ],
-    [ "SaveBundleVersion", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a615b57fb08742b2c870324a534793ace", null ],
-    [ "UnloadAllBundlesExcept", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#abec7cbdfb20604847d68ad9019278825", null ],
-    [ "_loadedBundle", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#add4ce05c8d1469b227a804cbce53eccd", null ],
-    [ "_loadedPrimalBundle", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a8474b82ebc8dfa4e96616ffdf9f73bfe", null ],
-    [ "_versionToSave", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a719fdc89064d3e9e6da5d92b3314ace8", null ],
-    [ "bundlesToKeep", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a8858681da7d91a7d2a71cfb5218e1b8a", null ],
-    [ "isDownloading", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a77a6d473ce0f51d1e605676ef2b477c0", null ],
-    [ "loadedBundles", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#aad41e13027169cbc07b075d636c3c9fa", null ]
+    [ "UnloadAllBundlesExcept", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#abec7cbdfb20604847d68ad9019278825", null ]
 ];

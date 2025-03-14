@@ -11,13 +11,9 @@ var searchData=
   ['loadcollection_8',['LoadCollection',['../class_domium_third_1_1_core_1_1_data_1_1_game_progress_local_storage.html#a46f80f7d06846c8fe0a79f2723af4190',1,'DomiumThird.Core.Data.GameProgressLocalStorage.LoadCollection()'],['../interface_domium_third_1_1_core_1_1_data_1_1_i_game_progress_storage.html#a0cbe108ea4d74f53c983c9df82339132',1,'DomiumThird.Core.Data.IGameProgressStorage.LoadCollection()']]],
   ['loadlevelstate_9',['LoadLevelState',['../class_domium_third_1_1_core_1_1_state_machine_1_1_state_1_1_load_level_state.html#aa226aeeec2713b431c807beb0454f1e0',1,'DomiumThird::Core::StateMachine::State::LoadLevelState']]],
   ['loadprefab_3c_20t_20_3e_10',['LoadPrefab&lt; T &gt;',['../class_domium_third_1_1_core_1_1_prefab_loader.html#a7ee07fa0edde723ef0fc81495a46e004',1,'DomiumThird::Core::PrefabLoader']]],
-  ['loadprefabs_11',['LoadPrefabs',['../class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#a9900cf0b88c85610b44b30d9e2ef7d55',1,'DomiumThird::Core::Services::ServiceHolder']]],
-  ['loadprimary_12',['LoadPrimary',['../class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#ab0e154d6cf5255973f52fdf37b85dd32',1,'DomiumWorld::Core::Services::Download::DownloadManager']]],
-  ['loadprogressstate_13',['LoadProgressState',['../class_domium_third_1_1_core_1_1_state_machine_1_1_state_1_1_load_progress_state.html#a8d3a682ddb0607b1419d6460eadbe15f',1,'DomiumThird::Core::StateMachine::State::LoadProgressState']]],
-  ['loadscene_14',['LoadScene',['../class_domium_third_1_1_core_1_1_system_1_1_scene_loader.html#acb88cda9c80a0d0f1567bbed415e7742',1,'DomiumThird::Core::System::SceneLoader']]],
-  ['loadsequence_15',['LoadSequence',['../class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_service.html#a1040a45bea018c509b71e245bc79235a',1,'DomiumWorld::Core::Services::Download::DownloadService']]],
-  ['loadvideo_16',['LoadVideo',['../class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a807c87b0d074dcd89153697c7b30ea20',1,'DomiumWorld::Core::Services::Download::DownloadManager']]],
-  ['log_17',['Log',['../class_domium_world_1_1_utiliy_1_1_logger.html#a60dce58dcfcdff39b7a21123c50786c4',1,'DomiumWorld::Utiliy::Logger']]],
-  ['lose_18',['Lose',['../class_domium_world_1_1_core_1_1_game_1_1_exam_gameplay.html#a1c22f21102a94be8cfa4796d2d6b5121',1,'DomiumWorld::Core::Game::ExamGameplay']]],
-  ['losesceneonstopped_19',['LoseSceneOnStopped',['../class_domium_world_1_1_core_1_1_game_1_1_exam_gameplay.html#ae5e3e0f203f6bc4a5e8bcaa126157b87',1,'DomiumWorld::Core::Game::ExamGameplay']]]
+  ['loadprimary_11',['LoadPrimary',['../class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#ab0e154d6cf5255973f52fdf37b85dd32',1,'DomiumWorld::Core::Services::Download::DownloadManager']]],
+  ['loadprogressstate_12',['LoadProgressState',['../class_domium_third_1_1_core_1_1_state_machine_1_1_state_1_1_load_progress_state.html#a8d3a682ddb0607b1419d6460eadbe15f',1,'DomiumThird::Core::StateMachine::State::LoadProgressState']]],
+  ['loadsequence_13',['LoadSequence',['../class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_service.html#a1040a45bea018c509b71e245bc79235a',1,'DomiumWorld::Core::Services::Download::DownloadService']]],
+  ['loadvideo_14',['LoadVideo',['../class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a807c87b0d074dcd89153697c7b30ea20',1,'DomiumWorld::Core::Services::Download::DownloadManager']]],
+  ['log_15',['Log',['../class_domium_world_1_1_utiliy_1_1_logger.html#a60dce58dcfcdff39b7a21123c50786c4',1,'DomiumWorld::Utiliy::Logger']]]
 ];

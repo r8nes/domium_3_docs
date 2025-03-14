@@ -107,12 +107,13 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
 <a href="#pub-static-methods">Открытые статические члены</a> &#124;
 <a href="#pub-attribs">Открытые атрибуты</a> &#124;
 <a href="#pub-static-attribs">Статические открытые данные</a> &#124;
-<a href="#pri-methods">Закрытые члены</a> &#124;
-<a href="#pri-attribs">Закрытые данные</a> &#124;
 <a href="class_drag_and_drop-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle"><div class="title">Класс DragAndDrop</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Класс для реализации механики Drag and Drop с открытием ссылок.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DragAndDrop:</div>
 <div class="dyncontent">
@@ -122,7 +123,8 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
-<tr class="memitem:aa679520521409fe4ee55a20283f24831" id="r_aa679520521409fe4ee55a20283f24831"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa679520521409fe4ee55a20283f24831">Setup</a> (string <a class="el" href="#aee2b32923c29aed06f7e2ea77c144039">url</a>, string <a class="el" href="#abc16a663a75d0c706d8743f65e7d4a58">analyticsEvent</a>=null)</td></tr>
+<tr class="memitem:aa679520521409fe4ee55a20283f24831" id="r_aa679520521409fe4ee55a20283f24831"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa679520521409fe4ee55a20283f24831">Setup</a> (string url, string analyticsEvent=null)</td></tr>
+<tr class="memdesc:aa679520521409fe4ee55a20283f24831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Настраивает URL и событие аналитики.  <br /></td></tr>
 <tr class="separator:aa679520521409fe4ee55a20283f24831"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9c3a82924c5d62376f5987dcf3b52cc" id="r_ab9c3a82924c5d62376f5987dcf3b52cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9c3a82924c5d62376f5987dcf3b52cc">OnPointerDown</a> (PointerEventData eventData)</td></tr>
 <tr class="separator:ab9c3a82924c5d62376f5987dcf3b52cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,17 +135,22 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
 <tr class="memitem:ab20a4c271744cfb62db9aecd09bed2fa" id="r_ab20a4c271744cfb62db9aecd09bed2fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab20a4c271744cfb62db9aecd09bed2fa">OnEndDrag</a> (PointerEventData eventData)</td></tr>
 <tr class="separator:ab20a4c271744cfb62db9aecd09bed2fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32d9a6c12bd9485972f2b21218a17c60" id="r_a32d9a6c12bd9485972f2b21218a17c60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32d9a6c12bd9485972f2b21218a17c60">Back</a> ()</td></tr>
+<tr class="memdesc:a32d9a6c12bd9485972f2b21218a17c60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Закрывает контейнер.  <br /></td></tr>
 <tr class="separator:a32d9a6c12bd9485972f2b21218a17c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Открытые статические члены</h2></td></tr>
 <tr class="memitem:a699433212a0e9831e6bfcc444e2db0a9" id="r_a699433212a0e9831e6bfcc444e2db0a9"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a699433212a0e9831e6bfcc444e2db0a9">GetDomiumLink</a> ()</td></tr>
+<tr class="memdesc:a699433212a0e9831e6bfcc444e2db0a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получает ссылку на приложение Domium.  <br /></td></tr>
 <tr class="separator:a699433212a0e9831e6bfcc444e2db0a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c7bf16c77613efa1488dca6434496fc" id="r_a0c7bf16c77613efa1488dca6434496fc"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c7bf16c77613efa1488dca6434496fc">GetDomiumWorldLink</a> ()</td></tr>
+<tr class="memdesc:a0c7bf16c77613efa1488dca6434496fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получает ссылку на приложение Domium.  <br /></td></tr>
 <tr class="separator:a0c7bf16c77613efa1488dca6434496fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a188ccef61592a9a921d911fae0d8d070" id="r_a188ccef61592a9a921d911fae0d8d070"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a188ccef61592a9a921d911fae0d8d070">GetDomiumWorldRus</a> ()</td></tr>
+<tr class="memdesc:a188ccef61592a9a921d911fae0d8d070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получает ссылку на Domium World Russia.  <br /></td></tr>
 <tr class="separator:a188ccef61592a9a921d911fae0d8d070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d7a52373d2d4fbc4a20de5507ea853f" id="r_a9d7a52373d2d4fbc4a20de5507ea853f"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d7a52373d2d4fbc4a20de5507ea853f">OpenLink</a> (Links link)</td></tr>
+<tr class="memdesc:a9d7a52373d2d4fbc4a20de5507ea853f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Открывает ссылку в зависимости от типа.  <br /></td></tr>
 <tr class="separator:a9d7a52373d2d4fbc4a20de5507ea853f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -161,32 +168,10 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
 <tr class="separator:a566b551d6a82fdfe7cdb80eb68e4dfc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab652ff08a43d9a1e4b70f2f5fd1b12f3" id="r_ab652ff08a43d9a1e4b70f2f5fd1b12f3"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab652ff08a43d9a1e4b70f2f5fd1b12f3">POLICY_URL</a> = &quot;https://xn--d1ailbh6a.xn--p1ai/politic&quot;</td></tr>
 <tr class="separator:ab652ff08a43d9a1e4b70f2f5fd1b12f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Закрытые члены</h2></td></tr>
-<tr class="memitem:ac399ffe8c2abd985fae1e7e172db50b6" id="r_ac399ffe8c2abd985fae1e7e172db50b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac399ffe8c2abd985fae1e7e172db50b6">Start</a> ()</td></tr>
-<tr class="separator:ac399ffe8c2abd985fae1e7e172db50b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Закрытые данные</h2></td></tr>
-<tr class="memitem:a8ca51fce9557214ffb3e705851b260ce" id="r_a8ca51fce9557214ffb3e705851b260ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ca51fce9557214ffb3e705851b260ce">isDragging</a> = false</td></tr>
-<tr class="separator:a8ca51fce9557214ffb3e705851b260ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a86db6acbf206f370ead139aee3c665" id="r_a6a86db6acbf206f370ead139aee3c665"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a86db6acbf206f370ead139aee3c665">pointerOffset</a></td></tr>
-<tr class="separator:a6a86db6acbf206f370ead139aee3c665"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8afdc05b01df635f43e26e11d9cb7426" id="r_a8afdc05b01df635f43e26e11d9cb7426"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8afdc05b01df635f43e26e11d9cb7426">initialPosition</a></td></tr>
-<tr class="separator:a8afdc05b01df635f43e26e11d9cb7426"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09dfc3f473aa91c8a39dacd267afb096" id="r_a09dfc3f473aa91c8a39dacd267afb096"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09dfc3f473aa91c8a39dacd267afb096">initialPointerPosition</a></td></tr>
-<tr class="separator:a09dfc3f473aa91c8a39dacd267afb096"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cba971c52e884c446e05f922b22a503" id="r_a0cba971c52e884c446e05f922b22a503"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cba971c52e884c446e05f922b22a503">initialObjectPosition</a></td></tr>
-<tr class="separator:a0cba971c52e884c446e05f922b22a503"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d6b56153d9484da734fd3d1380d23c5" id="r_a5d6b56153d9484da734fd3d1380d23c5"><td class="memItemLeft" align="right" valign="top">RectTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d6b56153d9484da734fd3d1380d23c5">myRectTransform</a></td></tr>
-<tr class="separator:a5d6b56153d9484da734fd3d1380d23c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee2b32923c29aed06f7e2ea77c144039" id="r_aee2b32923c29aed06f7e2ea77c144039"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee2b32923c29aed06f7e2ea77c144039">url</a></td></tr>
-<tr class="separator:aee2b32923c29aed06f7e2ea77c144039"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc16a663a75d0c706d8743f65e7d4a58" id="r_abc16a663a75d0c706d8743f65e7d4a58"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc16a663a75d0c706d8743f65e7d4a58">analyticsEvent</a></td></tr>
-<tr class="separator:abc16a663a75d0c706d8743f65e7d4a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс для реализации механики Drag and Drop с открытием ссылок. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="a32d9a6c12bd9485972f2b21218a17c60" name="a32d9a6c12bd9485972f2b21218a17c60"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a32d9a6c12bd9485972f2b21218a17c60">&#9670;&#160;</a></span>Back()</h2>
 
@@ -201,6 +186,8 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Закрывает контейнер. </p>
 
 </div>
 </div>
@@ -227,6 +214,8 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
 </table>
 </div><div class="memdoc">
 
+<p>Получает ссылку на приложение Domium. </p>
+
 </div>
 </div>
 <a id="a0c7bf16c77613efa1488dca6434496fc" name="a0c7bf16c77613efa1488dca6434496fc"></a>
@@ -252,6 +241,8 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
 </table>
 </div><div class="memdoc">
 
+<p>Получает ссылку на приложение Domium. </p>
+
 </div>
 </div>
 <a id="a188ccef61592a9a921d911fae0d8d070" name="a188ccef61592a9a921d911fae0d8d070"></a>
@@ -276,6 +267,8 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Получает ссылку на Domium World Russia. </p>
 
 </div>
 </div>
@@ -370,6 +363,8 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
 </table>
 </div><div class="memdoc">
 
+<p>Открывает ссылку в зависимости от типа. </p>
+
 </div>
 </div>
 <a id="aa679520521409fe4ee55a20283f24831" name="aa679520521409fe4ee55a20283f24831"></a>
@@ -391,30 +386,7 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ac399ffe8c2abd985fae1e7e172db50b6" name="ac399ffe8c2abd985fae1e7e172db50b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac399ffe8c2abd985fae1e7e172db50b6">&#9670;&#160;</a></span>Start()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DragAndDrop.Start </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Настраивает URL и событие аналитики. </p>
 
 </div>
 </div>
@@ -429,28 +401,6 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
           <td class="memname">GameObject DragAndDrop._container</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abc16a663a75d0c706d8743f65e7d4a58" name="abc16a663a75d0c706d8743f65e7d4a58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc16a663a75d0c706d8743f65e7d4a58">&#9670;&#160;</a></span>analyticsEvent</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">string DragAndDrop.analyticsEvent</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -471,138 +421,6 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0cba971c52e884c446e05f922b22a503" name="a0cba971c52e884c446e05f922b22a503"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cba971c52e884c446e05f922b22a503">&#9670;&#160;</a></span>initialObjectPosition</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector2 DragAndDrop.initialObjectPosition</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a09dfc3f473aa91c8a39dacd267afb096" name="a09dfc3f473aa91c8a39dacd267afb096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09dfc3f473aa91c8a39dacd267afb096">&#9670;&#160;</a></span>initialPointerPosition</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector2 DragAndDrop.initialPointerPosition</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8afdc05b01df635f43e26e11d9cb7426" name="a8afdc05b01df635f43e26e11d9cb7426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8afdc05b01df635f43e26e11d9cb7426">&#9670;&#160;</a></span>initialPosition</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector2 DragAndDrop.initialPosition</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8ca51fce9557214ffb3e705851b260ce" name="a8ca51fce9557214ffb3e705851b260ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ca51fce9557214ffb3e705851b260ce">&#9670;&#160;</a></span>isDragging</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DragAndDrop.isDragging = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5d6b56153d9484da734fd3d1380d23c5" name="a5d6b56153d9484da734fd3d1380d23c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d6b56153d9484da734fd3d1380d23c5">&#9670;&#160;</a></span>myRectTransform</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">RectTransform DragAndDrop.myRectTransform</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6a86db6acbf206f370ead139aee3c665" name="a6a86db6acbf206f370ead139aee3c665"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a86db6acbf206f370ead139aee3c665">&#9670;&#160;</a></span>pointerOffset</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector2 DragAndDrop.pointerOffset</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -655,28 +473,6 @@ $(function(){initNavTree('class_drag_and_drop.html',''); initResizable(true); })
           <td class="memname">RectTransform DragAndDrop.squareRectTransform</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aee2b32923c29aed06f7e2ea77c144039" name="aee2b32923c29aed06f7e2ea77c144039"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee2b32923c29aed06f7e2ea77c144039">&#9670;&#160;</a></span>url</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">string DragAndDrop.url</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

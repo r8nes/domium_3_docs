@@ -1,6 +1,5 @@
 var class_domium_third_1_1_core_1_1_services_1_1_sound_service =
 [
-    [ "Awake", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#af3d4f6b1c69380e17b3d3d48dc4bd63e", null ],
     [ "GetInitialAmbience", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a12cc944973f6350ded0d6f0a3d48d2a7", null ],
     [ "GetInitialVolume", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a6980ef893782baacb8911e6f7fcfc4d0", null ],
     [ "GetMusicAudioSource", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a496b2d74aacc11ad5d99f2b5c9efd3fb", null ],
@@ -18,23 +17,9 @@ var class_domium_third_1_1_core_1_1_services_1_1_sound_service =
     [ "SetInitialAmbience", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#adcf7cf6b21611422bae13dcc3160e6cc", null ],
     [ "SetInitialVolume", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#ab2623618dc805c69e0db8d079a267148", null ],
     [ "SetLevelMusic", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#afcfd36f16cdd6da9a34a60e8565d40c0", null ],
-    [ "SetMusic", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a7c8997b3bdc0469d5be436f28131aecc", null ],
     [ "SetMusicVolume", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a587004e64b56492f9f2b315ea5b2081c", null ],
     [ "SetMusicVolumeTemp", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#acd2f71aefab532da67538e2c5fc12faa", null ],
     [ "StopSequence", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a8ba83f4d5e4ff8f46056ce32171c7dae", null ],
     [ "TogglePause", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#afcbcfc783377da01b8678e80f385898d", null ],
-    [ "TogglePlayingMusic", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#ac7e2844c932f2ae95d83c235294aeb0c", null ],
-    [ "_ambienceClips", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a2be7ce5b2643d8fa04c5d60fd82f827c", null ],
-    [ "_ambienceSource", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a27f8d3018f8258435fd254a0aef2d62f", null ],
-    [ "_currentClipIndex", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a5661f772cad95803ba4e51f04e663c05", null ],
-    [ "_initialAmbienceVolume", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#af999e65884a3b42132de4ae499bf3bde", null ],
-    [ "_initialMusicVolume", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a9a8d3cd49034e2926e3c01abcf1c5ff4", null ],
-    [ "_mainSound", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#aaf2b36d742ad826f02b38bd7d1426c95", null ],
-    [ "_musicClips", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a4a4f60522e892039196a19101e79249f", null ],
-    [ "_musicSource", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a5e6a8b6cb08e1f38d3dfc9cb156fa8bf", null ],
-    [ "_seqSFXCollection", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a98d3df32b837258c66694b664b50d06b", null ],
-    [ "_sequenceSource", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a4a0c730eab283eccfdcf78b617f166f2", null ],
-    [ "_sfxCollection", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#ac544d260b3ca2e694aefd9c8b1b881c3", null ],
-    [ "_soundSource", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a563ec88b1b3655b40439d26a61bb4b41", null ],
-    [ "isPaused", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a03fb736db646fcf9ddcc16c47490c019", null ]
+    [ "TogglePlayingMusic", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#ac7e2844c932f2ae95d83c235294aeb0c", null ]
 ];

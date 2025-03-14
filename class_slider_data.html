@@ -104,11 +104,13 @@ $(function(){initNavTree('class_slider_data.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Открытые члены</a> &#124;
-<a href="#pri-attribs">Закрытые данные</a> &#124;
 <a href="class_slider_data-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle"><div class="title">Класс SliderData</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Хранит данные о спрайтах для слайдера.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:SliderData:</div>
 <div class="dyncontent">
@@ -119,16 +121,15 @@ $(function(){initNavTree('class_slider_data.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:af00327d0de8945eb2202506b472e97e9" id="r_af00327d0de8945eb2202506b472e97e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af00327d0de8945eb2202506b472e97e9">GetDataCount</a> ()</td></tr>
+<tr class="memdesc:af00327d0de8945eb2202506b472e97e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает количество спрайтов в списке.  <br /></td></tr>
 <tr class="separator:af00327d0de8945eb2202506b472e97e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10923dcd3094f3b51e38ec3267c9a492" id="r_a10923dcd3094f3b51e38ec3267c9a492"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10923dcd3094f3b51e38ec3267c9a492">GetDataSprite</a> (int i)</td></tr>
+<tr class="memdesc:a10923dcd3094f3b51e38ec3267c9a492"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает спрайт по указанному индексу.  <br /></td></tr>
 <tr class="separator:a10923dcd3094f3b51e38ec3267c9a492"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Закрытые данные</h2></td></tr>
-<tr class="memitem:a740ffc2070f3c755a5201104e00393c6" id="r_a740ffc2070f3c755a5201104e00393c6"><td class="memItemLeft" align="right" valign="top">List&lt; Sprite &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a740ffc2070f3c755a5201104e00393c6">_sprites</a></td></tr>
-<tr class="separator:a740ffc2070f3c755a5201104e00393c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Хранит данные о спрайтах для слайдера. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="af00327d0de8945eb2202506b472e97e9" name="af00327d0de8945eb2202506b472e97e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af00327d0de8945eb2202506b472e97e9">&#9670;&#160;</a></span>GetDataCount()</h2>
 
@@ -143,6 +144,9 @@ $(function(){initNavTree('class_slider_data.html',''); initResizable(true); });
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Возвращает количество спрайтов в списке. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Количество спрайтов.</dd></dl>
 
 </div>
 </div>
@@ -161,28 +165,14 @@ $(function(){initNavTree('class_slider_data.html',''); initResizable(true); });
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<h2 class="groupheader">Данные класса</h2>
-<a id="a740ffc2070f3c755a5201104e00393c6" name="a740ffc2070f3c755a5201104e00393c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a740ffc2070f3c755a5201104e00393c6">&#9670;&#160;</a></span>_sprites</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Sprite&gt; SliderData._sprites</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Возвращает спрайт по указанному индексу. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Индекс спрайта.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Спрайт из списка.</dd></dl>
 
 </div>
 </div>

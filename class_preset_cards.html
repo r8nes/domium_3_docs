@@ -104,11 +104,13 @@ $(function(){initNavTree('class_preset_cards.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Открытые члены</a> &#124;
-<a href="#pri-attribs">Закрытые данные</a> &#124;
 <a href="class_preset_cards-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle"><div class="title">Класс PresetCards</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Класс, содержащий настройки карт для игры.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:PresetCards:</div>
 <div class="dyncontent">
@@ -119,22 +121,18 @@ $(function(){initNavTree('class_preset_cards.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a627c4f0651f6d60969bbfe641a403bf9" id="r_a627c4f0651f6d60969bbfe641a403bf9"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a627c4f0651f6d60969bbfe641a403bf9">GetBackSprite</a> ()</td></tr>
+<tr class="memdesc:a627c4f0651f6d60969bbfe641a403bf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает спрайт обратной стороны карты.  <br /></td></tr>
 <tr class="separator:a627c4f0651f6d60969bbfe641a403bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2a0caebe65e3cd43484823d9cf2db46" id="r_af2a0caebe65e3cd43484823d9cf2db46"><td class="memItemLeft" align="right" valign="top">List&lt; Sprite &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2a0caebe65e3cd43484823d9cf2db46">GetPlayCardsSprites</a> ()</td></tr>
+<tr class="memdesc:af2a0caebe65e3cd43484823d9cf2db46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получает случайный список игровых карт, ограниченный максимальным количеством.  <br /></td></tr>
 <tr class="separator:af2a0caebe65e3cd43484823d9cf2db46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82c5100f42155d0d7a500273103d14b1" id="r_a82c5100f42155d0d7a500273103d14b1"><td class="memItemLeft" align="right" valign="top">List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82c5100f42155d0d7a500273103d14b1">GetCardIndex</a> ()</td></tr>
+<tr class="memdesc:a82c5100f42155d0d7a500273103d14b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает список случайно перемешанных индексов карт.  <br /></td></tr>
 <tr class="separator:a82c5100f42155d0d7a500273103d14b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Закрытые данные</h2></td></tr>
-<tr class="memitem:a30843ba283704c896339b52e5e1cf9ed" id="r_a30843ba283704c896339b52e5e1cf9ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30843ba283704c896339b52e5e1cf9ed">_cardMax</a> = 6</td></tr>
-<tr class="separator:a30843ba283704c896339b52e5e1cf9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ec962b924bd518a2be0313618575290" id="r_a1ec962b924bd518a2be0313618575290"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec962b924bd518a2be0313618575290">_backSprite</a> = null</td></tr>
-<tr class="separator:a1ec962b924bd518a2be0313618575290"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13515125d57e83a7a9777ceb6c757e78" id="r_a13515125d57e83a7a9777ceb6c757e78"><td class="memItemLeft" align="right" valign="top">List&lt; Sprite &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13515125d57e83a7a9777ceb6c757e78">_allSprites</a> = null</td></tr>
-<tr class="separator:a13515125d57e83a7a9777ceb6c757e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс, содержащий настройки карт для игры. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="a627c4f0651f6d60969bbfe641a403bf9" name="a627c4f0651f6d60969bbfe641a403bf9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a627c4f0651f6d60969bbfe641a403bf9">&#9670;&#160;</a></span>GetBackSprite()</h2>
 
@@ -149,6 +147,9 @@ $(function(){initNavTree('class_preset_cards.html',''); initResizable(true); });
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Возвращает спрайт обратной стороны карты. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Спрайт обратной стороны карты.</dd></dl>
 
 </div>
 </div>
@@ -167,6 +168,9 @@ $(function(){initNavTree('class_preset_cards.html',''); initResizable(true); });
       </table>
 </div><div class="memdoc">
 
+<p>Возвращает список случайно перемешанных индексов карт. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Перемешанный список индексов карт.</dd></dl>
+
 </div>
 </div>
 <a id="af2a0caebe65e3cd43484823d9cf2db46" name="af2a0caebe65e3cd43484823d9cf2db46"></a>
@@ -184,72 +188,8 @@ $(function(){initNavTree('class_preset_cards.html',''); initResizable(true); });
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<h2 class="groupheader">Данные класса</h2>
-<a id="a13515125d57e83a7a9777ceb6c757e78" name="a13515125d57e83a7a9777ceb6c757e78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13515125d57e83a7a9777ceb6c757e78">&#9670;&#160;</a></span>_allSprites</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Sprite&gt; PresetCards._allSprites = null</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1ec962b924bd518a2be0313618575290" name="a1ec962b924bd518a2be0313618575290"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ec962b924bd518a2be0313618575290">&#9670;&#160;</a></span>_backSprite</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Sprite PresetCards._backSprite = null</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a30843ba283704c896339b52e5e1cf9ed" name="a30843ba283704c896339b52e5e1cf9ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30843ba283704c896339b52e5e1cf9ed">&#9670;&#160;</a></span>_cardMax</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int PresetCards._cardMax = 6</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Получает случайный список игровых карт, ограниченный максимальным количеством. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Список случайно выбранных игровых карт.</dd></dl>
 
 </div>
 </div>

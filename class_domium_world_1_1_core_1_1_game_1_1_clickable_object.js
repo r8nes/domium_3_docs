@@ -3,7 +3,6 @@ var class_domium_world_1_1_core_1_1_game_1_1_clickable_object =
     [ "ChangeColorToWhite", "class_domium_world_1_1_core_1_1_game_1_1_clickable_object.html#a6519c937d2676701a947d03c4cf81ca0", null ],
     [ "DoEffect", "class_domium_world_1_1_core_1_1_game_1_1_clickable_object.html#a09df108bbff4d8a196feabcb8f3849ff", null ],
     [ "OnPointerClick", "class_domium_world_1_1_core_1_1_game_1_1_clickable_object.html#a18f61ce6a9d80a3ec3b70ec07194a950", null ],
-    [ "_additionalRenderer", "class_domium_world_1_1_core_1_1_game_1_1_clickable_object.html#a8662b85bfd6cab6e7d126216a58c03ba", null ],
     [ "Index", "class_domium_world_1_1_core_1_1_game_1_1_clickable_object.html#a050f508e181efdcc16558a84796aec49", null ],
     [ "IsAnimation", "class_domium_world_1_1_core_1_1_game_1_1_clickable_object.html#a0ccc86c26e3f101dcaf0f0277eaa5dad", null ],
     [ "IsPointerDown", "class_domium_world_1_1_core_1_1_game_1_1_clickable_object.html#ac7a0507120821ef8d0120455ae430dc6", null ],

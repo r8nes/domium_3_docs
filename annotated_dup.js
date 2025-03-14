@@ -42,11 +42,11 @@ var annotated_dup =
           [ "CollectionService", "class_domium_third_1_1_core_1_1_services_1_1_collection_service.html", "class_domium_third_1_1_core_1_1_services_1_1_collection_service" ],
           [ "RegistrationService", "class_domium_third_1_1_core_1_1_services_1_1_registration_service.html", "class_domium_third_1_1_core_1_1_services_1_1_registration_service" ],
           [ "SeqSFXCollection", "class_domium_third_1_1_core_1_1_services_1_1_seq_s_f_x_collection.html", "class_domium_third_1_1_core_1_1_services_1_1_seq_s_f_x_collection" ],
-          [ "SequenceManager", "class_domium_third_1_1_core_1_1_services_1_1_sequence_manager.html", "class_domium_third_1_1_core_1_1_services_1_1_sequence_manager" ],
+          [ "SequenceManager", "class_domium_third_1_1_core_1_1_services_1_1_sequence_manager.html", null ],
           [ "ServiceHolder", "class_domium_third_1_1_core_1_1_services_1_1_service_holder.html", "class_domium_third_1_1_core_1_1_services_1_1_service_holder" ],
           [ "SFXCollection", "class_domium_third_1_1_core_1_1_services_1_1_s_f_x_collection.html", "class_domium_third_1_1_core_1_1_services_1_1_s_f_x_collection" ],
           [ "SoundService", "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html", "class_domium_third_1_1_core_1_1_services_1_1_sound_service" ],
-          [ "TouchHandler", "class_domium_third_1_1_core_1_1_services_1_1_touch_handler.html", "class_domium_third_1_1_core_1_1_services_1_1_touch_handler" ]
+          [ "TouchHandler", "class_domium_third_1_1_core_1_1_services_1_1_touch_handler.html", null ]
         ] ],
         [ "Services ", "namespace_domium_third_1_1_core_1_1_services_01.html", [
           [ "BT", "namespace_domium_third_1_1_core_1_1_services_01_1_1_b_t.html", [
@@ -67,7 +67,7 @@ var annotated_dup =
           [ "IGameStateMachine", "interface_domium_third_1_1_core_1_1_state_machine_1_1_i_game_state_machine.html", "interface_domium_third_1_1_core_1_1_state_machine_1_1_i_game_state_machine" ]
         ] ],
         [ "System", "namespace_domium_third_1_1_core_1_1_system.html", [
-          [ "Bootstrap", "class_domium_third_1_1_core_1_1_system_1_1_bootstrap.html", "class_domium_third_1_1_core_1_1_system_1_1_bootstrap" ],
+          [ "Bootstrap", "class_domium_third_1_1_core_1_1_system_1_1_bootstrap.html", null ],
           [ "GameTask", "class_domium_third_1_1_core_1_1_system_1_1_game_task.html", "class_domium_third_1_1_core_1_1_system_1_1_game_task" ],
           [ "GameTasksController", "class_domium_third_1_1_core_1_1_system_1_1_game_tasks_controller.html", "class_domium_third_1_1_core_1_1_system_1_1_game_tasks_controller" ],
           [ "ICoroutineRunner", "interface_domium_third_1_1_core_1_1_system_1_1_i_coroutine_runner.html", "interface_domium_third_1_1_core_1_1_system_1_1_i_coroutine_runner" ],
@@ -99,8 +99,8 @@ var annotated_dup =
           [ "SoundData", "class_domium_world_1_1_core_1_1_data_1_1_sound_data.html", "class_domium_world_1_1_core_1_1_data_1_1_sound_data" ]
         ] ],
         [ "Game", "namespace_domium_world_1_1_core_1_1_game.html", [
-          [ "AnchorPointMovement", "class_domium_world_1_1_core_1_1_game_1_1_anchor_point_movement.html", "class_domium_world_1_1_core_1_1_game_1_1_anchor_point_movement" ],
-          [ "AudioVizualizer", "class_domium_world_1_1_core_1_1_game_1_1_audio_vizualizer.html", "class_domium_world_1_1_core_1_1_game_1_1_audio_vizualizer" ],
+          [ "AnchorPointMovement", "class_domium_world_1_1_core_1_1_game_1_1_anchor_point_movement.html", null ],
+          [ "AudioVizualizer", "class_domium_world_1_1_core_1_1_game_1_1_audio_vizualizer.html", null ],
           [ "CharacterControl", "class_domium_world_1_1_core_1_1_game_1_1_character_control.html", "class_domium_world_1_1_core_1_1_game_1_1_character_control" ],
           [ "ClickableButton", "class_domium_world_1_1_core_1_1_game_1_1_clickable_button.html", "class_domium_world_1_1_core_1_1_game_1_1_clickable_button" ],
           [ "ClickableObject", "class_domium_world_1_1_core_1_1_game_1_1_clickable_object.html", "class_domium_world_1_1_core_1_1_game_1_1_clickable_object" ],
@@ -108,14 +108,14 @@ var annotated_dup =
           [ "ExamGameplay", "class_domium_world_1_1_core_1_1_game_1_1_exam_gameplay.html", "class_domium_world_1_1_core_1_1_game_1_1_exam_gameplay" ],
           [ "Game2Controller", "class_domium_world_1_1_core_1_1_game_1_1_game2_controller.html", "class_domium_world_1_1_core_1_1_game_1_1_game2_controller" ],
           [ "GameNoGameplay", "class_domium_world_1_1_core_1_1_game_1_1_game_no_gameplay.html", "class_domium_world_1_1_core_1_1_game_1_1_game_no_gameplay" ],
-          [ "GameplayAnimation", "class_domium_world_1_1_core_1_1_game_1_1_gameplay_animation.html", "class_domium_world_1_1_core_1_1_game_1_1_gameplay_animation" ],
+          [ "GameplayAnimation", "class_domium_world_1_1_core_1_1_game_1_1_gameplay_animation.html", null ],
           [ "GamePuzzleGeneral", "class_domium_world_1_1_core_1_1_game_1_1_game_puzzle_general.html", "class_domium_world_1_1_core_1_1_game_1_1_game_puzzle_general" ],
           [ "PuzzleElement", "class_domium_world_1_1_core_1_1_game_1_1_puzzle_element.html", "class_domium_world_1_1_core_1_1_game_1_1_puzzle_element" ],
           [ "PuzzleElementPlace", "class_domium_world_1_1_core_1_1_game_1_1_puzzle_element_place.html", "class_domium_world_1_1_core_1_1_game_1_1_puzzle_element_place" ],
           [ "PuzzleElementPoint", "class_domium_world_1_1_core_1_1_game_1_1_puzzle_element_point.html", "class_domium_world_1_1_core_1_1_game_1_1_puzzle_element_point" ],
           [ "QuizController", "class_domium_world_1_1_core_1_1_game_1_1_quiz_controller.html", "class_domium_world_1_1_core_1_1_game_1_1_quiz_controller" ],
-          [ "ScaleChanger", "class_domium_world_1_1_core_1_1_game_1_1_scale_changer.html", "class_domium_world_1_1_core_1_1_game_1_1_scale_changer" ],
-          [ "TransformChanger", "class_domium_world_1_1_core_1_1_game_1_1_transform_changer.html", "class_domium_world_1_1_core_1_1_game_1_1_transform_changer" ]
+          [ "ScaleChanger", "class_domium_world_1_1_core_1_1_game_1_1_scale_changer.html", null ],
+          [ "TransformChanger", "class_domium_world_1_1_core_1_1_game_1_1_transform_changer.html", null ]
         ] ],
         [ "Services", "namespace_domium_world_1_1_core_1_1_services.html", [
           [ "Download", "namespace_domium_world_1_1_core_1_1_services_1_1_download.html", [
@@ -138,9 +138,9 @@ var annotated_dup =
           [ "MapPoint", "class_domium_world_1_1_core_1_1_u_i_1_1_map_point.html", "class_domium_world_1_1_core_1_1_u_i_1_1_map_point" ],
           [ "PopupManager", "class_domium_world_1_1_core_1_1_u_i_1_1_popup_manager.html", "class_domium_world_1_1_core_1_1_u_i_1_1_popup_manager" ],
           [ "PopupScreen", "class_domium_world_1_1_core_1_1_u_i_1_1_popup_screen.html", "class_domium_world_1_1_core_1_1_u_i_1_1_popup_screen" ],
-          [ "RegistrationScreen", "class_domium_world_1_1_core_1_1_u_i_1_1_registration_screen.html", "class_domium_world_1_1_core_1_1_u_i_1_1_registration_screen" ],
+          [ "RegistrationScreen", "class_domium_world_1_1_core_1_1_u_i_1_1_registration_screen.html", null ],
           [ "Screen", "class_domium_world_1_1_core_1_1_u_i_1_1_screen.html", "class_domium_world_1_1_core_1_1_u_i_1_1_screen" ],
-          [ "Settings", "class_domium_world_1_1_core_1_1_u_i_1_1_settings.html", "class_domium_world_1_1_core_1_1_u_i_1_1_settings" ],
+          [ "Settings", "class_domium_world_1_1_core_1_1_u_i_1_1_settings.html", null ],
           [ "UIAnimationController", "class_domium_world_1_1_core_1_1_u_i_1_1_u_i_animation_controller.html", "class_domium_world_1_1_core_1_1_u_i_1_1_u_i_animation_controller" ]
         ] ],
         [ "CharacterCamera", "class_domium_world_1_1_core_1_1_character_camera.html", "class_domium_world_1_1_core_1_1_character_camera" ]
@@ -153,11 +153,11 @@ var annotated_dup =
       [ "Utiliy", "namespace_domium_world_1_1_utiliy.html", [
         [ "CameraSize", "class_domium_world_1_1_utiliy_1_1_camera_size.html", "class_domium_world_1_1_utiliy_1_1_camera_size" ],
         [ "Logger", "class_domium_world_1_1_utiliy_1_1_logger.html", "class_domium_world_1_1_utiliy_1_1_logger" ],
-        [ "SpeechAnimation", "class_domium_world_1_1_utiliy_1_1_speech_animation.html", "class_domium_world_1_1_utiliy_1_1_speech_animation" ]
+        [ "SpeechAnimation", "class_domium_world_1_1_utiliy_1_1_speech_animation.html", null ]
       ] ]
     ] ],
     [ "Domiun", "namespace_domiun.html", [
-      [ "CameraSize", "class_domiun_1_1_camera_size.html", "class_domiun_1_1_camera_size" ]
+      [ "CameraSize", "class_domiun_1_1_camera_size.html", null ]
     ] ],
     [ "EventBusSystem", "namespace_event_bus_system.html", [
       [ "IGlobalSubscriber", "interface_event_bus_system_1_1_i_global_subscriber.html", null ]
@@ -172,8 +172,8 @@ var annotated_dup =
     [ "BTDeviceButton", "class_b_t_device_button.html", "class_b_t_device_button" ],
     [ "BTError", "class_b_t_error.html", "class_b_t_error" ],
     [ "BTScaning", "class_b_t_scaning.html", "class_b_t_scaning" ],
-    [ "BuyButton", "class_buy_button.html", "class_buy_button" ],
-    [ "BuyPanel", "class_buy_panel.html", "class_buy_panel" ],
+    [ "BuyButton", "class_buy_button.html", null ],
+    [ "BuyPanel", "class_buy_panel.html", null ],
     [ "Card", "class_card.html", "class_card" ],
     [ "CardCollector", "class_card_collector.html", null ],
     [ "CardsSpawner", "class_cards_spawner.html", "class_cards_spawner" ],
@@ -204,17 +204,17 @@ var annotated_dup =
     [ "IGameController", "interface_i_game_controller.html", "interface_i_game_controller" ],
     [ "IInitialazable< out T1, T2 >", "interface_i_initialazable-2-g.html", "interface_i_initialazable-2-g" ],
     [ "InfoPanel", "class_info_panel.html", "class_info_panel" ],
-    [ "LocalRotationDebug", "class_local_rotation_debug.html", "class_local_rotation_debug" ],
+    [ "LocalRotationDebug", "class_local_rotation_debug.html", null ],
     [ "Map", "class_map.html", "class_map" ],
     [ "MazeSettings", "class_maze_settings.html", "class_maze_settings" ],
     [ "MoveCameraLeft", "class_move_camera_left.html", "class_move_camera_left" ],
     [ "OnEnableSeqSFXTranslator", "class_on_enable_seq_s_f_x_translator.html", "class_on_enable_seq_s_f_x_translator" ],
     [ "OnEnableSFXTranslator", "class_on_enable_s_f_x_translator.html", "class_on_enable_s_f_x_translator" ],
-    [ "OpenAdminPanelButton", "class_open_admin_panel_button.html", "class_open_admin_panel_button" ],
-    [ "OpenLinkButton", "class_open_link_button.html", "class_open_link_button" ],
+    [ "OpenAdminPanelButton", "class_open_admin_panel_button.html", null ],
+    [ "OpenLinkButton", "class_open_link_button.html", null ],
     [ "OpenURLOnClick", "class_open_u_r_l_on_click.html", "class_open_u_r_l_on_click" ],
-    [ "OtherGamas", "class_other_gamas.html", "class_other_gamas" ],
-    [ "OtherGames", "class_other_games.html", "class_other_games" ],
+    [ "OtherGamas", "class_other_gamas.html", null ],
+    [ "OtherGames", "class_other_games.html", null ],
     [ "PresetCards", "class_preset_cards.html", "class_preset_cards" ],
     [ "PuzzleClue", "class_puzzle_clue.html", null ],
     [ "ScrollBarUI", "class_scroll_bar_u_i.html", "class_scroll_bar_u_i" ],
@@ -224,9 +224,9 @@ var annotated_dup =
     [ "SliderData", "class_slider_data.html", "class_slider_data" ],
     [ "SoundTranslatorOnEnable", "class_sound_translator_on_enable.html", null ],
     [ "StartWindowPopup", "class_start_window_popup.html", "class_start_window_popup" ],
-    [ "StoreButton", "class_store_button.html", "class_store_button" ],
+    [ "StoreButton", "class_store_button.html", null ],
     [ "SwipeDetection", "class_swipe_detection.html", "class_swipe_detection" ],
     [ "TimeManager", "class_time_manager.html", "class_time_manager" ],
     [ "Timer", "class_timer.html", "class_timer" ],
-    [ "WarningPopup", "class_warning_popup.html", "class_warning_popup" ]
+    [ "WarningPopup", "class_warning_popup.html", null ]
 ];

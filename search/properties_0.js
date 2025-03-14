@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ambiencevolume_0',['AmbienceVolume',['../class_domium_world_1_1_core_1_1_u_i_1_1_settings.html#aaec6dfaf82c129a701afdd6e6a1840db',1,'DomiumWorld::Core::UI::Settings']]]
+  ['btconnectionservice_0',['BTConnectionService',['../class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#a4f1cc302d7c2879df33c8639a89ed260',1,'DomiumThird::Core::Services::ServiceHolder']]]
 ];

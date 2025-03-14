@@ -39,7 +39,7 @@ var NAVTREE =
       [ "Члены классов", "functions.html", [
         [ "Указатель", "functions.html", "functions_dup" ],
         [ "Функции", "functions_func.html", "functions_func" ],
-        [ "Переменные", "functions_vars.html", "functions_vars" ],
+        [ "Переменные", "functions_vars.html", null ],
         [ "Свойства", "functions_prop.html", null ],
         [ "События", "functions_evnt.html", null ]
       ] ]
@@ -58,19 +58,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_admin_panel_8cs.html",
-"class_b_t_scaning.html#a3aab6b3704bf6328896cb35d0117d749",
-"class_domium_third_1_1_core_1_1_prefab_loader.html#a7ee07fa0edde723ef0fc81495a46e004",
-"class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a7c8997b3bdc0469d5be436f28131aecc",
-"class_domium_third_1_1_core_1_1_system_1_1_game_tasks_controller.html#aa767a379ba6c7dea328178333080395b",
-"class_domium_world_1_1_core_1_1_game_1_1_character_control.html#ae5d41dc99debd4fa37b2be9305a93ff7",
-"class_domium_world_1_1_core_1_1_game_1_1_game_puzzle_general.html",
-"class_domium_world_1_1_core_1_1_game_1_1_quiz_controller.html#ac761e6992593a391dc4e910737de5ecd",
-"class_domium_world_1_1_core_1_1_u_i_1_1_game_screen.html",
-"class_domium_world_1_1_core_1_1_u_i_1_1_settings.html#ae70ac028792db26301e2ac6ac198712f",
-"class_game3_controller.html#a1795fc065a99883d39c61a076cbc6b2d",
-"class_info_panel.html#ac35e164fb2e7375df8acb32462afea04",
-"functions_func_s.html",
-"namespace_domium_world.html"
+"class_buy_panel.html",
+"class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a496b2d74aacc11ad5d99f2b5c9efd3fb",
+"class_domium_third_1_1_game_1_1_puzzle_manager.html#a929b982784552d175994f1b993180da6",
+"class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a2db79893533b36d09510862b73f84d46",
+"class_game5_controller.html#a40747aebc8b86c0752d1de3caceec10c",
+"interface_domium_third_1_1_core_1_1_state_machine_1_1_state_1_1_i_state.html"
 ];
 
 var SYNCONMSG = 'нажмите на выключить для синхронизации панелей';

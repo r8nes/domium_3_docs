@@ -105,8 +105,6 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_singleton-1-g.html',''
   <div class="summary">
 <a href="#pro-methods">Защищенные члены</a> &#124;
 <a href="#properties">Свойства</a> &#124;
-<a href="#pri-attribs">Закрытые данные</a> &#124;
-<a href="#pri-static-attribs">Закрытые статические данные</a> &#124;
 <a href="class_domium_third_1_1_core_1_1_singleton-1-g-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle"><div class="title">Шаблон класса DomiumThird.Core.Singleton&lt; T &gt;</div></div>
 </div><!--header-->
@@ -122,7 +120,7 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_singleton-1-g.html',''
 <area href="class_domium_world_1_1_core_1_1_u_i_1_1_game_screen_manager.html" alt="DomiumWorld.Core.UI.GameScreenManager" shape="rect" coords="548,112,812,136"/>
 <area href="class_domium_world_1_1_core_1_1_u_i_1_1_popup_manager.html" alt="DomiumWorld.Core.UI.PopupManager" shape="rect" coords="822,112,1086,136"/>
 <area href="class_domium_world_1_1_u_i_1_1_utiliy_1_1_admin_panel.html" alt="DomiumWorld.UI.Utiliy.AdminPanel" shape="rect" coords="1096,112,1360,136"/>
-<area href="class_domium_world_1_1_utiliy_1_1_logger.html" alt="DomiumWorld.Utiliy.Logger" shape="rect" coords="1370,112,1634,136"/>
+<area href="class_domium_world_1_1_utiliy_1_1_logger.html" title="Логгер для сбора, хранения и отправки логов в файлы." alt="DomiumWorld.Utiliy.Logger" shape="rect" coords="1370,112,1634,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -144,16 +142,6 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_singleton-1-g.html',''
 <tr class="memitem:af715d08480add670e4130c540d8c8454" id="r_af715d08480add670e4130c540d8c8454"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af715d08480add670e4130c540d8c8454">IsAlive</a><code> [get]</code></td></tr>
 <tr class="memdesc:af715d08480add670e4130c540d8c8454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check flag if need work from OnDestroy or OnApplicationExit.  <br /></td></tr>
 <tr class="separator:af715d08480add670e4130c540d8c8454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Закрытые данные</h2></td></tr>
-<tr class="memitem:aa0289a564b55b41c0db314eb419ad89d" id="r_aa0289a564b55b41c0db314eb419ad89d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0289a564b55b41c0db314eb419ad89d">alive</a> = true</td></tr>
-<tr class="separator:aa0289a564b55b41c0db314eb419ad89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
-Закрытые статические данные</h2></td></tr>
-<tr class="memitem:a97d3d7322ff508c0ef70b2a28d6d8d98" id="r_a97d3d7322ff508c0ef70b2a28d6d8d98"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d3d7322ff508c0ef70b2a28d6d8d98">instance</a> = null</td></tr>
-<tr class="separator:a97d3d7322ff508c0ef70b2a28d6d8d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Методы</h2>
 <a id="ab88aa95561a07e6f23482f7a5282262e" name="ab88aa95561a07e6f23482f7a5282262e"></a>
@@ -259,51 +247,6 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_singleton-1-g.html',''
 </div><div class="memdoc">
 
 <p>Переопределяется в <a class="el" href="class_domium_world_1_1_utiliy_1_1_logger.html#af3ab1537ee29962c4b885a757d2ef7a1">DomiumWorld.Utiliy.Logger</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Данные класса</h2>
-<a id="aa0289a564b55b41c0db314eb419ad89d" name="aa0289a564b55b41c0db314eb419ad89d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0289a564b55b41c0db314eb419ad89d">&#9670;&#160;</a></span>alive</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DomiumThird.Core.Singleton&lt; T &gt;.alive = true</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a97d3d7322ff508c0ef70b2a28d6d8d98" name="a97d3d7322ff508c0ef70b2a28d6d8d98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97d3d7322ff508c0ef70b2a28d6d8d98">&#9670;&#160;</a></span>instance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T DomiumThird.Core.Singleton&lt; T &gt;.instance = null</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
