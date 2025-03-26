@@ -109,6 +109,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game2_control
   <div class="headertitle"><div class="title">Класс DomiumWorld.Core.Game.Game2Controller</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Контроллер второй мини-игры, связанной с управлением персонажем и сбором объектов в лабиринте.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumWorld.Core.Game.Game2Controller:</div>
 <div class="dyncontent">
@@ -122,9 +125,10 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game2_control
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:aecaaee17757b4424b70b6177828e3d1a" id="r_aecaaee17757b4424b70b6177828e3d1a"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecaaee17757b4424b70b6177828e3d1a">CheckMazeCounter</a> ()</td></tr>
+<tr class="memdesc:aecaaee17757b4424b70b6177828e3d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверяет переход к следующему лабиринту или завершение игры.  <br /></td></tr>
 <tr class="separator:aecaaee17757b4424b70b6177828e3d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc66dd27b074210a74a160400a75627b" id="r_adc66dd27b074210a74a160400a75627b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc66dd27b074210a74a160400a75627b">Play</a> ()</td></tr>
-<tr class="memdesc:adc66dd27b074210a74a160400a75627b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запускает игровой процесс.  <br /></td></tr>
+<tr class="memdesc:adc66dd27b074210a74a160400a75627b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запускает геймплей.  <br /></td></tr>
 <tr class="separator:adc66dd27b074210a74a160400a75627b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa74737f42de24042c22eb9fa489d1765" id="r_aa74737f42de24042c22eb9fa489d1765"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa74737f42de24042c22eb9fa489d1765">Pause</a> ()</td></tr>
 <tr class="memdesc:aa74737f42de24042c22eb9fa489d1765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ставит игру на паузу.  <br /></td></tr>
@@ -139,10 +143,13 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game2_control
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 События</h2></td></tr>
 <tr class="memitem:a449fb8b586b09146a431130db9c8913c" id="r_a449fb8b586b09146a431130db9c8913c"><td class="memItemLeft" align="right" valign="top">UnityAction&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a449fb8b586b09146a431130db9c8913c">OnEndGame</a></td></tr>
+<tr class="memdesc:a449fb8b586b09146a431130db9c8913c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие завершения игры. True — успех, False — поражение.  <br /></td></tr>
 <tr class="separator:a449fb8b586b09146a431130db9c8913c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef07516ec8e3fc1522ca8be197cf0310" id="r_aef07516ec8e3fc1522ca8be197cf0310"><td class="memItemLeft" align="right" valign="top">UnityAction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef07516ec8e3fc1522ca8be197cf0310">OnEndCutscene</a></td></tr>
+<tr class="memdesc:aef07516ec8e3fc1522ca8be197cf0310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие завершения конечной катсцены.  <br /></td></tr>
 <tr class="separator:aef07516ec8e3fc1522ca8be197cf0310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ee3ce1c64b39c6a203d142d27a71463" id="r_a9ee3ce1c64b39c6a203d142d27a71463"><td class="memItemLeft" align="right" valign="top">UnityAction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ee3ce1c64b39c6a203d142d27a71463">OnCollect</a></td></tr>
+<tr class="memdesc:a9ee3ce1c64b39c6a203d142d27a71463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие при сборе предмета.  <br /></td></tr>
 <tr class="separator:a9ee3ce1c64b39c6a203d142d27a71463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header events_interface_i_game_controller"><td colspan="2" onclick="javascript:dynsection.toggleInherit('events_interface_i_game_controller')"><img src="closed.png" alt="-"/>&#160;События унаследованные от <a class="el" href="interface_i_game_controller.html">IGameController</a></td></tr>
 <tr class="memitem:a338219396bc25f34152403ee9aa7ce0c inherit events_interface_i_game_controller" id="r_a338219396bc25f34152403ee9aa7ce0c"><td class="memItemLeft" align="right" valign="top">UnityAction&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_game_controller.html#a338219396bc25f34152403ee9aa7ce0c">OnEndGame</a></td></tr>
@@ -152,7 +159,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game2_control
 <tr class="memdesc:aad478bf20aa4410b540b291d135db91b inherit events_interface_i_game_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое при завершении катсцены.  <br /></td></tr>
 <tr class="separator:aad478bf20aa4410b540b291d135db91b inherit events_interface_i_game_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Контроллер второй мини-игры, связанной с управлением персонажем и сбором объектов в лабиринте. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="aecaaee17757b4424b70b6177828e3d1a" name="aecaaee17757b4424b70b6177828e3d1a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aecaaee17757b4424b70b6177828e3d1a">&#9670;&#160;</a></span>CheckMazeCounter()</h2>
 
@@ -167,6 +176,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game2_control
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Проверяет переход к следующему лабиринту или завершение игры. </p>
 
 </div>
 </div>
@@ -206,7 +217,7 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game2_control
       </table>
 </div><div class="memdoc">
 
-<p>Запускает игровой процесс. </p>
+<p>Запускает геймплей. </p>
 
 <p>Замещает <a class="el" href="interface_i_game_controller.html#adbafd72f044ff3a9d27a681baedb88d4">IGameController</a>.</p>
 
@@ -267,6 +278,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game2_control
       </table>
 </div><div class="memdoc">
 
+<p>Событие при сборе предмета. </p>
+
 </div>
 </div>
 <a id="aef07516ec8e3fc1522ca8be197cf0310" name="aef07516ec8e3fc1522ca8be197cf0310"></a>
@@ -281,6 +294,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game2_control
       </table>
 </div><div class="memdoc">
 
+<p>Событие завершения конечной катсцены. </p>
+
 </div>
 </div>
 <a id="a449fb8b586b09146a431130db9c8913c" name="a449fb8b586b09146a431130db9c8913c"></a>
@@ -294,6 +309,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game2_control
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Событие завершения игры. True — успех, False — поражение. </p>
 
 </div>
 </div>

@@ -109,14 +109,17 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_singleton-1-g.html',''
   <div class="headertitle"><div class="title">Шаблон класса DomiumThird.Core.Singleton&lt; T &gt;</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Базовый MonoBehaviour-синглтон, создающий или находящий единственный экземпляр объекта.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumThird.Core.Singleton&lt; T &gt;:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_domium_third_1_1_core_1_1_singleton-1-g.png" usemap="#DomiumThird.Core.Singleton_3C_20T_20_3E_map" alt=""/>
   <map id="DomiumThird.Core.Singleton_3C_20T_20_3E_map" name="DomiumThird.Core.Singleton_3C_20T_20_3E_map">
-<area href="class_domium_third_1_1_core_1_1_services_1_1_service_holder.html" alt="DomiumThird.Core.Services.ServiceHolder" shape="rect" coords="0,112,264,136"/>
-<area href="class_domium_third_1_1_core_1_1_u_i_1_1_popup_manager.html" alt="DomiumThird.Core.UI.PopupManager" shape="rect" coords="274,112,538,136"/>
+<area href="class_domium_third_1_1_core_1_1_services_1_1_service_holder.html" title="Глобальный синглтон, содержащий и инициализирующий все основные сервисы игры." alt="DomiumThird.Core.Services.ServiceHolder" shape="rect" coords="0,112,264,136"/>
+<area href="class_domium_third_1_1_core_1_1_u_i_1_1_popup_manager.html" title="Менеджер всплывающих окон (popup&#39;ов) в игре. Отвечает за показ, скрытие и управление текущим popup-эк..." alt="DomiumThird.Core.UI.PopupManager" shape="rect" coords="274,112,538,136"/>
 <area href="class_domium_world_1_1_core_1_1_u_i_1_1_game_screen_manager.html" alt="DomiumWorld.Core.UI.GameScreenManager" shape="rect" coords="548,112,812,136"/>
 <area href="class_domium_world_1_1_core_1_1_u_i_1_1_popup_manager.html" alt="DomiumWorld.Core.UI.PopupManager" shape="rect" coords="822,112,1086,136"/>
 <area href="class_domium_world_1_1_u_i_1_1_utiliy_1_1_admin_panel.html" alt="DomiumWorld.UI.Utiliy.AdminPanel" shape="rect" coords="1096,112,1360,136"/>
@@ -129,21 +132,41 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_singleton-1-g.html',''
 <tr class="memitem:ab88aa95561a07e6f23482f7a5282262e" id="r_ab88aa95561a07e6f23482f7a5282262e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab88aa95561a07e6f23482f7a5282262e">Awake</a> ()</td></tr>
 <tr class="separator:ab88aa95561a07e6f23482f7a5282262e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a826738ed3d1bd05bf4f8a12da1570a63" id="r_a826738ed3d1bd05bf4f8a12da1570a63"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a826738ed3d1bd05bf4f8a12da1570a63">OnDestroy</a> ()</td></tr>
+<tr class="memdesc:a826738ed3d1bd05bf4f8a12da1570a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Помечает синглтон как неактивный при уничтожении.  <br /></td></tr>
 <tr class="separator:a826738ed3d1bd05bf4f8a12da1570a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f42bd8f469806d1f833b300daeed3d0" id="r_a0f42bd8f469806d1f833b300daeed3d0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f42bd8f469806d1f833b300daeed3d0">OnApplicationQuit</a> ()</td></tr>
+<tr class="memdesc:a0f42bd8f469806d1f833b300daeed3d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Помечает синглтон как неактивный при завершении приложения.  <br /></td></tr>
 <tr class="separator:a0f42bd8f469806d1f833b300daeed3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a767d4d61d81449e09aa6398838ab17dc" id="r_a767d4d61d81449e09aa6398838ab17dc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a767d4d61d81449e09aa6398838ab17dc">Initialization</a> ()</td></tr>
+<tr class="memdesc:a767d4d61d81449e09aa6398838ab17dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Виртуальный метод инициализации. Переопределяется в потомках.  <br /></td></tr>
 <tr class="separator:a767d4d61d81449e09aa6398838ab17dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Свойства</h2></td></tr>
 <tr class="memitem:a5016e353067cc931a2f37aeb352f5285" id="r_a5016e353067cc931a2f37aeb352f5285"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5016e353067cc931a2f37aeb352f5285">Instance</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a5016e353067cc931a2f37aeb352f5285"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получает или устанавливает глобальный экземпляр синглтона.  <br /></td></tr>
 <tr class="separator:a5016e353067cc931a2f37aeb352f5285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af715d08480add670e4130c540d8c8454" id="r_af715d08480add670e4130c540d8c8454"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af715d08480add670e4130c540d8c8454">IsAlive</a><code> [get]</code></td></tr>
 <tr class="memdesc:af715d08480add670e4130c540d8c8454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check flag if need work from OnDestroy or OnApplicationExit.  <br /></td></tr>
 <tr class="separator:af715d08480add670e4130c540d8c8454"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Базовый MonoBehaviour-синглтон, создающий или находящий единственный экземпляр объекта. </p>
+<dl class="tparams"><dt>Параметры шаблона</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Тип наследуемого класса.</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="typeconstraint">
+<dl><dt><b>Согласование типов</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>Singleton&lt;T&gt;</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+</div><h2 class="groupheader">Методы</h2>
 <a id="ab88aa95561a07e6f23482f7a5282262e" name="ab88aa95561a07e6f23482f7a5282262e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab88aa95561a07e6f23482f7a5282262e">&#9670;&#160;</a></span>Awake()</h2>
 
@@ -194,6 +217,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_singleton-1-g.html',''
 </table>
 </div><div class="memdoc">
 
+<p>Виртуальный метод инициализации. Переопределяется в потомках. </p>
+
 <p>Переопределяется в <a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_service_holder.html#aa6333a3761d676e78a774bc2c1c2ada0">DomiumThird.Core.Services.ServiceHolder</a>.</p>
 
 </div>
@@ -221,6 +246,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_singleton-1-g.html',''
 </table>
 </div><div class="memdoc">
 
+<p>Помечает синглтон как неактивный при завершении приложения. </p>
+
 </div>
 </div>
 <a id="a826738ed3d1bd05bf4f8a12da1570a63" name="a826738ed3d1bd05bf4f8a12da1570a63"></a>
@@ -246,6 +273,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_singleton-1-g.html',''
 </table>
 </div><div class="memdoc">
 
+<p>Помечает синглтон как неактивный при уничтожении. </p>
+
 <p>Переопределяется в <a class="el" href="class_domium_world_1_1_utiliy_1_1_logger.html#af3ab1537ee29962c4b885a757d2ef7a1">DomiumWorld.Utiliy.Logger</a>.</p>
 
 </div>
@@ -270,6 +299,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_singleton-1-g.html',''
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Получает или устанавливает глобальный экземпляр синглтона. </p>
 
 </div>
 </div>

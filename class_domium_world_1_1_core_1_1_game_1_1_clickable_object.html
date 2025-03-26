@@ -109,6 +109,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
   <div class="headertitle"><div class="title">Класс DomiumWorld.Core.Game.ClickableObject</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Объект, реагирующий на клики с визуальными и аудиоэффектами.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumWorld.Core.Game.ClickableObject:</div>
 <div class="dyncontent">
@@ -119,34 +122,48 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a18f61ce6a9d80a3ec3b70ec07194a950" id="r_a18f61ce6a9d80a3ec3b70ec07194a950"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18f61ce6a9d80a3ec3b70ec07194a950">OnPointerClick</a> (PointerEventData eventData)</td></tr>
+<tr class="memdesc:a18f61ce6a9d80a3ec3b70ec07194a950"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обрабатывает клик по объекту.  <br /></td></tr>
 <tr class="separator:a18f61ce6a9d80a3ec3b70ec07194a950"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6519c937d2676701a947d03c4cf81ca0" id="r_a6519c937d2676701a947d03c4cf81ca0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6519c937d2676701a947d03c4cf81ca0">ChangeColorToWhite</a> (SpriteRenderer spriteRenderer, Color targetColor, float duration)</td></tr>
+<tr class="memdesc:a6519c937d2676701a947d03c4cf81ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Меняет цвет спрайта на заданный.  <br /></td></tr>
 <tr class="separator:a6519c937d2676701a947d03c4cf81ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09df108bbff4d8a196feabcb8f3849ff" id="r_a09df108bbff4d8a196feabcb8f3849ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09df108bbff4d8a196feabcb8f3849ff">DoEffect</a> ()</td></tr>
+<tr class="memdesc:a09df108bbff4d8a196feabcb8f3849ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запускает анимационный эффект и воспроизводит звук.  <br /></td></tr>
 <tr class="separator:a09df108bbff4d8a196feabcb8f3849ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Открытые атрибуты</h2></td></tr>
 <tr class="memitem:a050f508e181efdcc16558a84796aec49" id="r_a050f508e181efdcc16558a84796aec49"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a050f508e181efdcc16558a84796aec49">Index</a></td></tr>
+<tr class="memdesc:a050f508e181efdcc16558a84796aec49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Индекс объекта.  <br /></td></tr>
 <tr class="separator:a050f508e181efdcc16558a84796aec49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ccc86c26e3f101dcaf0f0277eaa5dad" id="r_a0ccc86c26e3f101dcaf0f0277eaa5dad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ccc86c26e3f101dcaf0f0277eaa5dad">IsAnimation</a></td></tr>
+<tr class="memdesc:a0ccc86c26e3f101dcaf0f0277eaa5dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Флаг, указывающий, активна ли анимация.  <br /></td></tr>
 <tr class="separator:a0ccc86c26e3f101dcaf0f0277eaa5dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7a0507120821ef8d0120455ae430dc6" id="r_ac7a0507120821ef8d0120455ae430dc6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7a0507120821ef8d0120455ae430dc6">IsPointerDown</a> = false</td></tr>
+<tr class="memdesc:ac7a0507120821ef8d0120455ae430dc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Флаг, указывающий, нажата ли кнопка.  <br /></td></tr>
 <tr class="separator:ac7a0507120821ef8d0120455ae430dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ea102383aa797aca7974d840451787b" id="r_a2ea102383aa797aca7974d840451787b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ea102383aa797aca7974d840451787b">IsTap</a> = false</td></tr>
+<tr class="memdesc:a2ea102383aa797aca7974d840451787b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Флаг, указывающий, выбран ли объект.  <br /></td></tr>
 <tr class="separator:a2ea102383aa797aca7974d840451787b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affe1d3c03bb047a1d702e2b74aa4190a" id="r_affe1d3c03bb047a1d702e2b74aa4190a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affe1d3c03bb047a1d702e2b74aa4190a">IsUsingAssitionalColor</a> = false</td></tr>
+<tr class="memdesc:affe1d3c03bb047a1d702e2b74aa4190a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Флаг, указывающий, используется ли дополнительный цвет.  <br /></td></tr>
 <tr class="separator:affe1d3c03bb047a1d702e2b74aa4190a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac70206f371df91d4e48916070a38fe81" id="r_ac70206f371df91d4e48916070a38fe81"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac70206f371df91d4e48916070a38fe81">scaleMultiplier</a> = 1.1f</td></tr>
+<tr class="memdesc:ac70206f371df91d4e48916070a38fe81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Множитель увеличения масштаба при анимации.  <br /></td></tr>
 <tr class="separator:ac70206f371df91d4e48916070a38fe81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fc345eb89a9e7171dcb8cfb0314960d" id="r_a9fc345eb89a9e7171dcb8cfb0314960d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fc345eb89a9e7171dcb8cfb0314960d">scaleDuration</a> = 0.3f</td></tr>
+<tr class="memdesc:a9fc345eb89a9e7171dcb8cfb0314960d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Длительность анимации изменения масштаба.  <br /></td></tr>
 <tr class="separator:a9fc345eb89a9e7171dcb8cfb0314960d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c8f55e3cf51d9c41aa52e9ef6447b05" id="r_a7c8f55e3cf51d9c41aa52e9ef6447b05"><td class="memItemLeft" align="right" valign="top">UnityAction&lt; int, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c8f55e3cf51d9c41aa52e9ef6447b05">OnCurrentIndex</a></td></tr>
+<tr class="memdesc:a7c8f55e3cf51d9c41aa52e9ef6447b05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие с текущим индексом и флагом выбора.  <br /></td></tr>
 <tr class="separator:a7c8f55e3cf51d9c41aa52e9ef6447b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74324261a8c8f269ce9a1d9c836df2b7" id="r_a74324261a8c8f269ce9a1d9c836df2b7"><td class="memItemLeft" align="right" valign="top">UnityAction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74324261a8c8f269ce9a1d9c836df2b7">OnInvertIndex</a></td></tr>
+<tr class="memdesc:a74324261a8c8f269ce9a1d9c836df2b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое при инверсии состояния.  <br /></td></tr>
 <tr class="separator:a74324261a8c8f269ce9a1d9c836df2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Объект, реагирующий на клики с визуальными и аудиоэффектами. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="a6519c937d2676701a947d03c4cf81ca0" name="a6519c937d2676701a947d03c4cf81ca0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6519c937d2676701a947d03c4cf81ca0">&#9670;&#160;</a></span>ChangeColorToWhite()</h2>
 
@@ -171,6 +188,16 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
       </table>
 </div><div class="memdoc">
 
+<p>Меняет цвет спрайта на заданный. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spriteRenderer</td><td>Целевой рендерер.</td></tr>
+    <tr><td class="paramname">targetColor</td><td>Целевой цвет.</td></tr>
+    <tr><td class="paramname">duration</td><td>Длительность анимации смены цвета.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a09df108bbff4d8a196feabcb8f3849ff" name="a09df108bbff4d8a196feabcb8f3849ff"></a>
@@ -187,6 +214,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Запускает анимационный эффект и воспроизводит звук. </p>
 
 </div>
 </div>
@@ -205,6 +234,14 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
       </table>
 </div><div class="memdoc">
 
+<p>Обрабатывает клик по объекту. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eventData</td><td>Данные события клика.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Данные класса</h2>
@@ -220,6 +257,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
       </table>
 </div><div class="memdoc">
 
+<p>Индекс объекта. </p>
+
 </div>
 </div>
 <a id="a0ccc86c26e3f101dcaf0f0277eaa5dad" name="a0ccc86c26e3f101dcaf0f0277eaa5dad"></a>
@@ -233,6 +272,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Флаг, указывающий, активна ли анимация. </p>
 
 </div>
 </div>
@@ -248,6 +289,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
       </table>
 </div><div class="memdoc">
 
+<p>Флаг, указывающий, нажата ли кнопка. </p>
+
 </div>
 </div>
 <a id="a2ea102383aa797aca7974d840451787b" name="a2ea102383aa797aca7974d840451787b"></a>
@@ -261,6 +304,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Флаг, указывающий, выбран ли объект. </p>
 
 </div>
 </div>
@@ -276,6 +321,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
       </table>
 </div><div class="memdoc">
 
+<p>Флаг, указывающий, используется ли дополнительный цвет. </p>
+
 </div>
 </div>
 <a id="a7c8f55e3cf51d9c41aa52e9ef6447b05" name="a7c8f55e3cf51d9c41aa52e9ef6447b05"></a>
@@ -289,6 +336,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Событие с текущим индексом и флагом выбора. </p>
 
 </div>
 </div>
@@ -304,6 +353,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
       </table>
 </div><div class="memdoc">
 
+<p>Событие, вызываемое при инверсии состояния. </p>
+
 </div>
 </div>
 <a id="a9fc345eb89a9e7171dcb8cfb0314960d" name="a9fc345eb89a9e7171dcb8cfb0314960d"></a>
@@ -318,6 +369,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
       </table>
 </div><div class="memdoc">
 
+<p>Длительность анимации изменения масштаба. </p>
+
 </div>
 </div>
 <a id="ac70206f371df91d4e48916070a38fe81" name="ac70206f371df91d4e48916070a38fe81"></a>
@@ -331,6 +384,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_clickable_obj
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Множитель увеличения масштаба при анимации. </p>
 
 </div>
 </div>

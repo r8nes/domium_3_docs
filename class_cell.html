@@ -110,6 +110,9 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Класс Cell</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Класс клетки на поле, реализующий интерфейс IPointerDownHandler для обработки нажатий.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:Cell:</div>
 <div class="dyncontent">
@@ -120,39 +123,54 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a7b290d74c39a9cde9b7dccf44a855b6c" id="r_a7b290d74c39a9cde9b7dccf44a855b6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b290d74c39a9cde9b7dccf44a855b6c">SetValue</a> (int x, int y, int id)</td></tr>
+<tr class="memdesc:a7b290d74c39a9cde9b7dccf44a855b6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Устанавливает координаты и ID клетки.  <br /></td></tr>
 <tr class="separator:a7b290d74c39a9cde9b7dccf44a855b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e80b80d832a74ce4405acb4c890503d" id="r_a2e80b80d832a74ce4405acb4c890503d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e80b80d832a74ce4405acb4c890503d">MoveToCell</a> (<a class="el" href="class_cell.html">Cell</a> target, bool updateUi=true)</td></tr>
+<tr class="memdesc:a2e80b80d832a74ce4405acb4c890503d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Перемещает содержимое текущей клетки в целевую.  <br /></td></tr>
 <tr class="separator:a2e80b80d832a74ce4405acb4c890503d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72d8dc4eaa59e13290b466f7ec28a924" id="r_a72d8dc4eaa59e13290b466f7ec28a924"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72d8dc4eaa59e13290b466f7ec28a924">UpdateEmpty</a> (bool isEmpty)</td></tr>
+<tr class="memdesc:a72d8dc4eaa59e13290b466f7ec28a924"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обновляет состояние пустоты клетки.  <br /></td></tr>
 <tr class="separator:a72d8dc4eaa59e13290b466f7ec28a924"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a837dd97367f3db50b5df7b09d505cea0" id="r_a837dd97367f3db50b5df7b09d505cea0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a837dd97367f3db50b5df7b09d505cea0">SetImage</a> (Sprite sprite, bool isChange=true)</td></tr>
+<tr class="memdesc:a837dd97367f3db50b5df7b09d505cea0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Устанавливает спрайт изображения для клетки.  <br /></td></tr>
 <tr class="separator:a837dd97367f3db50b5df7b09d505cea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7aa0ac57a207b262329774ae74a3646" id="r_ad7aa0ac57a207b262329774ae74a3646"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7aa0ac57a207b262329774ae74a3646">OnPointerDown</a> (PointerEventData eventData)</td></tr>
+<tr class="memdesc:ad7aa0ac57a207b262329774ae74a3646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обработка нажатия на клетку.  <br /></td></tr>
 <tr class="separator:ad7aa0ac57a207b262329774ae74a3646"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add375c07159aa11ead7edcd0abf06ad8" id="r_add375c07159aa11ead7edcd0abf06ad8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add375c07159aa11ead7edcd0abf06ad8">SetAnimation</a> (<a class="el" href="class_cell_animation.html">CellAnimation</a> animation)</td></tr>
+<tr class="memdesc:add375c07159aa11ead7edcd0abf06ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Устанавливает анимацию для клетки.  <br /></td></tr>
 <tr class="separator:add375c07159aa11ead7edcd0abf06ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa99275cb246d08a77638a60799867e25" id="r_aa99275cb246d08a77638a60799867e25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa99275cb246d08a77638a60799867e25">CancelAnimation</a> ()</td></tr>
+<tr class="memdesc:aa99275cb246d08a77638a60799867e25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отменяет текущую анимацию клетки.  <br /></td></tr>
 <tr class="separator:aa99275cb246d08a77638a60799867e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdc639492b901905d99cf94cf2692d58" id="r_afdc639492b901905d99cf94cf2692d58"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdc639492b901905d99cf94cf2692d58">GetImage</a> ()</td></tr>
+<tr class="memdesc:afdc639492b901905d99cf94cf2692d58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает компонент изображения клетки.  <br /></td></tr>
 <tr class="separator:afdc639492b901905d99cf94cf2692d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Открытые атрибуты</h2></td></tr>
 <tr class="memitem:a56e01b0e31599e290e737279a369dc79" id="r_a56e01b0e31599e290e737279a369dc79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56e01b0e31599e290e737279a369dc79">IsEmpty</a> = true</td></tr>
+<tr class="memdesc:a56e01b0e31599e290e737279a369dc79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Является ли клетка пустой.  <br /></td></tr>
 <tr class="separator:a56e01b0e31599e290e737279a369dc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89c4d03dd6a32c90f7080e44a9755a53" id="r_a89c4d03dd6a32c90f7080e44a9755a53"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_cell.html">Cell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89c4d03dd6a32c90f7080e44a9755a53">OnSwipe</a></td></tr>
+<tr class="memdesc:a89c4d03dd6a32c90f7080e44a9755a53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие свайпа по данной клетке.  <br /></td></tr>
 <tr class="separator:a89c4d03dd6a32c90f7080e44a9755a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Свойства</h2></td></tr>
 <tr class="memitem:a621087323dae8267784e6783d5aaec35" id="r_a621087323dae8267784e6783d5aaec35"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a621087323dae8267784e6783d5aaec35">X</a><code> [get]</code></td></tr>
+<tr class="memdesc:a621087323dae8267784e6783d5aaec35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Координата X клетки.  <br /></td></tr>
 <tr class="separator:a621087323dae8267784e6783d5aaec35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ca1aa9e1edf7c15dd5f193033dd55cb" id="r_a9ca1aa9e1edf7c15dd5f193033dd55cb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ca1aa9e1edf7c15dd5f193033dd55cb">Y</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9ca1aa9e1edf7c15dd5f193033dd55cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Координата Y клетки.  <br /></td></tr>
 <tr class="separator:a9ca1aa9e1edf7c15dd5f193033dd55cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4293bdbcf6badf66a135cb151cc20b0" id="r_aa4293bdbcf6badf66a135cb151cc20b0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4293bdbcf6badf66a135cb151cc20b0">ID</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa4293bdbcf6badf66a135cb151cc20b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Уникальный идентификатор клетки.  <br /></td></tr>
 <tr class="separator:aa4293bdbcf6badf66a135cb151cc20b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс клетки на поле, реализующий интерфейс IPointerDownHandler для обработки нажатий. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="aa99275cb246d08a77638a60799867e25" name="aa99275cb246d08a77638a60799867e25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa99275cb246d08a77638a60799867e25">&#9670;&#160;</a></span>CancelAnimation()</h2>
 
@@ -167,6 +185,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Отменяет текущую анимацию клетки. </p>
 
 </div>
 </div>
@@ -184,6 +204,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Возвращает компонент изображения клетки. </p>
 
 </div>
 </div>
@@ -206,6 +228,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
       </table>
 </div><div class="memdoc">
 
+<p>Перемещает содержимое текущей клетки в целевую. </p>
+
 </div>
 </div>
 <a id="ad7aa0ac57a207b262329774ae74a3646" name="ad7aa0ac57a207b262329774ae74a3646"></a>
@@ -223,6 +247,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
       </table>
 </div><div class="memdoc">
 
+<p>Обработка нажатия на клетку. </p>
+
 </div>
 </div>
 <a id="add375c07159aa11ead7edcd0abf06ad8" name="add375c07159aa11ead7edcd0abf06ad8"></a>
@@ -239,6 +265,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Устанавливает анимацию для клетки. </p>
 
 </div>
 </div>
@@ -260,6 +288,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Устанавливает спрайт изображения для клетки. </p>
 
 </div>
 </div>
@@ -287,6 +317,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
       </table>
 </div><div class="memdoc">
 
+<p>Устанавливает координаты и ID клетки. </p>
+
 </div>
 </div>
 <a id="a72d8dc4eaa59e13290b466f7ec28a924" name="a72d8dc4eaa59e13290b466f7ec28a924"></a>
@@ -304,6 +336,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
       </table>
 </div><div class="memdoc">
 
+<p>Обновляет состояние пустоты клетки. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Данные класса</h2>
@@ -319,6 +353,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
       </table>
 </div><div class="memdoc">
 
+<p>Является ли клетка пустой. </p>
+
 </div>
 </div>
 <a id="a89c4d03dd6a32c90f7080e44a9755a53" name="a89c4d03dd6a32c90f7080e44a9755a53"></a>
@@ -332,6 +368,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Событие свайпа по данной клетке. </p>
 
 </div>
 </div>
@@ -356,6 +394,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
 </table>
 </div><div class="memdoc">
 
+<p>Уникальный идентификатор клетки. </p>
+
 </div>
 </div>
 <a id="a621087323dae8267784e6783d5aaec35" name="a621087323dae8267784e6783d5aaec35"></a>
@@ -378,6 +418,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
 </table>
 </div><div class="memdoc">
 
+<p>Координата X клетки. </p>
+
 </div>
 </div>
 <a id="a9ca1aa9e1edf7c15dd5f193033dd55cb" name="a9ca1aa9e1edf7c15dd5f193033dd55cb"></a>
@@ -399,6 +441,8 @@ $(function(){initNavTree('class_cell.html',''); initResizable(true); });
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Координата Y клетки. </p>
 
 </div>
 </div>

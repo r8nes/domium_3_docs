@@ -109,6 +109,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_exam_gameplay
   <div class="headertitle"><div class="title">Класс DomiumWorld.Core.Game.ExamGameplay</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Контроллер логики экзаменационной мини-игры.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumWorld.Core.Game.ExamGameplay:</div>
 <div class="dyncontent">
@@ -122,7 +125,7 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_exam_gameplay
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:aa484cd92c8c240012931f12a2d5e5946" id="r_aa484cd92c8c240012931f12a2d5e5946"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa484cd92c8c240012931f12a2d5e5946">Play</a> ()</td></tr>
-<tr class="memdesc:aa484cd92c8c240012931f12a2d5e5946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запускает игровой процесс.  <br /></td></tr>
+<tr class="memdesc:aa484cd92c8c240012931f12a2d5e5946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запуск основной части игры.  <br /></td></tr>
 <tr class="separator:aa484cd92c8c240012931f12a2d5e5946"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4a04604721b37197b00c7969f617a98" id="r_ae4a04604721b37197b00c7969f617a98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4a04604721b37197b00c7969f617a98">Pause</a> ()</td></tr>
 <tr class="memdesc:ae4a04604721b37197b00c7969f617a98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ставит игру на паузу.  <br /></td></tr>
@@ -137,8 +140,10 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_exam_gameplay
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 События</h2></td></tr>
 <tr class="memitem:ab7975f9f35e13b4e719ee7b1d66a9326" id="r_ab7975f9f35e13b4e719ee7b1d66a9326"><td class="memItemLeft" align="right" valign="top">UnityAction&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7975f9f35e13b4e719ee7b1d66a9326">OnEndGame</a></td></tr>
+<tr class="memdesc:ab7975f9f35e13b4e719ee7b1d66a9326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие завершения игры. Передаёт результат: победа/поражение.  <br /></td></tr>
 <tr class="separator:ab7975f9f35e13b4e719ee7b1d66a9326"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95bcf16701f93a264125daf69efa58a1" id="r_a95bcf16701f93a264125daf69efa58a1"><td class="memItemLeft" align="right" valign="top">UnityAction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95bcf16701f93a264125daf69efa58a1">OnEndCutscene</a></td></tr>
+<tr class="memdesc:a95bcf16701f93a264125daf69efa58a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие завершения катсцены.  <br /></td></tr>
 <tr class="separator:a95bcf16701f93a264125daf69efa58a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header events_interface_i_game_controller"><td colspan="2" onclick="javascript:dynsection.toggleInherit('events_interface_i_game_controller')"><img src="closed.png" alt="-"/>&#160;События унаследованные от <a class="el" href="interface_i_game_controller.html">IGameController</a></td></tr>
 <tr class="memitem:a338219396bc25f34152403ee9aa7ce0c inherit events_interface_i_game_controller" id="r_a338219396bc25f34152403ee9aa7ce0c"><td class="memItemLeft" align="right" valign="top">UnityAction&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_game_controller.html#a338219396bc25f34152403ee9aa7ce0c">OnEndGame</a></td></tr>
@@ -148,7 +153,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_exam_gameplay
 <tr class="memdesc:aad478bf20aa4410b540b291d135db91b inherit events_interface_i_game_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое при завершении катсцены.  <br /></td></tr>
 <tr class="separator:aad478bf20aa4410b540b291d135db91b inherit events_interface_i_game_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Контроллер логики экзаменационной мини-игры. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="ae4a04604721b37197b00c7969f617a98" name="ae4a04604721b37197b00c7969f617a98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4a04604721b37197b00c7969f617a98">&#9670;&#160;</a></span>Pause()</h2>
 
@@ -185,7 +192,7 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_exam_gameplay
       </table>
 </div><div class="memdoc">
 
-<p>Запускает игровой процесс. </p>
+<p>Запуск основной части игры. </p>
 
 <p>Замещает <a class="el" href="interface_i_game_controller.html#adbafd72f044ff3a9d27a681baedb88d4">IGameController</a>.</p>
 
@@ -246,6 +253,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_exam_gameplay
       </table>
 </div><div class="memdoc">
 
+<p>Событие завершения катсцены. </p>
+
 </div>
 </div>
 <a id="ab7975f9f35e13b4e719ee7b1d66a9326" name="ab7975f9f35e13b4e719ee7b1d66a9326"></a>
@@ -259,6 +268,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_exam_gameplay
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Событие завершения игры. Передаёт результат: победа/поражение. </p>
 
 </div>
 </div>

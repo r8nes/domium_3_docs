@@ -109,6 +109,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
   <div class="headertitle"><div class="title">Класс DomiumWorld.Core.Services.Download.DownloadService</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Сервис загрузки данных (AssetBundles, видео, фоновых изображений) через <a class="el" href="class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html" title="РњРµРЅРµРґР¶РµСЂ Р·Р°РіСЂСѓР·РєРё Рё РєСЌС€РёСЂРѕРІР°РЅРёСЏ AssetBundle-С„Р°Р№Р»РѕРІ,...">DownloadManager</a>.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumWorld.Core.Services.Download.DownloadService:</div>
 <div class="dyncontent">
@@ -119,30 +122,42 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a29cfe86390cb306e893c30b99e36c970" id="r_a29cfe86390cb306e893c30b99e36c970"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29cfe86390cb306e893c30b99e36c970">CurrentBundleIsLoaded</a> ()</td></tr>
+<tr class="memdesc:a29cfe86390cb306e893c30b99e36c970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверяет, загружен ли в память текущий Bundle.  <br /></td></tr>
 <tr class="separator:a29cfe86390cb306e893c30b99e36c970"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eb27cf959acba2fbb45d9b4baa1de18" id="r_a0eb27cf959acba2fbb45d9b4baa1de18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eb27cf959acba2fbb45d9b4baa1de18">CheckCurrentBundles</a> ()</td></tr>
+<tr class="memdesc:a0eb27cf959acba2fbb45d9b4baa1de18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запускает загрузку текущего набора уровней (MapPart).  <br /></td></tr>
 <tr class="separator:a0eb27cf959acba2fbb45d9b4baa1de18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbaf8f572b5470a71fc3735085c10b03" id="r_afbaf8f572b5470a71fc3735085c10b03"><td class="memItemLeft" align="right" valign="top">VideoClip&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbaf8f572b5470a71fc3735085c10b03">LoadClip</a> (string name)</td></tr>
+<tr class="memdesc:afbaf8f572b5470a71fc3735085c10b03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Загружает видео по имени из первичного бандла.  <br /></td></tr>
 <tr class="separator:afbaf8f572b5470a71fc3735085c10b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c36d89fbe74c5b459927cac6f415a1c" id="r_a3c36d89fbe74c5b459927cac6f415a1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c36d89fbe74c5b459927cac6f415a1c">LoadAssetBundlesFromFiles</a> (string bundleName)</td></tr>
+<tr class="memdesc:a3c36d89fbe74c5b459927cac6f415a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Загружает Bundle из файловой системы и поднимает <a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_levels_1_1_level.html" title="Класс, представляющий игровой уровень с именем и списком игровых задач.">Level</a>.  <br /></td></tr>
 <tr class="separator:a3c36d89fbe74c5b459927cac6f415a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1040a45bea018c509b71e245bc79235a" id="r_a1040a45bea018c509b71e245bc79235a"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1040a45bea018c509b71e245bc79235a">LoadSequence</a> ()</td></tr>
+<tr class="memdesc:a1040a45bea018c509b71e245bc79235a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Загружает <a class="el" href="class_sequence_pool.html" title="Управляет коллекцией игровых последовательностей.">SequencePool</a> из первичного AssetBundle.  <br /></td></tr>
 <tr class="separator:a1040a45bea018c509b71e245bc79235a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b9298ded1104f6f7d74486be4ac8837" id="r_a7b9298ded1104f6f7d74486be4ac8837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_domium_world_1_1_core_1_1_data_1_1_background_s_o.html">BackgroundSO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b9298ded1104f6f7d74486be4ac8837">LoadBackground</a> (string bgName)</td></tr>
+<tr class="memdesc:a7b9298ded1104f6f7d74486be4ac8837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Загружает ScriptableObject с фонами по имени.  <br /></td></tr>
 <tr class="separator:a7b9298ded1104f6f7d74486be4ac8837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad776bcc38ccf5fc737229c10eac0f114" id="r_ad776bcc38ccf5fc737229c10eac0f114"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_service.html">DownloadService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad776bcc38ccf5fc737229c10eac0f114">Init</a> (<a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_saves_1_1_levels_service.html">LevelsService</a> levelsService)</td></tr>
+<tr class="memdesc:ad776bcc38ccf5fc737229c10eac0f114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализирует сервис, привязывая <a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_saves_1_1_levels_service.html" title="Сервис, управляющий прогрессом игрока по уровням и частям карты.">LevelsService</a>.  <br /></td></tr>
 <tr class="separator:ad776bcc38ccf5fc737229c10eac0f114"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Открытые атрибуты</h2></td></tr>
 <tr class="memitem:a2eb35c9d6204e2eca8128800931ecf30" id="r_a2eb35c9d6204e2eca8128800931ecf30"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2eb35c9d6204e2eca8128800931ecf30">OnDownloadDone</a></td></tr>
+<tr class="memdesc:a2eb35c9d6204e2eca8128800931ecf30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое при успешной загрузке уровня с сервера.  <br /></td></tr>
 <tr class="separator:a2eb35c9d6204e2eca8128800931ecf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10491edd8ba1960bc402b05875168d0c" id="r_a10491edd8ba1960bc402b05875168d0c"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_levels_1_1_level.html">Level</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10491edd8ba1960bc402b05875168d0c">AssetBundleIsReady</a></td></tr>
+<tr class="memdesc:a10491edd8ba1960bc402b05875168d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое при готовности AssetBundle (после загрузки/кеша).  <br /></td></tr>
 <tr class="separator:a10491edd8ba1960bc402b05875168d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a355b455a71ba89d4ea0aeeae13a65480" id="r_a355b455a71ba89d4ea0aeeae13a65480"><td class="memItemLeft" align="right" valign="top">Action&lt; float, float, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a355b455a71ba89d4ea0aeeae13a65480">OnDownloadProgress</a></td></tr>
+<tr class="memdesc:a355b455a71ba89d4ea0aeeae13a65480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие загрузки с передачей прогресса (0–1), загруженного и общего размера.  <br /></td></tr>
 <tr class="separator:a355b455a71ba89d4ea0aeeae13a65480"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Сервис загрузки данных (AssetBundles, видео, фоновых изображений) через <a class="el" href="class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html" title="РњРµРЅРµРґР¶РµСЂ Р·Р°РіСЂСѓР·РєРё Рё РєСЌС€РёСЂРѕРІР°РЅРёСЏ AssetBundle-С„Р°Р№Р»РѕРІ,...">DownloadManager</a>. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="a0eb27cf959acba2fbb45d9b4baa1de18" name="a0eb27cf959acba2fbb45d9b4baa1de18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0eb27cf959acba2fbb45d9b4baa1de18">&#9670;&#160;</a></span>CheckCurrentBundles()</h2>
 
@@ -157,6 +172,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Запускает загрузку текущего набора уровней (MapPart). </p>
 
 </div>
 </div>
@@ -175,6 +192,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
       </table>
 </div><div class="memdoc">
 
+<p>Проверяет, загружен ли в память текущий Bundle. </p>
+
 </div>
 </div>
 <a id="ad776bcc38ccf5fc737229c10eac0f114" name="ad776bcc38ccf5fc737229c10eac0f114"></a>
@@ -191,6 +210,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Инициализирует сервис, привязывая <a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_saves_1_1_levels_service.html" title="Сервис, управляющий прогрессом игрока по уровням и частям карты.">LevelsService</a>. </p>
 
 </div>
 </div>
@@ -209,6 +230,14 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
       </table>
 </div><div class="memdoc">
 
+<p>Загружает Bundle из файловой системы и поднимает <a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_levels_1_1_level.html" title="Класс, представляющий игровой уровень с именем и списком игровых задач.">Level</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bundleName</td><td>Имя AssetBundle с уровнем.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a7b9298ded1104f6f7d74486be4ac8837" name="a7b9298ded1104f6f7d74486be4ac8837"></a>
@@ -225,6 +254,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Загружает ScriptableObject с фонами по имени. </p>
 
 </div>
 </div>
@@ -243,6 +274,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
       </table>
 </div><div class="memdoc">
 
+<p>Загружает видео по имени из первичного бандла. </p>
+
 </div>
 </div>
 <a id="a1040a45bea018c509b71e245bc79235a" name="a1040a45bea018c509b71e245bc79235a"></a>
@@ -260,6 +293,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
       </table>
 </div><div class="memdoc">
 
+<p>Загружает <a class="el" href="class_sequence_pool.html" title="Управляет коллекцией игровых последовательностей.">SequencePool</a> из первичного AssetBundle. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Данные класса</h2>
@@ -275,6 +310,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
       </table>
 </div><div class="memdoc">
 
+<p>Событие, вызываемое при готовности AssetBundle (после загрузки/кеша). </p>
+
 </div>
 </div>
 <a id="a2eb35c9d6204e2eca8128800931ecf30" name="a2eb35c9d6204e2eca8128800931ecf30"></a>
@@ -289,6 +326,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
       </table>
 </div><div class="memdoc">
 
+<p>Событие, вызываемое при успешной загрузке уровня с сервера. </p>
+
 </div>
 </div>
 <a id="a355b455a71ba89d4ea0aeeae13a65480" name="a355b455a71ba89d4ea0aeeae13a65480"></a>
@@ -302,6 +341,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_services_1_1_download_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Событие загрузки с передачей прогресса (0–1), загруженного и общего размера. </p>
 
 </div>
 </div>

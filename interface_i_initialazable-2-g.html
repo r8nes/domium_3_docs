@@ -108,26 +108,39 @@ $(function(){initNavTree('interface_i_initialazable-2-g.html',''); initResizable
   <div class="headertitle"><div class="title">Шаблон интерфейса IInitialazable&lt; out T1, T2 &gt;</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Интерфейс для инициализации объекта с зависимостью типа T2.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:IInitialazable&lt; out T1, T2 &gt;:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="interface_i_initialazable-2-g.png" usemap="#IInitialazable_3C_20out_20T1_2C_20T2_20_3E_map" alt=""/>
   <map id="IInitialazable_3C_20out_20T1_2C_20T2_20_3E_map" name="IInitialazable_3C_20out_20T1_2C_20T2_20_3E_map">
-<area href="class_domium_third_1_1_core_1_1_services_1_1_collection_service.html" alt="DomiumThird.Core.Services.CollectionService" shape="rect" coords="0,56,295,80"/>
-<area href="class_domium_third_1_1_core_1_1_services_1_1_collection_service.html" alt="DomiumThird.Core.Services.CollectionService" shape="rect" coords="305,56,600,80"/>
-<area href="class_domium_third_1_1_core_1_1_services_1_1_saves_1_1_levels_service.html" alt="DomiumThird.Core.Services.Saves.LevelsService" shape="rect" coords="610,56,905,80"/>
-<area href="class_domium_third_1_1_core_1_1_system_1_1_game_tasks_controller.html" alt="DomiumThird.Core.System.GameTasksController" shape="rect" coords="915,56,1210,80"/>
-<area href="class_domium_third_1_1_core_1_1_system_1_1_game_tasks_controller.html" alt="DomiumThird.Core.System.GameTasksController" shape="rect" coords="1220,56,1515,80"/>
+<area href="class_domium_third_1_1_core_1_1_services_1_1_collection_service.html" title="Сервис, управляющий открытием дверей коллекции с помощью Bluetooth." alt="DomiumThird.Core.Services.CollectionService" shape="rect" coords="0,56,295,80"/>
+<area href="class_domium_third_1_1_core_1_1_services_1_1_collection_service.html" title="Сервис, управляющий открытием дверей коллекции с помощью Bluetooth." alt="DomiumThird.Core.Services.CollectionService" shape="rect" coords="305,56,600,80"/>
+<area href="class_domium_third_1_1_core_1_1_services_1_1_saves_1_1_levels_service.html" title="Сервис, управляющий прогрессом игрока по уровням и частям карты." alt="DomiumThird.Core.Services.Saves.LevelsService" shape="rect" coords="610,56,905,80"/>
+<area href="class_domium_third_1_1_core_1_1_system_1_1_game_tasks_controller.html" title="Контроллер, управляющий запуском, завершением и переключением игровых задач (мини-игр)." alt="DomiumThird.Core.System.GameTasksController" shape="rect" coords="915,56,1210,80"/>
+<area href="class_domium_third_1_1_core_1_1_system_1_1_game_tasks_controller.html" title="Контроллер, управляющий запуском, завершением и переключением игровых задач (мини-игр)." alt="DomiumThird.Core.System.GameTasksController" shape="rect" coords="1220,56,1515,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:accf4f8bb04108da8b0b16e7ab3afb2d3" id="r_accf4f8bb04108da8b0b16e7ab3afb2d3"><td class="memItemLeft" align="right" valign="top">T1&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accf4f8bb04108da8b0b16e7ab3afb2d3">Init</a> (T2 levelsService)</td></tr>
+<tr class="memdesc:accf4f8bb04108da8b0b16e7ab3afb2d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполняет инициализацию с переданной зависимостью.  <br /></td></tr>
 <tr class="separator:accf4f8bb04108da8b0b16e7ab3afb2d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Интерфейс для инициализации объекта с зависимостью типа T2. </p>
+<dl class="tparams"><dt>Параметры шаблона</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T1</td><td>Тип возвращаемого объекта после инициализации.</td></tr>
+    <tr><td class="paramname">T2</td><td>Тип зависимости, используемой при инициализации.</td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Методы</h2>
 <a id="accf4f8bb04108da8b0b16e7ab3afb2d3" name="accf4f8bb04108da8b0b16e7ab3afb2d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#accf4f8bb04108da8b0b16e7ab3afb2d3">&#9670;&#160;</a></span>Init()</h2>
 
@@ -142,6 +155,15 @@ $(function(){initNavTree('interface_i_initialazable-2-g.html',''); initResizable
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Выполняет инициализацию с переданной зависимостью. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">levelsService</td><td>Зависимость типа T2.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Инициализированный объект типа T1.</dd></dl>
 
 </div>
 </div>

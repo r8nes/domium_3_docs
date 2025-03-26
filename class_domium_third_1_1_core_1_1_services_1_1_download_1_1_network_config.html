@@ -111,34 +111,45 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_download_
   <div class="headertitle"><div class="title">Класс DomiumThird.Core.Services.Download.NetworkConfig</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Класс для работы с сетевыми настройками и построения путей к ресурсам.  
+ <a href="#details">Подробнее...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a8cb2b93257fa49d84090cd827bb261c2" id="r_a8cb2b93257fa49d84090cd827bb261c2"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cb2b93257fa49d84090cd827bb261c2">PingServer</a> (Action&lt; bool &gt; onFinish)</td></tr>
+<tr class="memdesc:a8cb2b93257fa49d84090cd827bb261c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отправляет HTTP-запрос к текущему домену и вызывает callback по результату.  <br /></td></tr>
 <tr class="separator:a8cb2b93257fa49d84090cd827bb261c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Открытые статические члены</h2></td></tr>
 <tr class="memitem:a9ea7faa699663105570d2d91bc16a5ec" id="r_a9ea7faa699663105570d2d91bc16a5ec"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ea7faa699663105570d2d91bc16a5ec">GetWithDomain</a> (string url)</td></tr>
+<tr class="memdesc:a9ea7faa699663105570d2d91bc16a5ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает полный URL, добавляя домен, если он отсутствует.  <br /></td></tr>
 <tr class="separator:a9ea7faa699663105570d2d91bc16a5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fffb66ccf3792fab4d1052798793d83" id="r_a7fffb66ccf3792fab4d1052798793d83"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fffb66ccf3792fab4d1052798793d83">URLCombine</a> (string uri1, string uri2)</td></tr>
+<tr class="memdesc:a7fffb66ccf3792fab4d1052798793d83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Объединяет две строки в корректный URL.  <br /></td></tr>
 <tr class="separator:a7fffb66ccf3792fab4d1052798793d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3fad8602a9511f2aee06cbabd74e279" id="r_af3fad8602a9511f2aee06cbabd74e279"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3fad8602a9511f2aee06cbabd74e279">GetServerPath</a> (string assetName)</td></tr>
+<tr class="memdesc:af3fad8602a9511f2aee06cbabd74e279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает полный путь до AssetBundle-файла на сервере.  <br /></td></tr>
 <tr class="separator:af3fad8602a9511f2aee06cbabd74e279"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b581244f033ea4029ea3f13962b70bb" id="r_a2b581244f033ea4029ea3f13962b70bb"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b581244f033ea4029ea3f13962b70bb">GetPlatformFolder</a> ()</td></tr>
+<tr class="memdesc:a2b581244f033ea4029ea3f13962b70bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Определяет платформенную папку в зависимости от среды выполнения.  <br /></td></tr>
 <tr class="separator:a2b581244f033ea4029ea3f13962b70bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Открытые атрибуты</h2></td></tr>
-<tr class="memitem:abc1c815f456f9a9ad1da051c45f8b2c0" id="r_abc1c815f456f9a9ad1da051c45f8b2c0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc1c815f456f9a9ad1da051c45f8b2c0">CurrentDomain</a> = &quot;https://cdn.domiumgame.ru/&quot;</td></tr>
+<tr class="memitem:abc1c815f456f9a9ad1da051c45f8b2c0" id="r_abc1c815f456f9a9ad1da051c45f8b2c0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc1c815f456f9a9ad1da051c45f8b2c0">CurrentDomain</a> = &quot;https://cdn.domiumgame.ru//&quot;</td></tr>
 <tr class="separator:abc1c815f456f9a9ad1da051c45f8b2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Свойства</h2></td></tr>
 <tr class="memitem:a0dc8cb2663ac115157dc4f5910e8e3a5" id="r_a0dc8cb2663ac115157dc4f5910e8e3a5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_download_1_1_network_config.html">NetworkConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dc8cb2663ac115157dc4f5910e8e3a5">Instance</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a0dc8cb2663ac115157dc4f5910e8e3a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Синглтон-инстанс конфигурации сети.  <br /></td></tr>
 <tr class="separator:a0dc8cb2663ac115157dc4f5910e8e3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс для работы с сетевыми настройками и построения путей к ресурсам. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="a2b581244f033ea4029ea3f13962b70bb" name="a2b581244f033ea4029ea3f13962b70bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b581244f033ea4029ea3f13962b70bb">&#9670;&#160;</a></span>GetPlatformFolder()</h2>
 
@@ -161,6 +172,9 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_download_
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Определяет платформенную папку в зависимости от среды выполнения. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Имя платформенной папки.</dd></dl>
 
 </div>
 </div>
@@ -187,6 +201,15 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_download_
 </table>
 </div><div class="memdoc">
 
+<p>Возвращает полный путь до AssetBundle-файла на сервере. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">assetName</td><td>Имя asset bundle.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>URL до бандла.</dd></dl>
+
 </div>
 </div>
 <a id="a9ea7faa699663105570d2d91bc16a5ec" name="a9ea7faa699663105570d2d91bc16a5ec"></a>
@@ -212,6 +235,15 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_download_
 </table>
 </div><div class="memdoc">
 
+<p>Возвращает полный URL, добавляя домен, если он отсутствует. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>Путь или относительный адрес.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Полный URL.</dd></dl>
+
 </div>
 </div>
 <a id="a8cb2b93257fa49d84090cd827bb261c2" name="a8cb2b93257fa49d84090cd827bb261c2"></a>
@@ -228,6 +260,14 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_download_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Отправляет HTTP-запрос к текущему домену и вызывает callback по результату. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">onFinish</td><td>Колбэк, вызываемый по завершению пинга (true — успешный, false — нет).</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -258,6 +298,16 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_download_
 </table>
 </div><div class="memdoc">
 
+<p>Объединяет две строки в корректный URL. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uri1</td><td>Первая часть пути.</td></tr>
+    <tr><td class="paramname">uri2</td><td>Вторая часть пути.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Объединённый URL.</dd></dl>
+
 </div>
 </div>
 <h2 class="groupheader">Данные класса</h2>
@@ -268,10 +318,11 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_download_
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string DomiumThird.Core.Services.Download.NetworkConfig.CurrentDomain = &quot;https://cdn.domiumgame.ru/&quot;</td>
+          <td class="memname">string DomiumThird.Core.Services.Download.NetworkConfig.CurrentDomain = &quot;https://cdn.domiumgame.ru//&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Домен для билда. </p>
 
 </div>
 </div>
@@ -295,6 +346,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_download_
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Синглтон-инстанс конфигурации сети. </p>
 
 </div>
 </div>

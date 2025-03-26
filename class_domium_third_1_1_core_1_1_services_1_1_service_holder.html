@@ -109,56 +109,74 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_service_h
   <div class="headertitle"><div class="title">Класс DomiumThird.Core.Services.ServiceHolder</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Глобальный синглтон, содержащий и инициализирующий все основные сервисы игры.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumThird.Core.Services.ServiceHolder:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_domium_third_1_1_core_1_1_services_1_1_service_holder.png" usemap="#DomiumThird.Core.Services.ServiceHolder_map" alt=""/>
   <map id="DomiumThird.Core.Services.ServiceHolder_map" name="DomiumThird.Core.Services.ServiceHolder_map">
-<area href="class_domium_third_1_1_core_1_1_singleton-1-g.html" alt="DomiumThird.Core.Singleton&lt; T &gt;" shape="rect" coords="0,56,257,80"/>
+<area href="class_domium_third_1_1_core_1_1_singleton-1-g.html" title="Базовый MonoBehaviour-синглтон, создающий или находящий единственный экземпляр объекта." alt="DomiumThird.Core.Singleton&lt; T &gt;" shape="rect" coords="0,56,257,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Защищенные члены</h2></td></tr>
 <tr class="memitem:aa6333a3761d676e78a774bc2c1c2ada0" id="r_aa6333a3761d676e78a774bc2c1c2ada0"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6333a3761d676e78a774bc2c1c2ada0">Initialization</a> ()</td></tr>
+<tr class="memdesc:aa6333a3761d676e78a774bc2c1c2ada0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод, вызываемый при инициализации Singleton'а. Загружает и настраивает все сервисы.  <br /></td></tr>
 <tr class="separator:aa6333a3761d676e78a774bc2c1c2ada0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_domium_third_1_1_core_1_1_singleton-1-g"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_domium_third_1_1_core_1_1_singleton-1-g')"><img src="closed.png" alt="-"/>&#160;Защищенные члены унаследованные от <a class="el" href="class_domium_third_1_1_core_1_1_singleton-1-g.html">DomiumThird.Core.Singleton&lt; T &gt;</a></td></tr>
 <tr class="memitem:ab88aa95561a07e6f23482f7a5282262e inherit pro_methods_class_domium_third_1_1_core_1_1_singleton-1-g" id="r_ab88aa95561a07e6f23482f7a5282262e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_domium_third_1_1_core_1_1_singleton-1-g.html#ab88aa95561a07e6f23482f7a5282262e">Awake</a> ()</td></tr>
 <tr class="separator:ab88aa95561a07e6f23482f7a5282262e inherit pro_methods_class_domium_third_1_1_core_1_1_singleton-1-g"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a826738ed3d1bd05bf4f8a12da1570a63 inherit pro_methods_class_domium_third_1_1_core_1_1_singleton-1-g" id="r_a826738ed3d1bd05bf4f8a12da1570a63"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_domium_third_1_1_core_1_1_singleton-1-g.html#a826738ed3d1bd05bf4f8a12da1570a63">OnDestroy</a> ()</td></tr>
+<tr class="memdesc:a826738ed3d1bd05bf4f8a12da1570a63 inherit pro_methods_class_domium_third_1_1_core_1_1_singleton-1-g"><td class="mdescLeft">&#160;</td><td class="mdescRight">Помечает синглтон как неактивный при уничтожении.  <br /></td></tr>
 <tr class="separator:a826738ed3d1bd05bf4f8a12da1570a63 inherit pro_methods_class_domium_third_1_1_core_1_1_singleton-1-g"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f42bd8f469806d1f833b300daeed3d0 inherit pro_methods_class_domium_third_1_1_core_1_1_singleton-1-g" id="r_a0f42bd8f469806d1f833b300daeed3d0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_domium_third_1_1_core_1_1_singleton-1-g.html#a0f42bd8f469806d1f833b300daeed3d0">OnApplicationQuit</a> ()</td></tr>
+<tr class="memdesc:a0f42bd8f469806d1f833b300daeed3d0 inherit pro_methods_class_domium_third_1_1_core_1_1_singleton-1-g"><td class="mdescLeft">&#160;</td><td class="mdescRight">Помечает синглтон как неактивный при завершении приложения.  <br /></td></tr>
 <tr class="separator:a0f42bd8f469806d1f833b300daeed3d0 inherit pro_methods_class_domium_third_1_1_core_1_1_singleton-1-g"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Свойства</h2></td></tr>
 <tr class="memitem:a0085d08fdfd068a3810c60698f5639c9" id="r_a0085d08fdfd068a3810c60698f5639c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_registration_service.html">RegistrationService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0085d08fdfd068a3810c60698f5639c9">RegistrationService</a><code> [get]</code></td></tr>
+<tr class="memdesc:a0085d08fdfd068a3810c60698f5639c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сервис регистрации пользователя.  <br /></td></tr>
 <tr class="separator:a0085d08fdfd068a3810c60698f5639c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae147d917b9841bb9ec1d35dbbf42b511" id="r_ae147d917b9841bb9ec1d35dbbf42b511"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_saves_1_1_levels_service.html">LevelsService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae147d917b9841bb9ec1d35dbbf42b511">LevelsService</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae147d917b9841bb9ec1d35dbbf42b511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сервис управления уровнями и прогрессом.  <br /></td></tr>
 <tr class="separator:ae147d917b9841bb9ec1d35dbbf42b511"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3533dd78a43c75bc3c9d20d62a4c45c4" id="r_a3533dd78a43c75bc3c9d20d62a4c45c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_service.html">DownloadService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3533dd78a43c75bc3c9d20d62a4c45c4">DownloadService</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3533dd78a43c75bc3c9d20d62a4c45c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сервис загрузки ассетов (фонов, клипов и т.д.).  <br /></td></tr>
 <tr class="separator:a3533dd78a43c75bc3c9d20d62a4c45c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a301c2b172c05a4a5421c0678baa688e9" id="r_a301c2b172c05a4a5421c0678baa688e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_domium_third_1_1_core_1_1_system_1_1_game_tasks_controller.html">GameTasksController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a301c2b172c05a4a5421c0678baa688e9">GameTasksController</a><code> [get]</code></td></tr>
+<tr class="memdesc:a301c2b172c05a4a5421c0678baa688e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Контроллер задач/мини-игр.  <br /></td></tr>
 <tr class="separator:a301c2b172c05a4a5421c0678baa688e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad55e8a3f4874866a286db6af01f3c466" id="r_ad55e8a3f4874866a286db6af01f3c466"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_domium_third_1_1_core_1_1_data_1_1_i_game_progress_storage.html">IGameProgressStorage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad55e8a3f4874866a286db6af01f3c466">GameProgressStorage</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad55e8a3f4874866a286db6af01f3c466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Хранилище игрового прогресса.  <br /></td></tr>
 <tr class="separator:ad55e8a3f4874866a286db6af01f3c466"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc03d5fa853913e8e65ebab2566ebc97" id="r_abc03d5fa853913e8e65ebab2566ebc97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_sound_service.html">SoundService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc03d5fa853913e8e65ebab2566ebc97">SoundService</a><code> [get]</code></td></tr>
+<tr class="memdesc:abc03d5fa853913e8e65ebab2566ebc97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сервис звуков и фоновой музыки.  <br /></td></tr>
 <tr class="separator:abc03d5fa853913e8e65ebab2566ebc97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af98aa00ca4e4c42963c81c39fc3cb162" id="r_af98aa00ca4e4c42963c81c39fc3cb162"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_collection_service.html">CollectionService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af98aa00ca4e4c42963c81c39fc3cb162">CollectionService</a><code> [get]</code></td></tr>
+<tr class="memdesc:af98aa00ca4e4c42963c81c39fc3cb162"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сервис сбора коллекционных предметов.  <br /></td></tr>
 <tr class="separator:af98aa00ca4e4c42963c81c39fc3cb162"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f1cc302d7c2879df33c8639a89ed260" id="r_a4f1cc302d7c2879df33c8639a89ed260"><td class="memItemLeft" align="right" valign="top">BTConnectionService&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f1cc302d7c2879df33c8639a89ed260">BTConnectionService</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4f1cc302d7c2879df33c8639a89ed260"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сервис Bluetooth-подключения.  <br /></td></tr>
 <tr class="separator:a4f1cc302d7c2879df33c8639a89ed260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff79957652d1b13276fa4d0c26355e73" id="r_aff79957652d1b13276fa4d0c26355e73"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff79957652d1b13276fa4d0c26355e73">IsInitialize</a><code> [get]</code></td></tr>
+<tr class="memdesc:aff79957652d1b13276fa4d0c26355e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Флаг, указывающий, завершена ли инициализация.  <br /></td></tr>
 <tr class="separator:aff79957652d1b13276fa4d0c26355e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_domium_third_1_1_core_1_1_singleton-1-g"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_domium_third_1_1_core_1_1_singleton-1-g')"><img src="closed.png" alt="-"/>&#160;Свойства унаследованные от <a class="el" href="class_domium_third_1_1_core_1_1_singleton-1-g.html">DomiumThird.Core.Singleton&lt; T &gt;</a></td></tr>
 <tr class="memitem:a5016e353067cc931a2f37aeb352f5285 inherit properties_class_domium_third_1_1_core_1_1_singleton-1-g" id="r_a5016e353067cc931a2f37aeb352f5285"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_domium_third_1_1_core_1_1_singleton-1-g.html#a5016e353067cc931a2f37aeb352f5285">Instance</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a5016e353067cc931a2f37aeb352f5285 inherit properties_class_domium_third_1_1_core_1_1_singleton-1-g"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получает или устанавливает глобальный экземпляр синглтона.  <br /></td></tr>
 <tr class="separator:a5016e353067cc931a2f37aeb352f5285 inherit properties_class_domium_third_1_1_core_1_1_singleton-1-g"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af715d08480add670e4130c540d8c8454 inherit properties_class_domium_third_1_1_core_1_1_singleton-1-g" id="r_af715d08480add670e4130c540d8c8454"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_domium_third_1_1_core_1_1_singleton-1-g.html#af715d08480add670e4130c540d8c8454">IsAlive</a><code> [get]</code></td></tr>
 <tr class="memdesc:af715d08480add670e4130c540d8c8454 inherit properties_class_domium_third_1_1_core_1_1_singleton-1-g"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check flag if need work from OnDestroy or OnApplicationExit.  <br /></td></tr>
 <tr class="separator:af715d08480add670e4130c540d8c8454 inherit properties_class_domium_third_1_1_core_1_1_singleton-1-g"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Глобальный синглтон, содержащий и инициализирующий все основные сервисы игры. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="aa6333a3761d676e78a774bc2c1c2ada0" name="aa6333a3761d676e78a774bc2c1c2ada0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa6333a3761d676e78a774bc2c1c2ada0">&#9670;&#160;</a></span>Initialization()</h2>
 
@@ -181,6 +199,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_service_h
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Метод, вызываемый при инициализации Singleton'а. Загружает и настраивает все сервисы. </p>
 
 <p>Переопределяет метод предка <a class="el" href="class_domium_third_1_1_core_1_1_singleton-1-g.html#a767d4d61d81449e09aa6398838ab17dc">DomiumThird.Core.Singleton&lt; T &gt;</a>.</p>
 
@@ -207,6 +227,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_service_h
 </table>
 </div><div class="memdoc">
 
+<p>Сервис Bluetooth-подключения. </p>
+
 </div>
 </div>
 <a id="af98aa00ca4e4c42963c81c39fc3cb162" name="af98aa00ca4e4c42963c81c39fc3cb162"></a>
@@ -228,6 +250,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_service_h
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Сервис сбора коллекционных предметов. </p>
 
 </div>
 </div>
@@ -251,6 +275,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_service_h
 </table>
 </div><div class="memdoc">
 
+<p>Сервис загрузки ассетов (фонов, клипов и т.д.). </p>
+
 </div>
 </div>
 <a id="ad55e8a3f4874866a286db6af01f3c466" name="ad55e8a3f4874866a286db6af01f3c466"></a>
@@ -272,6 +298,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_service_h
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Хранилище игрового прогресса. </p>
 
 </div>
 </div>
@@ -295,6 +323,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_service_h
 </table>
 </div><div class="memdoc">
 
+<p>Контроллер задач/мини-игр. </p>
+
 </div>
 </div>
 <a id="aff79957652d1b13276fa4d0c26355e73" name="aff79957652d1b13276fa4d0c26355e73"></a>
@@ -316,6 +346,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_service_h
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Флаг, указывающий, завершена ли инициализация. </p>
 
 </div>
 </div>
@@ -339,6 +371,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_service_h
 </table>
 </div><div class="memdoc">
 
+<p>Сервис управления уровнями и прогрессом. </p>
+
 </div>
 </div>
 <a id="a0085d08fdfd068a3810c60698f5639c9" name="a0085d08fdfd068a3810c60698f5639c9"></a>
@@ -361,6 +395,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_service_h
 </table>
 </div><div class="memdoc">
 
+<p>Сервис регистрации пользователя. </p>
+
 </div>
 </div>
 <a id="abc03d5fa853913e8e65ebab2566ebc97" name="abc03d5fa853913e8e65ebab2566ebc97"></a>
@@ -382,6 +418,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_1_1_service_h
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Сервис звуков и фоновой музыки. </p>
 
 </div>
 </div>

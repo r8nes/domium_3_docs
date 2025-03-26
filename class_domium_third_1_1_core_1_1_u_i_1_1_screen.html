@@ -110,15 +110,18 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_u_i_1_1_screen.html','
   <div class="headertitle"><div class="title">Класс DomiumThird.Core.UI.Screen</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Базовый класс для <a class="el" href="namespace_domium_third_1_1_core_1_1_u_i.html">UI</a> экранов, предоставляющий методы управления видимостью. Используется для показа/скрытия <a class="el" href="namespace_domium_third_1_1_core_1_1_u_i.html">UI</a> с помощью CanvasGroup.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumThird.Core.UI.Screen:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_domium_third_1_1_core_1_1_u_i_1_1_screen.png" usemap="#DomiumThird.Core.UI.Screen_map" alt=""/>
   <map id="DomiumThird.Core.UI.Screen_map" name="DomiumThird.Core.UI.Screen_map">
-<area href="class_domium_third_1_1_core_1_1_u_i_1_1_game_screen.html" alt="DomiumThird.Core.UI.GameScreen" shape="rect" coords="0,112,213,136"/>
-<area href="class_domium_third_1_1_core_1_1_u_i_1_1_popup_screen.html" alt="DomiumThird.Core.UI.PopupScreen" shape="rect" coords="223,112,436,136"/>
-<area href="class_domium_third_1_1_core_1_1_u_i_1_1_collection.html" alt="DomiumThird.Core.UI.Collection" shape="rect" coords="223,168,436,192"/>
+<area href="class_domium_third_1_1_core_1_1_u_i_1_1_game_screen.html" title="Экран, относящийся к конкретной игровой категории." alt="DomiumThird.Core.UI.GameScreen" shape="rect" coords="0,112,213,136"/>
+<area href="class_domium_third_1_1_core_1_1_u_i_1_1_popup_screen.html" title="Базовый класс для всплывающего окна (popup) в игре. Используется в системе UI для отображения различн..." alt="DomiumThird.Core.UI.PopupScreen" shape="rect" coords="223,112,436,136"/>
+<area href="class_domium_third_1_1_core_1_1_u_i_1_1_collection.html" title="UI-экран коллекции, позволяющий взаимодействовать с дверями и продолжать игру." alt="DomiumThird.Core.UI.Collection" shape="rect" coords="223,168,436,192"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -129,23 +132,30 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_u_i_1_1_screen.html','
 <tr class="memitem:ac967e97bac0307dc9d1ddbb6cc9f5032" id="r_ac967e97bac0307dc9d1ddbb6cc9f5032"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac967e97bac0307dc9d1ddbb6cc9f5032">Hide</a> ()</td></tr>
 <tr class="separator:ac967e97bac0307dc9d1ddbb6cc9f5032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2b50aaff899d180e0604f59849292b1" id="r_af2b50aaff899d180e0604f59849292b1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2b50aaff899d180e0604f59849292b1">OnActionSet</a> (Action action)</td></tr>
+<tr class="memdesc:af2b50aaff899d180e0604f59849292b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод-заглушка для установки действия на экран. Может быть переопределён в наследуемых классах.  <br /></td></tr>
 <tr class="separator:af2b50aaff899d180e0604f59849292b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5a7dcf290dad31ecddc2b55dfc31dad" id="r_ad5a7dcf290dad31ecddc2b55dfc31dad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5a7dcf290dad31ecddc2b55dfc31dad">OnBoolSet</a> (bool flag)</td></tr>
+<tr class="memdesc:ad5a7dcf290dad31ecddc2b55dfc31dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод-заглушка для установки булевого флага на экран. Может быть переопределён в наследуемых классах.  <br /></td></tr>
 <tr class="separator:ad5a7dcf290dad31ecddc2b55dfc31dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Защищенные члены</h2></td></tr>
 <tr class="memitem:ad245f491ea4f7b0fcf5c0a1f28f5572e" id="r_ad245f491ea4f7b0fcf5c0a1f28f5572e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad245f491ea4f7b0fcf5c0a1f28f5572e">Awake</a> ()</td></tr>
+<tr class="memdesc:ad245f491ea4f7b0fcf5c0a1f28f5572e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вызывается при инициализации компонента. Устанавливает CanvasGroup и делает экран невидимым.  <br /></td></tr>
 <tr class="separator:ad245f491ea4f7b0fcf5c0a1f28f5572e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53d9b8648867af70aac6c0badd41d6a1" id="r_a53d9b8648867af70aac6c0badd41d6a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53d9b8648867af70aac6c0badd41d6a1">Back</a> ()</td></tr>
+<tr class="memdesc:a53d9b8648867af70aac6c0badd41d6a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод для остановки всех корутин, вызывается при возврате назад.  <br /></td></tr>
 <tr class="separator:a53d9b8648867af70aac6c0badd41d6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Защищенные данные</h2></td></tr>
 <tr class="memitem:a00644176ec9317643570c7af6386fba3" id="r_a00644176ec9317643570c7af6386fba3"><td class="memItemLeft" align="right" valign="top">CanvasGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00644176ec9317643570c7af6386fba3">_canvasGroup</a></td></tr>
+<tr class="memdesc:a00644176ec9317643570c7af6386fba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">CanvasGroup компонента, управляющий видимостью и интерактивностью экрана.  <br /></td></tr>
 <tr class="separator:a00644176ec9317643570c7af6386fba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Базовый класс для <a class="el" href="namespace_domium_third_1_1_core_1_1_u_i.html">UI</a> экранов, предоставляющий методы управления видимостью. Используется для показа/скрытия <a class="el" href="namespace_domium_third_1_1_core_1_1_u_i.html">UI</a> с помощью CanvasGroup. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="ad245f491ea4f7b0fcf5c0a1f28f5572e" name="ad245f491ea4f7b0fcf5c0a1f28f5572e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad245f491ea4f7b0fcf5c0a1f28f5572e">&#9670;&#160;</a></span>Awake()</h2>
 
@@ -168,6 +178,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_u_i_1_1_screen.html','
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Вызывается при инициализации компонента. Устанавливает CanvasGroup и делает экран невидимым. </p>
 
 </div>
 </div>
@@ -193,6 +205,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_u_i_1_1_screen.html','
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Метод для остановки всех корутин, вызывается при возврате назад. </p>
 
 </div>
 </div>
@@ -244,6 +258,14 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_u_i_1_1_screen.html','
 </table>
 </div><div class="memdoc">
 
+<p>Метод-заглушка для установки действия на экран. Может быть переопределён в наследуемых классах. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">action</td><td>Действие, которое требуется установить.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ad5a7dcf290dad31ecddc2b55dfc31dad" name="ad5a7dcf290dad31ecddc2b55dfc31dad"></a>
@@ -268,6 +290,14 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_u_i_1_1_screen.html','
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Метод-заглушка для установки булевого флага на экран. Может быть переопределён в наследуемых классах. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td>Значение флага.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -318,6 +348,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_u_i_1_1_screen.html','
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>CanvasGroup компонента, управляющий видимостью и интерактивностью экрана. </p>
 
 </div>
 </div>

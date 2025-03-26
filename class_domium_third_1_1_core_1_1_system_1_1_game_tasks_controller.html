@@ -109,32 +109,41 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_system_1_1_game_tasks_
   <div class="headertitle"><div class="title">Класс DomiumThird.Core.System.GameTasksController</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Контроллер, управляющий запуском, завершением и переключением игровых задач (мини-игр).  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumThird.Core.System.GameTasksController:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_domium_third_1_1_core_1_1_system_1_1_game_tasks_controller.png" usemap="#DomiumThird.Core.System.GameTasksController_map" alt=""/>
   <map id="DomiumThird.Core.System.GameTasksController_map" name="DomiumThird.Core.System.GameTasksController_map">
-<area href="interface_i_initialazable-2-g.html" alt="IInitialazable&lt; out T1, T2 &gt;" shape="rect" coords="295,0,580,24"/>
-<area href="interface_i_initialazable-2-g.html" alt="IInitialazable&lt; out T1, T2 &gt;" shape="rect" coords="590,0,875,24"/>
+<area href="interface_i_initialazable-2-g.html" title="Интерфейс для инициализации объекта с зависимостью типа T2." alt="IInitialazable&lt; out T1, T2 &gt;" shape="rect" coords="295,0,580,24"/>
+<area href="interface_i_initialazable-2-g.html" title="Интерфейс для инициализации объекта с зависимостью типа T2." alt="IInitialazable&lt; out T1, T2 &gt;" shape="rect" coords="590,0,875,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a8be86a697f30ebf034bd92c8d1532eb2" id="r_a8be86a697f30ebf034bd92c8d1532eb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8be86a697f30ebf034bd92c8d1532eb2">StartLevel</a> ()</td></tr>
+<tr class="memdesc:a8be86a697f30ebf034bd92c8d1532eb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запускает уровень, загружая фон и необходимые AssetBundles.  <br /></td></tr>
 <tr class="separator:a8be86a697f30ebf034bd92c8d1532eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75d9942b07a73818433a930d296eb8cd" id="r_a75d9942b07a73818433a930d296eb8cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75d9942b07a73818433a930d296eb8cd">CheckLevelsVideo</a> (int level)</td></tr>
+<tr class="memdesc:a75d9942b07a73818433a930d296eb8cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверяет и запускает видео после завершения уровня или экзамена.  <br /></td></tr>
 <tr class="separator:a75d9942b07a73818433a930d296eb8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0a452fb82bc3405919485d2455d2e02" id="r_af0a452fb82bc3405919485d2455d2e02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0a452fb82bc3405919485d2455d2e02">SpawnGameTask</a> (<a class="el" href="class_domium_third_1_1_core_1_1_system_1_1_game_task.html">GameTask</a> gameTask)</td></tr>
 <tr class="separator:af0a452fb82bc3405919485d2455d2e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16d3d9f6fa9fe3d624f38747ae2d6619" id="r_a16d3d9f6fa9fe3d624f38747ae2d6619"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_domium_third_1_1_core_1_1_system_1_1_game_tasks_controller.html">GameTasksController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16d3d9f6fa9fe3d624f38747ae2d6619">Init</a> (<a class="el" href="class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_service.html">DownloadService</a> downloadService)</td></tr>
+<tr class="memdesc:a16d3d9f6fa9fe3d624f38747ae2d6619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализация через <a class="el" href="class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_service.html" title="Сервис загрузки данных (AssetBundles, видео, фоновых изображений) через DownloadManager.">DownloadService</a>.  <br /></td></tr>
 <tr class="separator:a16d3d9f6fa9fe3d624f38747ae2d6619"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab182e0768c4ed5fb9a029b425f29c786" id="r_ab182e0768c4ed5fb9a029b425f29c786"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_domium_third_1_1_core_1_1_system_1_1_game_tasks_controller.html">GameTasksController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab182e0768c4ed5fb9a029b425f29c786">Init</a> (<a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_saves_1_1_levels_service.html">LevelsService</a> levelsService)</td></tr>
+<tr class="memdesc:ab182e0768c4ed5fb9a029b425f29c786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализация через <a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_saves_1_1_levels_service.html" title="Сервис, управляющий прогрессом игрока по уровням и частям карты.">LevelsService</a>.  <br /></td></tr>
 <tr class="separator:ab182e0768c4ed5fb9a029b425f29c786"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a44cecefcfbfcbbe5ed211c3c50504b" id="r_a8a44cecefcfbfcbbe5ed211c3c50504b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_sequence_pool.html">SequencePool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a44cecefcfbfcbbe5ed211c3c50504b">GetSequencePool</a> ()</td></tr>
+<tr class="memdesc:a8a44cecefcfbfcbbe5ed211c3c50504b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает пул катсцен.  <br /></td></tr>
 <tr class="separator:a8a44cecefcfbfcbbe5ed211c3c50504b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19e187a36f321095b745f14efd890c54" id="r_a19e187a36f321095b745f14efd890c54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_domium_third_1_1_core_1_1_system_1_1_game_task.html">GameTask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19e187a36f321095b745f14efd890c54">GetCurrentTask</a> ()</td></tr>
+<tr class="memdesc:a19e187a36f321095b745f14efd890c54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает текущую игровую задачу.  <br /></td></tr>
 <tr class="separator:a19e187a36f321095b745f14efd890c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13bfafd327dca266dfd95af529b6122b" id="r_a13bfafd327dca266dfd95af529b6122b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13bfafd327dca266dfd95af529b6122b">Pause</a> ()</td></tr>
 <tr class="separator:a13bfafd327dca266dfd95af529b6122b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,18 +153,24 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_system_1_1_game_tasks_
 <tr class="separator:aa767a379ba6c7dea328178333080395b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_interface_i_initialazable-2-g"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_interface_i_initialazable-2-g')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="interface_i_initialazable-2-g.html">IInitialazable&lt; out T1, T2 &gt;</a></td></tr>
 <tr class="memitem:accf4f8bb04108da8b0b16e7ab3afb2d3 inherit pub_methods_interface_i_initialazable-2-g" id="r_accf4f8bb04108da8b0b16e7ab3afb2d3"><td class="memItemLeft" align="right" valign="top">T1&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_initialazable-2-g.html#accf4f8bb04108da8b0b16e7ab3afb2d3">Init</a> (T2 levelsService)</td></tr>
+<tr class="memdesc:accf4f8bb04108da8b0b16e7ab3afb2d3 inherit pub_methods_interface_i_initialazable-2-g"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполняет инициализацию с переданной зависимостью.  <br /></td></tr>
 <tr class="separator:accf4f8bb04108da8b0b16e7ab3afb2d3 inherit pub_methods_interface_i_initialazable-2-g"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Открытые атрибуты</h2></td></tr>
 <tr class="memitem:aa42eeb23a51fb53061d306d35d199f18" id="r_aa42eeb23a51fb53061d306d35d199f18"><td class="memItemLeft" align="right" valign="top">Action&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa42eeb23a51fb53061d306d35d199f18">OnPause</a></td></tr>
+<tr class="memdesc:aa42eeb23a51fb53061d306d35d199f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие паузы/возобновления игры. Bool = true — пауза.  <br /></td></tr>
 <tr class="separator:aa42eeb23a51fb53061d306d35d199f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa37f8561749dc2b0db26770449104b58" id="r_aa37f8561749dc2b0db26770449104b58"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa37f8561749dc2b0db26770449104b58">OnTask3End</a></td></tr>
+<tr class="memdesc:aa37f8561749dc2b0db26770449104b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вызывается по завершении конкретной задачи (например, Task3).  <br /></td></tr>
 <tr class="separator:aa37f8561749dc2b0db26770449104b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad627080f2d27dbc5e370c14c1caba020" id="r_ad627080f2d27dbc5e370c14c1caba020"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad627080f2d27dbc5e370c14c1caba020">_isPopupActive</a> = false</td></tr>
+<tr class="memdesc:ad627080f2d27dbc5e370c14c1caba020"><td class="mdescLeft">&#160;</td><td class="mdescRight">Флаг, указывающий, активен ли popup.  <br /></td></tr>
 <tr class="separator:ad627080f2d27dbc5e370c14c1caba020"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Контроллер, управляющий запуском, завершением и переключением игровых задач (мини-игр). </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="a75d9942b07a73818433a930d296eb8cd" name="a75d9942b07a73818433a930d296eb8cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a75d9942b07a73818433a930d296eb8cd">&#9670;&#160;</a></span>CheckLevelsVideo()</h2>
 
@@ -170,6 +185,14 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_system_1_1_game_tasks_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Проверяет и запускает видео после завершения уровня или экзамена. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">level</td><td>Номер уровня/части карты.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -205,6 +228,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_system_1_1_game_tasks_
       </table>
 </div><div class="memdoc">
 
+<p>Возвращает текущую игровую задачу. </p>
+
 </div>
 </div>
 <a id="a8a44cecefcfbfcbbe5ed211c3c50504b" name="a8a44cecefcfbfcbbe5ed211c3c50504b"></a>
@@ -221,6 +246,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_system_1_1_game_tasks_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Возвращает пул катсцен. </p>
 
 </div>
 </div>
@@ -239,6 +266,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_system_1_1_game_tasks_
       </table>
 </div><div class="memdoc">
 
+<p>Инициализация через <a class="el" href="class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_service.html" title="Сервис загрузки данных (AssetBundles, видео, фоновых изображений) через DownloadManager.">DownloadService</a>. </p>
+
 </div>
 </div>
 <a id="ab182e0768c4ed5fb9a029b425f29c786" name="ab182e0768c4ed5fb9a029b425f29c786"></a>
@@ -255,6 +284,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_system_1_1_game_tasks_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Инициализация через <a class="el" href="class_domium_third_1_1_core_1_1_services_1_1_saves_1_1_levels_service.html" title="Сервис, управляющий прогрессом игрока по уровням и частям карты.">LevelsService</a>. </p>
 
 </div>
 </div>
@@ -307,6 +338,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_system_1_1_game_tasks_
       </table>
 </div><div class="memdoc">
 
+<p>Запускает уровень, загружая фон и необходимые AssetBundles. </p>
+
 </div>
 </div>
 <a id="a489e992c91b8d8b8ac159123e94793f4" name="a489e992c91b8d8b8ac159123e94793f4"></a>
@@ -339,6 +372,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_system_1_1_game_tasks_
       </table>
 </div><div class="memdoc">
 
+<p>Флаг, указывающий, активен ли popup. </p>
+
 </div>
 </div>
 <a id="aa42eeb23a51fb53061d306d35d199f18" name="aa42eeb23a51fb53061d306d35d199f18"></a>
@@ -353,6 +388,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_system_1_1_game_tasks_
       </table>
 </div><div class="memdoc">
 
+<p>Событие паузы/возобновления игры. Bool = true — пауза. </p>
+
 </div>
 </div>
 <a id="aa37f8561749dc2b0db26770449104b58" name="aa37f8561749dc2b0db26770449104b58"></a>
@@ -366,6 +403,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_system_1_1_game_tasks_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Вызывается по завершении конкретной задачи (например, Task3). </p>
 
 </div>
 </div>

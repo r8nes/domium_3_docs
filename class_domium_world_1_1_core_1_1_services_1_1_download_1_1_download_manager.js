@@ -13,5 +13,7 @@ var class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager =
     [ "LoadAssetSprite", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#aaadf5994f99aebbe92f74a514614fd26", null ],
     [ "LoadPrimary", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#ab0e154d6cf5255973f52fdf37b85dd32", null ],
     [ "LoadVideo", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a807c87b0d074dcd89153697c7b30ea20", null ],
-    [ "UnloadAllBundlesExcept", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#abec7cbdfb20604847d68ad9019278825", null ]
+    [ "SaveBundleToFilesAsync", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#afbc8f4f259473463cc29474ad3d003df", null ],
+    [ "SaveBundleVersionAsync", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#ae111c05295ccb8344a530286de123834", null ],
+    [ "UnloadAllBundlesExcept", "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a3d9b57889e9a1df325c28f39b8e30e97", null ]
 ];

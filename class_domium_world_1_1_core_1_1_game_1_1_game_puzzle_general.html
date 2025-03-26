@@ -110,6 +110,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_puzzle_g
   <div class="headertitle"><div class="title">Класс DomiumWorld.Core.Game.GamePuzzleGeneral</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Контроллер мини-игры с головоломкой (пазлом), включающий уровни, таймер, анимации и cutscene.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumWorld.Core.Game.GamePuzzleGeneral:</div>
 <div class="dyncontent">
@@ -138,15 +141,19 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_puzzle_g
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Открытые атрибуты</h2></td></tr>
 <tr class="memitem:af336e22243d860fcbcd6c969a7222c53" id="r_af336e22243d860fcbcd6c969a7222c53"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_domium_world_1_1_core_1_1_game_1_1_puzzle_element_place.html">PuzzleElementPlace</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af336e22243d860fcbcd6c969a7222c53">_puzzlePlaceManager</a></td></tr>
+<tr class="memdesc:af336e22243d860fcbcd6c969a7222c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Список менеджеров размещения элементов пазла для каждого уровня.  <br /></td></tr>
 <tr class="separator:af336e22243d860fcbcd6c969a7222c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d585f6c5d281f60de745b7b4ed00a59" id="r_a4d585f6c5d281f60de745b7b4ed00a59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_puzzle_clue.html">PuzzleClue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d585f6c5d281f60de745b7b4ed00a59">Clue</a></td></tr>
+<tr class="memdesc:a4d585f6c5d281f60de745b7b4ed00a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Подсказка для пазла.  <br /></td></tr>
 <tr class="separator:a4d585f6c5d281f60de745b7b4ed00a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 События</h2></td></tr>
 <tr class="memitem:a9098f6956f495582c16b1142509f93db" id="r_a9098f6956f495582c16b1142509f93db"><td class="memItemLeft" align="right" valign="top">UnityAction&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9098f6956f495582c16b1142509f93db">OnEndGame</a></td></tr>
+<tr class="memdesc:a9098f6956f495582c16b1142509f93db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие завершения игры (успешное или нет).  <br /></td></tr>
 <tr class="separator:a9098f6956f495582c16b1142509f93db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c2b639265f68a66b837ad3d68cecf85" id="r_a8c2b639265f68a66b837ad3d68cecf85"><td class="memItemLeft" align="right" valign="top">UnityAction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c2b639265f68a66b837ad3d68cecf85">OnEndCutscene</a></td></tr>
+<tr class="memdesc:a8c2b639265f68a66b837ad3d68cecf85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие окончания катсцены.  <br /></td></tr>
 <tr class="separator:a8c2b639265f68a66b837ad3d68cecf85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header events_interface_i_game_controller"><td colspan="2" onclick="javascript:dynsection.toggleInherit('events_interface_i_game_controller')"><img src="closed.png" alt="-"/>&#160;События унаследованные от <a class="el" href="interface_i_game_controller.html">IGameController</a></td></tr>
 <tr class="memitem:a338219396bc25f34152403ee9aa7ce0c inherit events_interface_i_game_controller" id="r_a338219396bc25f34152403ee9aa7ce0c"><td class="memItemLeft" align="right" valign="top">UnityAction&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_game_controller.html#a338219396bc25f34152403ee9aa7ce0c">OnEndGame</a></td></tr>
@@ -156,7 +163,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_puzzle_g
 <tr class="memdesc:aad478bf20aa4410b540b291d135db91b inherit events_interface_i_game_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое при завершении катсцены.  <br /></td></tr>
 <tr class="separator:aad478bf20aa4410b540b291d135db91b inherit events_interface_i_game_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Контроллер мини-игры с головоломкой (пазлом), включающий уровни, таймер, анимации и cutscene. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="a17961db082174d4351b2af5dc6c640bf" name="a17961db082174d4351b2af5dc6c640bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17961db082174d4351b2af5dc6c640bf">&#9670;&#160;</a></span>Pause()</h2>
 
@@ -254,6 +263,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_puzzle_g
       </table>
 </div><div class="memdoc">
 
+<p>Список менеджеров размещения элементов пазла для каждого уровня. </p>
+
 </div>
 </div>
 <a id="a4d585f6c5d281f60de745b7b4ed00a59" name="a4d585f6c5d281f60de745b7b4ed00a59"></a>
@@ -267,6 +278,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_puzzle_g
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Подсказка для пазла. </p>
 
 </div>
 </div>
@@ -283,6 +296,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_puzzle_g
       </table>
 </div><div class="memdoc">
 
+<p>Событие окончания катсцены. </p>
+
 </div>
 </div>
 <a id="a9098f6956f495582c16b1142509f93db" name="a9098f6956f495582c16b1142509f93db"></a>
@@ -296,6 +311,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_puzzle_g
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Событие завершения игры (успешное или нет). </p>
 
 </div>
 </div>

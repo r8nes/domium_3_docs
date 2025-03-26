@@ -109,6 +109,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
   <div class="headertitle"><div class="title">Класс DomiumWorld.Core.Game.PuzzleElementPlace</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Управляет размещением и прокруткой элементов пазла, а также переключением интерфейса.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumWorld.Core.Game.PuzzleElementPlace:</div>
 <div class="dyncontent">
@@ -119,24 +122,33 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a651f130664283d6c5c5f03db595d04a3" id="r_a651f130664283d6c5c5f03db595d04a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a651f130664283d6c5c5f03db595d04a3">Init</a> ()</td></tr>
+<tr class="memdesc:a651f130664283d6c5c5f03db595d04a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализирует все элементы и подписывает на события.  <br /></td></tr>
 <tr class="separator:a651f130664283d6c5c5f03db595d04a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a809531cedee5e1f4e6e556472b613e38" id="r_a809531cedee5e1f4e6e556472b613e38"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_domium_world_1_1_core_1_1_game_1_1_puzzle_element.html">PuzzleElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a809531cedee5e1f4e6e556472b613e38">GetPuzzleElements</a> ()</td></tr>
+<tr class="memdesc:a809531cedee5e1f4e6e556472b613e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает все элементы пазла в виде списка компонентов.  <br /></td></tr>
 <tr class="separator:a809531cedee5e1f4e6e556472b613e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a448c5d083099109bdb6fb8aaa44a0706" id="r_a448c5d083099109bdb6fb8aaa44a0706"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a448c5d083099109bdb6fb8aaa44a0706">ShiftElements</a> (float offset)</td></tr>
+<tr class="memdesc:a448c5d083099109bdb6fb8aaa44a0706"><td class="mdescLeft">&#160;</td><td class="mdescRight">Смещает контейнер элементов на заданное расстояние.  <br /></td></tr>
 <tr class="separator:a448c5d083099109bdb6fb8aaa44a0706"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc73a516c555641e809323b482c6dceb" id="r_adc73a516c555641e809323b482c6dceb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc73a516c555641e809323b482c6dceb">MoveForward</a> ()</td></tr>
+<tr class="memdesc:adc73a516c555641e809323b482c6dceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Прокрутка вверх.  <br /></td></tr>
 <tr class="separator:adc73a516c555641e809323b482c6dceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a016b5b9b72d4f714ca47e300f4ad820e" id="r_a016b5b9b72d4f714ca47e300f4ad820e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a016b5b9b72d4f714ca47e300f4ad820e">MoveBackward</a> ()</td></tr>
+<tr class="memdesc:a016b5b9b72d4f714ca47e300f4ad820e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Прокрутка вниз.  <br /></td></tr>
 <tr class="separator:a016b5b9b72d4f714ca47e300f4ad820e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53ecbd39ce33b9c22312fda918ed0446" id="r_a53ecbd39ce33b9c22312fda918ed0446"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53ecbd39ce33b9c22312fda918ed0446">SetCanvas</a> (bool isActive)</td></tr>
+<tr class="memdesc:a53ecbd39ce33b9c22312fda918ed0446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Устанавливает активность канваса и возвращает связанное изображение.  <br /></td></tr>
 <tr class="separator:a53ecbd39ce33b9c22312fda918ed0446"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Открытые атрибуты</h2></td></tr>
 <tr class="memitem:a7905fc60624c68fe881b73a4c3f3b27b" id="r_a7905fc60624c68fe881b73a4c3f3b27b"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7905fc60624c68fe881b73a4c3f3b27b">OnEnableBoard</a></td></tr>
+<tr class="memdesc:a7905fc60624c68fe881b73a4c3f3b27b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое при активации доски.  <br /></td></tr>
 <tr class="separator:a7905fc60624c68fe881b73a4c3f3b27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Управляет размещением и прокруткой элементов пазла, а также переключением интерфейса. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="a809531cedee5e1f4e6e556472b613e38" name="a809531cedee5e1f4e6e556472b613e38"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a809531cedee5e1f4e6e556472b613e38">&#9670;&#160;</a></span>GetPuzzleElements()</h2>
 
@@ -151,6 +163,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Возвращает все элементы пазла в виде списка компонентов. </p>
 
 </div>
 </div>
@@ -169,6 +183,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
       </table>
 </div><div class="memdoc">
 
+<p>Инициализирует все элементы и подписывает на события. </p>
+
 </div>
 </div>
 <a id="a016b5b9b72d4f714ca47e300f4ad820e" name="a016b5b9b72d4f714ca47e300f4ad820e"></a>
@@ -185,6 +201,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Прокрутка вниз. </p>
 
 </div>
 </div>
@@ -203,6 +221,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
       </table>
 </div><div class="memdoc">
 
+<p>Прокрутка вверх. </p>
+
 </div>
 </div>
 <a id="a53ecbd39ce33b9c22312fda918ed0446" name="a53ecbd39ce33b9c22312fda918ed0446"></a>
@@ -219,6 +239,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Устанавливает активность канваса и возвращает связанное изображение. </p>
 
 </div>
 </div>
@@ -237,6 +259,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
       </table>
 </div><div class="memdoc">
 
+<p>Смещает контейнер элементов на заданное расстояние. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Данные класса</h2>
@@ -251,6 +275,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Событие, вызываемое при активации доски. </p>
 
 </div>
 </div>

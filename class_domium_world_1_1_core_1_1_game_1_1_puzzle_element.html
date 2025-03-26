@@ -110,6 +110,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
   <div class="headertitle"><div class="title">Класс DomiumWorld.Core.Game.PuzzleElement</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Представляет элемент пазла, который можно перетаскивать и помещать в нужную точку.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumWorld.Core.Game.PuzzleElement:</div>
 <div class="dyncontent">
@@ -120,6 +123,7 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:ac9f9e0bb883e8b7f10491a939502ff04" id="r_ac9f9e0bb883e8b7f10491a939502ff04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9f9e0bb883e8b7f10491a939502ff04">Init</a> (bool wasLose)</td></tr>
+<tr class="memdesc:ac9f9e0bb883e8b7f10491a939502ff04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализация состояния элемента.  <br /></td></tr>
 <tr class="separator:ac9f9e0bb883e8b7f10491a939502ff04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83f77e237fcbfaac8562d8913298ef1e" id="r_a83f77e237fcbfaac8562d8913298ef1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83f77e237fcbfaac8562d8913298ef1e">OnBeginDrag</a> (PointerEventData eventData)</td></tr>
 <tr class="separator:a83f77e237fcbfaac8562d8913298ef1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,27 +134,36 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
 <tr class="memitem:aefd73546ab6e0f5428d94680a66de33d" id="r_aefd73546ab6e0f5428d94680a66de33d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefd73546ab6e0f5428d94680a66de33d">OnEndDrag</a> (PointerEventData eventData)</td></tr>
 <tr class="separator:aefd73546ab6e0f5428d94680a66de33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa04112c2f47ffcc63e94402c01dd690c" id="r_aa04112c2f47ffcc63e94402c01dd690c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa04112c2f47ffcc63e94402c01dd690c">SetId</a> (int i)</td></tr>
+<tr class="memdesc:aa04112c2f47ffcc63e94402c01dd690c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Установить ID элемента.  <br /></td></tr>
 <tr class="separator:aa04112c2f47ffcc63e94402c01dd690c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Открытые атрибуты</h2></td></tr>
 <tr class="memitem:a90a776b64c7c5b143ef3b27cafef172d" id="r_a90a776b64c7c5b143ef3b27cafef172d"><td class="memItemLeft" align="right" valign="top">UnityAction&lt; bool, <a class="el" href="class_domium_world_1_1_core_1_1_game_1_1_puzzle_element.html">PuzzleElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90a776b64c7c5b143ef3b27cafef172d">OnPutOnPoint</a></td></tr>
+<tr class="memdesc:a90a776b64c7c5b143ef3b27cafef172d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое при попытке установить элемент в точку.  <br /></td></tr>
 <tr class="separator:a90a776b64c7c5b143ef3b27cafef172d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a728f1a4fb4671d590687b31f1d9cab31" id="r_a728f1a4fb4671d590687b31f1d9cab31"><td class="memItemLeft" align="right" valign="top">Action&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a728f1a4fb4671d590687b31f1d9cab31">OnPointEnd</a></td></tr>
+<tr class="memdesc:a728f1a4fb4671d590687b31f1d9cab31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое при завершении взаимодействия с точкой.  <br /></td></tr>
 <tr class="separator:a728f1a4fb4671d590687b31f1d9cab31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab026a6cb16a944c8c3448018dbe11960" id="r_ab026a6cb16a944c8c3448018dbe11960"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab026a6cb16a944c8c3448018dbe11960">StartPos</a></td></tr>
+<tr class="memdesc:ab026a6cb16a944c8c3448018dbe11960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Начальная позиция элемента.  <br /></td></tr>
 <tr class="separator:ab026a6cb16a944c8c3448018dbe11960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Свойства</h2></td></tr>
 <tr class="memitem:a20164be898217e8675417fd8684ed32c" id="r_a20164be898217e8675417fd8684ed32c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20164be898217e8675417fd8684ed32c">ID</a><code> [get]</code></td></tr>
+<tr class="memdesc:a20164be898217e8675417fd8684ed32c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Идентификатор элемента.  <br /></td></tr>
 <tr class="separator:a20164be898217e8675417fd8684ed32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c18fb5d5ac8794f29559b8f577536f9" id="r_a8c18fb5d5ac8794f29559b8f577536f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c18fb5d5ac8794f29559b8f577536f9">IsUsing</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a8c18fb5d5ac8794f29559b8f577536f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Используется ли элемент в игре.  <br /></td></tr>
 <tr class="separator:a8c18fb5d5ac8794f29559b8f577536f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa193cf2005b52d12cb5c21ef6a94a83f" id="r_aa193cf2005b52d12cb5c21ef6a94a83f"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa193cf2005b52d12cb5c21ef6a94a83f">Point</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa193cf2005b52d12cb5c21ef6a94a83f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Объект точки назначения.  <br /></td></tr>
 <tr class="separator:aa193cf2005b52d12cb5c21ef6a94a83f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Представляет элемент пазла, который можно перетаскивать и помещать в нужную точку. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="ac9f9e0bb883e8b7f10491a939502ff04" name="ac9f9e0bb883e8b7f10491a939502ff04"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac9f9e0bb883e8b7f10491a939502ff04">&#9670;&#160;</a></span>Init()</h2>
 
@@ -165,6 +178,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Инициализация состояния элемента. </p>
 
 </div>
 </div>
@@ -251,6 +266,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
       </table>
 </div><div class="memdoc">
 
+<p>Установить ID элемента. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Данные класса</h2>
@@ -266,6 +283,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
       </table>
 </div><div class="memdoc">
 
+<p>Событие, вызываемое при завершении взаимодействия с точкой. </p>
+
 </div>
 </div>
 <a id="a90a776b64c7c5b143ef3b27cafef172d" name="a90a776b64c7c5b143ef3b27cafef172d"></a>
@@ -280,6 +299,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
       </table>
 </div><div class="memdoc">
 
+<p>Событие, вызываемое при попытке установить элемент в точку. </p>
+
 </div>
 </div>
 <a id="ab026a6cb16a944c8c3448018dbe11960" name="ab026a6cb16a944c8c3448018dbe11960"></a>
@@ -293,6 +314,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Начальная позиция элемента. </p>
 
 </div>
 </div>
@@ -317,6 +340,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
 </table>
 </div><div class="memdoc">
 
+<p>Идентификатор элемента. </p>
+
 </div>
 </div>
 <a id="a8c18fb5d5ac8794f29559b8f577536f9" name="a8c18fb5d5ac8794f29559b8f577536f9"></a>
@@ -339,6 +364,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
 </table>
 </div><div class="memdoc">
 
+<p>Используется ли элемент в игре. </p>
+
 </div>
 </div>
 <a id="aa193cf2005b52d12cb5c21ef6a94a83f" name="aa193cf2005b52d12cb5c21ef6a94a83f"></a>
@@ -360,6 +387,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_puzzle_elemen
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Объект точки назначения. </p>
 
 </div>
 </div>

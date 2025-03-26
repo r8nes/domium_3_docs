@@ -109,6 +109,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_no_gamep
   <div class="headertitle"><div class="title">Класс DomiumWorld.Core.Game.GameNoGameplay</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Контроллер сцены без активного геймплея. Управляет проигрыванием катсцены и последовательностью завершения.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumWorld.Core.Game.GameNoGameplay:</div>
 <div class="dyncontent">
@@ -122,10 +125,10 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_no_gamep
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a5ba45890d950ef9aaa096f7e2fcdb6d8" id="r_a5ba45890d950ef9aaa096f7e2fcdb6d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ba45890d950ef9aaa096f7e2fcdb6d8">Restart</a> ()</td></tr>
-<tr class="memdesc:a5ba45890d950ef9aaa096f7e2fcdb6d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Перезапускает игру.  <br /></td></tr>
+<tr class="memdesc:a5ba45890d950ef9aaa096f7e2fcdb6d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Перезапускает катсцену с начала.  <br /></td></tr>
 <tr class="separator:a5ba45890d950ef9aaa096f7e2fcdb6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b6c7fb8ba27059fca6fe316d28026d9" id="r_a9b6c7fb8ba27059fca6fe316d28026d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b6c7fb8ba27059fca6fe316d28026d9">Play</a> ()</td></tr>
-<tr class="memdesc:a9b6c7fb8ba27059fca6fe316d28026d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запускает игровой процесс.  <br /></td></tr>
+<tr class="memdesc:a9b6c7fb8ba27059fca6fe316d28026d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запускает катсцену.  <br /></td></tr>
 <tr class="separator:a9b6c7fb8ba27059fca6fe316d28026d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04fd59a01a5bcffaf4c3592b270ddbb6" id="r_a04fd59a01a5bcffaf4c3592b270ddbb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04fd59a01a5bcffaf4c3592b270ddbb6">Pause</a> ()</td></tr>
 <tr class="memdesc:a04fd59a01a5bcffaf4c3592b270ddbb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ставит игру на паузу.  <br /></td></tr>
@@ -137,8 +140,10 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_no_gamep
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 События</h2></td></tr>
 <tr class="memitem:a0e8f70e90f530fc410ca979d6a39b5d1" id="r_a0e8f70e90f530fc410ca979d6a39b5d1"><td class="memItemLeft" align="right" valign="top">UnityAction&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e8f70e90f530fc410ca979d6a39b5d1">OnEndGame</a></td></tr>
+<tr class="memdesc:a0e8f70e90f530fc410ca979d6a39b5d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое при завершении игры.  <br /></td></tr>
 <tr class="separator:a0e8f70e90f530fc410ca979d6a39b5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a435fa283ee1579d48d4c831e8045b2a9" id="r_a435fa283ee1579d48d4c831e8045b2a9"><td class="memItemLeft" align="right" valign="top">UnityAction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a435fa283ee1579d48d4c831e8045b2a9">OnEndCutscene</a></td></tr>
+<tr class="memdesc:a435fa283ee1579d48d4c831e8045b2a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое после окончания катсцены.  <br /></td></tr>
 <tr class="separator:a435fa283ee1579d48d4c831e8045b2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header events_interface_i_game_controller"><td colspan="2" onclick="javascript:dynsection.toggleInherit('events_interface_i_game_controller')"><img src="closed.png" alt="-"/>&#160;События унаследованные от <a class="el" href="interface_i_game_controller.html">IGameController</a></td></tr>
 <tr class="memitem:a338219396bc25f34152403ee9aa7ce0c inherit events_interface_i_game_controller" id="r_a338219396bc25f34152403ee9aa7ce0c"><td class="memItemLeft" align="right" valign="top">UnityAction&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_game_controller.html#a338219396bc25f34152403ee9aa7ce0c">OnEndGame</a></td></tr>
@@ -148,7 +153,9 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_no_gamep
 <tr class="memdesc:aad478bf20aa4410b540b291d135db91b inherit events_interface_i_game_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое при завершении катсцены.  <br /></td></tr>
 <tr class="separator:aad478bf20aa4410b540b291d135db91b inherit events_interface_i_game_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Контроллер сцены без активного геймплея. Управляет проигрыванием катсцены и последовательностью завершения. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="a04fd59a01a5bcffaf4c3592b270ddbb6" name="a04fd59a01a5bcffaf4c3592b270ddbb6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04fd59a01a5bcffaf4c3592b270ddbb6">&#9670;&#160;</a></span>Pause()</h2>
 
@@ -185,7 +192,7 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_no_gamep
       </table>
 </div><div class="memdoc">
 
-<p>Запускает игровой процесс. </p>
+<p>Запускает катсцену. </p>
 
 <p>Замещает <a class="el" href="interface_i_game_controller.html#adbafd72f044ff3a9d27a681baedb88d4">IGameController</a>.</p>
 
@@ -206,7 +213,7 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_no_gamep
       </table>
 </div><div class="memdoc">
 
-<p>Перезапускает игру. </p>
+<p>Перезапускает катсцену с начала. </p>
 
 <p>Замещает <a class="el" href="interface_i_game_controller.html#a86a34ff5a722da2439977dd90e1b25e1">IGameController</a>.</p>
 
@@ -246,6 +253,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_no_gamep
       </table>
 </div><div class="memdoc">
 
+<p>Событие, вызываемое после окончания катсцены. </p>
+
 </div>
 </div>
 <a id="a0e8f70e90f530fc410ca979d6a39b5d1" name="a0e8f70e90f530fc410ca979d6a39b5d1"></a>
@@ -259,6 +268,8 @@ $(function(){initNavTree('class_domium_world_1_1_core_1_1_game_1_1_game_no_gamep
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Событие, вызываемое при завершении игры. </p>
 
 </div>
 </div>

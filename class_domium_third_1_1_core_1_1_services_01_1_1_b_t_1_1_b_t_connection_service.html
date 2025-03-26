@@ -111,6 +111,9 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_01_1_1_b_t_1_
   <div class="headertitle"><div class="title">Класс DomiumThird.Core.Services .BT.BTConnectionService</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Сервис Bluetooth-подключения для взаимодействия с внешними BLE-устройствами.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumThird.Core.Services .BT.BTConnectionService:</div>
 <div class="dyncontent">
@@ -121,36 +124,48 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_01_1_1_b_t_1_
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a84e78ec72fec9d4bcf576958bd6a2ec2" id="r_a84e78ec72fec9d4bcf576958bd6a2ec2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84e78ec72fec9d4bcf576958bd6a2ec2">TryOpenDoor</a> (int id, Action&lt; int &gt; onSuccess, Action onError)</td></tr>
+<tr class="memdesc:a84e78ec72fec9d4bcf576958bd6a2ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Пытается отправить команду открытия двери на BLE-устройство.  <br /></td></tr>
 <tr class="separator:a84e78ec72fec9d4bcf576958bd6a2ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4191a5310769e493b4be900391bb8d5" id="r_ae4191a5310769e493b4be900391bb8d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4191a5310769e493b4be900391bb8d5">Connect</a> (string address)</td></tr>
+<tr class="memdesc:ae4191a5310769e493b4be900391bb8d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Устанавливает соединение с BLE-устройством.  <br /></td></tr>
 <tr class="separator:ae4191a5310769e493b4be900391bb8d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fa1688c9c7588ab0c74174f8dcee6e3" id="r_a6fa1688c9c7588ab0c74174f8dcee6e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa1688c9c7588ab0c74174f8dcee6e3">OnService</a> (string address, string serviceUUID)</td></tr>
+<tr class="memdesc:a6fa1688c9c7588ab0c74174f8dcee6e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обработчик найденного BLE-сервиса.  <br /></td></tr>
 <tr class="separator:a6fa1688c9c7588ab0c74174f8dcee6e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa197f9d4164d3909c45f702c933307f9" id="r_aa197f9d4164d3909c45f702c933307f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa197f9d4164d3909c45f702c933307f9">OnCharacteristic</a> (string address, string serviceUUID, string characteristicUUID)</td></tr>
+<tr class="memdesc:aa197f9d4164d3909c45f702c933307f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обработчик найденной BLE-характеристики.  <br /></td></tr>
 <tr class="separator:aa197f9d4164d3909c45f702c933307f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fb45ddd20c360f8e0a86cc859616878" id="r_a2fb45ddd20c360f8e0a86cc859616878"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fb45ddd20c360f8e0a86cc859616878">OnDisconnect</a> (string address)</td></tr>
+<tr class="memdesc:a2fb45ddd20c360f8e0a86cc859616878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обработчик отключения устройства.  <br /></td></tr>
 <tr class="separator:a2fb45ddd20c360f8e0a86cc859616878"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Открытые атрибуты</h2></td></tr>
 <tr class="memitem:a2de3dd97556c958049429844f57e430b" id="r_a2de3dd97556c958049429844f57e430b"><td class="memItemLeft" align="right" valign="top">Action&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2de3dd97556c958049429844f57e430b">OnConnectionChanged</a></td></tr>
+<tr class="memdesc:a2de3dd97556c958049429844f57e430b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие, вызываемое при изменении состояния подключения.  <br /></td></tr>
 <tr class="separator:a2de3dd97556c958049429844f57e430b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Статические открытые данные</h2></td></tr>
 <tr class="memitem:ad8fa17079bbdd4508760b27edb6a2a72" id="r_ad8fa17079bbdd4508760b27edb6a2a72"><td class="memItemLeft" align="right" valign="top">static readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8fa17079bbdd4508760b27edb6a2a72">ServiceUuid</a> = &quot;000000ee-0000-1000-8000-00805f9b34fb&quot;</td></tr>
+<tr class="memdesc:ad8fa17079bbdd4508760b27edb6a2a72"><td class="mdescLeft">&#160;</td><td class="mdescRight">UUID используемого BLE-сервиса.  <br /></td></tr>
 <tr class="separator:ad8fa17079bbdd4508760b27edb6a2a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad472fe377795fd6ea2d459884239a9e3" id="r_ad472fe377795fd6ea2d459884239a9e3"><td class="memItemLeft" align="right" valign="top">static readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad472fe377795fd6ea2d459884239a9e3">CharacteristicUuid</a> = &quot;0000ee01-0000-1000-8000-00805f9b34fb&quot;</td></tr>
+<tr class="memdesc:ad472fe377795fd6ea2d459884239a9e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">UUID характеристики BLE-сервиса.  <br /></td></tr>
 <tr class="separator:ad472fe377795fd6ea2d459884239a9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb082bc11fd44ba371399ec8d6581d35" id="r_adb082bc11fd44ba371399ec8d6581d35"><td class="memItemLeft" align="right" valign="top">static readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb082bc11fd44ba371399ec8d6581d35">DeviceName</a> = &quot;domium&quot;</td></tr>
+<tr class="memdesc:adb082bc11fd44ba371399ec8d6581d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Имя BLE-устройства.  <br /></td></tr>
 <tr class="separator:adb082bc11fd44ba371399ec8d6581d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Свойства</h2></td></tr>
 <tr class="memitem:aa8fd92c738a45780aa712fe72fac5c47" id="r_aa8fd92c738a45780aa712fe72fac5c47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8fd92c738a45780aa712fe72fac5c47">IsConnected</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa8fd92c738a45780aa712fe72fac5c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Признак активного Bluetooth-соединения.  <br /></td></tr>
 <tr class="separator:aa8fd92c738a45780aa712fe72fac5c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Сервис Bluetooth-подключения для взаимодействия с внешними BLE-устройствами. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="ae4191a5310769e493b4be900391bb8d5" name="ae4191a5310769e493b4be900391bb8d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4191a5310769e493b4be900391bb8d5">&#9670;&#160;</a></span>Connect()</h2>
 
@@ -165,6 +180,14 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_01_1_1_b_t_1_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Устанавливает соединение с BLE-устройством. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">address</td><td>MAC-адрес устройства.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -192,6 +215,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_01_1_1_b_t_1_
       </table>
 </div><div class="memdoc">
 
+<p>Обработчик найденной BLE-характеристики. </p>
+
 </div>
 </div>
 <a id="a2fb45ddd20c360f8e0a86cc859616878" name="a2fb45ddd20c360f8e0a86cc859616878"></a>
@@ -208,6 +233,14 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_01_1_1_b_t_1_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Обработчик отключения устройства. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">address</td><td>Адрес отключённого устройства.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -229,6 +262,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_01_1_1_b_t_1_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Обработчик найденного BLE-сервиса. </p>
 
 </div>
 </div>
@@ -256,6 +291,16 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_01_1_1_b_t_1_
       </table>
 </div><div class="memdoc">
 
+<p>Пытается отправить команду открытия двери на BLE-устройство. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Идентификатор двери.</td></tr>
+    <tr><td class="paramname">onSuccess</td><td>Вызывается при успешной отправке.</td></tr>
+    <tr><td class="paramname">onError</td><td>Вызывается при ошибке.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Данные класса</h2>
@@ -279,6 +324,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_01_1_1_b_t_1_
 </table>
 </div><div class="memdoc">
 
+<p>UUID характеристики BLE-сервиса. </p>
+
 </div>
 </div>
 <a id="adb082bc11fd44ba371399ec8d6581d35" name="adb082bc11fd44ba371399ec8d6581d35"></a>
@@ -301,6 +348,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_01_1_1_b_t_1_
 </table>
 </div><div class="memdoc">
 
+<p>Имя BLE-устройства. </p>
+
 </div>
 </div>
 <a id="a2de3dd97556c958049429844f57e430b" name="a2de3dd97556c958049429844f57e430b"></a>
@@ -314,6 +363,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_01_1_1_b_t_1_
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Событие, вызываемое при изменении состояния подключения. </p>
 
 </div>
 </div>
@@ -337,6 +388,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_01_1_1_b_t_1_
 </table>
 </div><div class="memdoc">
 
+<p>UUID используемого BLE-сервиса. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Полный список свойств</h2>
@@ -359,6 +412,8 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_services_01_1_1_b_t_1_
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Признак активного Bluetooth-соединения. </p>
 
 </div>
 </div>

@@ -62,8 +62,8 @@ var NAVTREEINDEX =
 "class_domium_third_1_1_core_1_1_services_1_1_sound_service.html#a496b2d74aacc11ad5d99f2b5c9efd3fb",
 "class_domium_third_1_1_game_1_1_puzzle_manager.html#a929b982784552d175994f1b993180da6",
 "class_domium_world_1_1_core_1_1_services_1_1_download_1_1_download_manager.html#a2db79893533b36d09510862b73f84d46",
-"class_game5_controller.html#a40747aebc8b86c0752d1de3caceec10c",
-"interface_domium_third_1_1_core_1_1_state_machine_1_1_state_1_1_i_state.html"
+"class_game4_playarea.html#a2c77279a5d96dfd0a20560b96b645b99",
+"interface_domium_third_1_1_core_1_1_state_machine_1_1_state_1_1_i_pay_load_state-1-g.html"
 ];
 
 var SYNCONMSG = 'нажмите на выключить для синхронизации панелей';

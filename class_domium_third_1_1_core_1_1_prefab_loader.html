@@ -108,6 +108,9 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_prefab_loader.html',''
   <div class="headertitle"><div class="title">Класс DomiumThird.Core.PrefabLoader</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Класс для загрузки и управления экземплярами префабов.  
+ <a href="#details">Подробнее...</a></p>
 <div class="dynheader">
 Граф наследования:DomiumThird.Core.PrefabLoader:</div>
 <div class="dyncontent">
@@ -118,9 +121,12 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_prefab_loader.html',''
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a7ee07fa0edde723ef0fc81495a46e004" id="r_a7ee07fa0edde723ef0fc81495a46e004"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ee07fa0edde723ef0fc81495a46e004">LoadPrefab&lt; T &gt;</a> (Transform parent)</td></tr>
+<tr class="memdesc:a7ee07fa0edde723ef0fc81495a46e004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Загружает префаб типа <em>T</em> , если он уже был создан — возвращает его.  <br /></td></tr>
 <tr class="separator:a7ee07fa0edde723ef0fc81495a46e004"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Методы</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс для загрузки и управления экземплярами префабов. </p>
+</div><h2 class="groupheader">Методы</h2>
 <a id="a7ee07fa0edde723ef0fc81495a46e004" name="a7ee07fa0edde723ef0fc81495a46e004"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ee07fa0edde723ef0fc81495a46e004">&#9670;&#160;</a></span>LoadPrefab&lt; T &gt;()</h2>
 
@@ -135,6 +141,21 @@ $(function(){initNavTree('class_domium_third_1_1_core_1_1_prefab_loader.html',''
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Загружает префаб типа <em>T</em> , если он уже был создан — возвращает его. </p>
+<dl class="tparams"><dt>Параметры шаблона</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Тип MonoBehaviour префаба.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>Родительский трансформ для инстанцирования.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Экземпляр компонента <em>T</em> , либо null, если не найден.</dd></dl>
 <div class="typeconstraint">
 <dl><dt><b>Согласование типов</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
